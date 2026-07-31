@@ -17,6 +17,11 @@
     },
     "district": "3523",
     "clubId": "90275",
+    "clubIdLabel": {
+      "zh": "社號",
+      "en": "Club ID",
+      "ja": "クラブ番号"
+    },
     "chartered": "2019-06",
     "charteredLabel": {
       "zh": "2019 年 6 月創社",
@@ -86,6 +91,33 @@
     }
   },
   "meeting": {
+    "labels": {
+      "schedule": {
+        "zh": "例會時間",
+        "en": "When",
+        "ja": "例会日時"
+      },
+      "venue": {
+        "zh": "例會地點",
+        "en": "Where",
+        "ja": "例会会場"
+      },
+      "guest": {
+        "zh": "來賓參加",
+        "en": "Guests",
+        "ja": "ゲスト参加"
+      },
+      "fee": {
+        "zh": "來賓費用",
+        "en": "Guest fee",
+        "ja": "ゲスト参加費"
+      },
+      "register": {
+        "zh": "報名方式",
+        "en": "How to register",
+        "ja": "申し込み方法"
+      }
+    },
     "schedule": {
       "zh": "每月第二、第四週週二",
       "en": "Second and fourth Tuesday of each month",
@@ -135,6 +167,24 @@
       "zh": "歡迎來賓出席，請透過認識的社友或本社 Facebook 專頁報名。",
       "en": "Guests are welcome. Please register through a member you know, or via the club's Facebook page.",
       "ja": "ゲストのご参加を歓迎いたします。お知り合いの会員、または当クラブの Facebook ページよりお申し込みください。メークアップも承ります。"
+    }
+  },
+  "media": {
+    "_verify": "圖片替代文字。en/ja 為網站新撰，請母語人士確認。",
+    "flagArtAlt": {
+      "zh": "本社社旗插畫，以台北盆地的沼澤地景為主題，畫面中有水塘、水生植物與台灣島輪廓",
+      "en": "Illustration based on the club banner: the marshland of the Taipei Basin, with pools, wetland plants and the outline of Taiwan",
+      "ja": "クラブ旗をもとにしたイラスト。台北盆地の湿地の風景を主題に、池・水生植物・台湾島の輪郭を描いています"
+    },
+    "clubFlagAlt": {
+      "zh": "台北大加蚋扶輪社社旗",
+      "en": "Banner of the Rotary Club of Taipei Tagala",
+      "ja": "台北大加蚋ロータリークラブのクラブ旗"
+    },
+    "mapTitle": {
+      "zh": "例會地點地圖：台北市松山區八德路四段 123-1 號 B1",
+      "en": "Map of the meeting venue: B1, No. 123-1, Sec. 4, Bade Rd., Songshan Dist., Taipei City",
+      "ja": "例会会場の地図：台北市松山区八德路四段123-1号 B1"
     }
   },
   "nav": {
@@ -239,6 +289,42 @@
       "zh": "回到首頁",
       "en": "Back to home",
       "ja": "ホームへ戻る"
+    },
+    "_countNote": "{n} 由產生 HTML 時代入實際數字。",
+    "upcomingLede": {
+      "zh": "未來三個月，共 {n} 場",
+      "en": "{n} meetings in the next three months",
+      "ja": "今後3か月で全{n}回"
+    },
+    "sessionsCount": {
+      "zh": "共 {n} 場",
+      "en": "{n} meetings",
+      "ja": "全{n}回"
+    },
+    "yearsLede": {
+      "zh": "2021 年至今，共 {n} 個年度",
+      "en": "{n} Rotary years since 2021",
+      "ja": "2021年から全{n}年度"
+    },
+    "referenceCard": {
+      "zh": "對照參考",
+      "en": "For reference",
+      "ja": "対照参考"
+    },
+    "serviceCta": {
+      "zh": "認識我們的服務計畫",
+      "en": "See our service work",
+      "ja": "奉仕活動を見る"
+    },
+    "fbCta": {
+      "zh": "前往 Facebook 專頁",
+      "en": "Go to our Facebook page",
+      "ja": "Facebook ページへ"
+    },
+    "meetingsCta": {
+      "zh": "查看近期例會",
+      "en": "See upcoming meetings",
+      "ja": "今後の例会を見る"
     }
   },
   "footer": {
@@ -285,7 +371,12 @@
       "meeting": { "zh": "例會資訊", "en": "Meeting information", "ja": "例会情報" }
     },
     "service": {
-      "h1": { "zh": "服務計畫", "en": "Service", "ja": "奉仕活動" }
+      "h1": { "zh": "服務計畫", "en": "Service", "ja": "奉仕活動" },
+      "aofLede": {
+        "zh": "本社服務與國際扶輪七大焦點領域的對照參考",
+        "en": "How our service work maps to Rotary's seven areas of focus — for reference",
+        "ja": "当クラブの奉仕活動と国際ロータリーの7つの重点分野との対照参考"
+      }
     },
     "meetings": {
       "h1": { "zh": "例會與活動", "en": "Meetings and events", "ja": "例会・行事" },

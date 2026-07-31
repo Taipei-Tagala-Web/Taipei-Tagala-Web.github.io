@@ -518,6 +518,19 @@ img { max-width: 100%; height: auto; display: block; }
 .footer-legal p { font-size: var(--fs-xs); margin: 0; }
 
 /* ============================================================
+   英文版排版：主標題與主導覽用 ALL CAPS
+   中日文不用大寫（CJK 無大小寫），改以字重與字距區別 —— 見 tokens.css
+   ============================================================ */
+html[lang="en"] h1 {
+  text-transform: uppercase;
+  letter-spacing: var(--ls-heading-lat);
+}
+html[lang="en"] .main-nav a {
+  text-transform: uppercase;
+  letter-spacing: var(--ls-heading-lat);
+}
+
+/* ============================================================
    768px 以上
    ============================================================ */
 @media (min-width: 768px) {
