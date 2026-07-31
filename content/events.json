@@ -16,7 +16,7 @@
       "type": "regular",
       "banner": "evt-2026-10-27",
       "fbUrl": "https://www.facebook.com/events/2209689209829978/",
-      "speaker": { "zh": "鄭國威", "en": "Cheng Kuo-wei", "ja": "鄭国威" },
+      "speaker": { "zh": "鄭國威", "en": "鄭國威", "ja": "鄭国威" },
       "speakerTitle": {
         "zh": "泛傳媒集團創辦人暨知識長、PanSci 泛科學與思想實驗室主持人",
         "en": "Founder and Chief Knowledge Officer, PanMedia Group; Host of PanSci",
@@ -78,7 +78,7 @@
       "type": "regular",
       "banner": "evt-2026-09-22",
       "fbUrl": "https://www.facebook.com/events/2047583612506945/",
-      "speaker": { "zh": "葉靜倫 Sara", "en": "Sara Yeh", "ja": "葉静倫（サラ）" },
+      "speaker": { "zh": "葉靜倫 Sara", "en": "葉靜倫 Sara", "ja": "葉静倫（サラ）" },
       "speakerTitle": {
         "zh": "《Right Plus 多多益善》創辦人暨總編輯",
         "en": "Founder and Editor-in-Chief, Right Plus",
@@ -109,7 +109,7 @@
       "type": "regular",
       "banner": "evt-2026-09-08",
       "fbUrl": "https://www.facebook.com/events/999791649434289/",
-      "speaker": { "zh": "陳吉仲", "en": "Chen Chi-chung", "ja": "陳吉仲" },
+      "speaker": { "zh": "陳吉仲", "en": "陳吉仲", "ja": "陳吉仲" },
       "speakerTitle": {
         "zh": "中興大學應用經濟學系終身特聘教授兼副校長、前農業部部長",
         "en": "Chair Professor of Applied Economics and Vice President, National Chung Hsing University; former Minister of Agriculture",
@@ -140,7 +140,7 @@
       "type": "regular",
       "banner": "evt-2026-08-25",
       "fbUrl": "https://www.facebook.com/events/1892584894737797/",
-      "speaker": { "zh": "徐彩玲", "en": "Hsu Tsai-ling", "ja": "徐彩玲" },
+      "speaker": { "zh": "徐彩玲", "en": "徐彩玲", "ja": "徐彩玲" },
       "speakerTitle": {
         "zh": "辛果味企業社負責人、雲林縣古坑鄉麻園社區發展協會總幹事",
         "en": "Founder, New Chili Sauce; Secretary-General, Mayuan Community Development Association, Gukeng, Yunlin",
@@ -171,7 +171,7 @@
       "type": "regular",
       "banner": "evt-2026-08-11",
       "fbUrl": "https://www.facebook.com/events/886734640380701/",
-      "speaker": { "zh": "蔡英地", "en": "Tsai Ying-ti", "ja": "蔡英地" },
+      "speaker": { "zh": "蔡英地", "en": "蔡英地", "ja": "蔡英地" },
       "speakerTitle": {
         "zh": "向天歌創新農業股份有限公司執行長",
         "en": "CEO, Formosa Goose",
@@ -202,7 +202,7 @@
       "type": "regular",
       "banner": "evt-2026-07-28",
       "fbUrl": "https://www.facebook.com/events/1912359532809198/",
-      "speaker": { "zh": "謝易芸", "en": "Hsieh Yi-yun", "ja": "謝易芸" },
+      "speaker": { "zh": "謝易芸", "en": "謝易芸", "ja": "謝易芸" },
       "speakerTitle": {
         "zh": "瀚草文創營運副總、台灣野草創作家協會理事",
         "en": "VP of Operations, GrX Studio; Board Member, Taiwan Wild Grass Writers Association",
@@ -210,13 +210,13 @@
       },
       "title": {
         "zh": "文化的力量——從移民工文學獎到影視內容",
-        "en": "The Power of Culture: From the Migrants Literature Award to Screen Content",
-        "ja": "文化の力——移住労働者文学賞から映像コンテンツへ"
+        "en": "The Power of Culture: From the Taiwan Literature Award for Migrants to Screen Content",
+        "ja": "文化の力——移民工文學獎（Taiwan Literature Award for Migrants）から映像コンテンツへ"
       },
       "summary": {
         "zh": "本社持續支持《移民工文學獎》，鼓勵使用越南、印尼、泰國、柬埔寨、菲律賓、緬甸文的創作者說出自己的故事。2026 年收到 549 件投稿，創歷年新高。本場分享文化如何成為推動多元共融的力量。",
         "en": "This club is a continuing supporter of the Taiwan Literature Award for Migrants, which encourages writers working in Vietnamese, Indonesian, Thai, Khmer, Filipino and Burmese to tell their own stories. The 2026 edition drew a record 549 submissions. This talk examines culture as a force for inclusion.",
-        "ja": "当クラブは「移住労働者文学賞」を継続的に支援し、ベトナム語・インドネシア語・タイ語・カンボジア語・フィリピン語・ミャンマー語で書く作家が自らの物語を語ることを応援しています。2026年は過去最多の549作品の応募がありました。文化が多様性と包摂を推し進める力となる道筋を伺います。"
+        "ja": "当クラブは「移民工文學獎（Taiwan Literature Award for Migrants）」を継続的に支援し、ベトナム語・インドネシア語・タイ語・カンボジア語・フィリピン語・ミャンマー語で書く作家が自らの物語を語ることを応援しています。2026年は過去最多の549作品の応募がありました。文化が多様性と包摂を推し進める力となる道筋を伺います。"
       },
       "points": {
         "zh": ["移民工文學獎如何讓更多生命故事被看見", "文化產業如何實踐 ESG 與社會參與", "影視 IP 如何創造超越螢幕的社會影響力"],
@@ -233,11 +233,11 @@
       "type": "regular",
       "banner": "evt-2026-07-14",
       "fbUrl": "",
-      "speaker": { "zh": "王秀娟", "en": "Wang Hsiu-chuan", "ja": "王秀娟" },
+      "speaker": { "zh": "王秀娟", "en": "王秀娟", "ja": "王秀娟" },
       "speakerTitle": {
         "zh": "還我特色公園行動聯盟（特公盟）理事長",
-        "en": "Chair, Parks and Playgrounds for Children by Children",
-        "ja": "還我特色公園行動連盟（特公盟）理事長"
+        "en": "Chair, Taiwan Parks & Playgrounds for Children by Children (TWPfC)",
+        "ja": "還我特色公園行動聯盟（Taiwan Parks & Playgrounds for Children by Children／TWPfC）理事長"
       },
       "title": {
         "zh": "用一座公園，還給更多孩子童年",

@@ -302,9 +302,9 @@
       "ja": "全{n}回"
     },
     "yearsLede": {
-      "zh": "2021 年至今，共 {n} 個年度",
-      "en": "{n} Rotary years since 2021",
-      "ja": "2021年から全{n}年度"
+      "zh": "自 2019 年創社至今，共 {n} 個階段",
+      "en": "{n} stages since the club was chartered in 2019",
+      "ja": "2019年の創立から現在まで、全{n}段階"
     },
     "referenceCard": {
       "zh": "對照參考",
@@ -446,8 +446,8 @@
       },
       "description": {
         "zh": "以文化為核心、以共融為目標。從新二代培力營到移民工文學獎，本社自 2021 年以來的服務軌跡與地區聯合公益。",
-        "en": "Culture at the centre, inclusion as the goal. The club's service work since 2021 — from youth empowerment programmes to the literature award for migrants — and service run across the district.",
-        "ja": "文化を軸に、共生を目標に。新二代エンパワメント・キャンプから移住労働者文学賞まで、2021年以降の奉仕活動のあゆみと地区合同の奉仕活動。"
+        "en": "Culture at the centre, inclusion as the goal. The club's service work since 2021 — from youth empowerment programmes to the Taiwan Literature Award for Migrants — and service run across the district.",
+        "ja": "文化を軸に、共生を目標に。新二代エンパワメント・キャンプから移民工文學獎（Taiwan Literature Award for Migrants）まで、2021年以降の奉仕活動のあゆみ。"
       }
     },
     "meetings": {

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>台北大加蚋扶輪社官網｜24 小時建置操作手冊</title>
+<title>台北大加蚋扶輪社官網｜Claude + Github 建置操作手冊</title>
 <style>
 :root{
   --blue:#17458f; --azure:#005daa; --gold:#f7a81b; --ink:#1c2733;
@@ -73,8 +73,8 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);
 <body>
 
 <header><div class="wrap">
-<h1>台北大加蚋扶輪社官網｜24 小時建置操作手冊</h1>
-<p>從解壓縮檔案到發布上 GitHub。測試站帳號 Taipei-Tagala-Web。</p>
+<h1>台北大加蚋扶輪社官網｜Claude + Github 建置操作手冊</h1>
+<p>用 Claude Code 生成網站、用 Git 與 GitHub Pages 發布。測試站帳號 Taipei-Tagala-Web。</p>
 </div></header>
 
 <div class="wrap">
@@ -93,20 +93,21 @@ footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);
 </ol>
 </nav>
 
-<h3>24 小時時程建議</h3>
+<h3>建置順序建議</h3>
 <table class="tl">
-<tr><td>第 1 小時</td><td>步驟 0–1</td><td>放檔案、裝 git 與 gh、登入</td></tr>
-<tr><td>第 2 小時</td><td>步驟 2</td><td>建 repo、開 Pages、確認「建置中」頁面能開</td></tr>
-<tr><td>第 3–5 小時</td><td>步驟 3.1</td><td><b>只做中文首頁</b>，來回修到滿意 ← 關鍵關卡</td></tr>
-<tr><td>第 6–8 小時</td><td>步驟 3.2</td><td>中文版其餘四頁</td></tr>
-<tr><td>第 9–12 小時</td><td>步驟 3.3</td><td>英文版與日文版共十頁</td></tr>
-<tr><td>休息</td><td></td><td>睡覺。QA 要用清醒的眼睛做</td></tr>
-<tr><td>第 13–15 小時</td><td>步驟 4</td><td>QA 與修正</td></tr>
-<tr><td>第 16–17 小時</td><td>步驟 5</td><td>發布、手機實機測試</td></tr>
-<tr><td>剩餘</td><td></td><td>緩衝。一定會用到</td></tr>
+<tr><td>階段 1</td><td>步驟 0–1</td><td>放檔案、裝 git 與 gh、登入</td></tr>
+<tr><td>階段 2</td><td>步驟 2</td><td>建 repo、開 Pages、確認「建置中」頁面能開</td></tr>
+<tr><td>階段 3</td><td>步驟 3.1</td><td><b>只做中文首頁</b>，來回修到滿意 ← 關鍵關卡</td></tr>
+<tr><td>階段 4</td><td>步驟 3.2</td><td>中文版其餘四頁</td></tr>
+<tr><td>階段 5</td><td>步驟 3.3</td><td>英文版與日文版共十頁</td></tr>
+<tr><td>休息</td><td></td><td>QA 要用清醒的眼睛做，不要接著硬做</td></tr>
+<tr><td>階段 6</td><td>步驟 4</td><td>QA 與修正</td></tr>
+<tr><td>階段 7</td><td>步驟 5</td><td>發布、手機實機測試</td></tr>
 </table>
 
-<div class="gate"><p><b>唯一的硬性關卡：</b>第 5 小時結束前，中文首頁必須拍板。沒拍板就往下做，等於用未定的設計生成 15 個檔案。到時間還在改，就先接受一個「夠好」的版本繼續走。</p></div>
+<div class="gate"><p><b>唯一的硬性關卡：</b>進到步驟 3.2 之前，中文首頁必須拍板。沒拍板就往下做，等於用未定的設計生成 15 個檔案。若一直修不定，就先接受一個「夠好」的版本繼續走。</p></div>
+
+<div class="box ok"><p><b>每個階段做完就 commit 一次。</b>步驟 3.1、3.2、3.3 各自結束時都有對應的 <code>git add / commit / push</code> 指令，照著做就會有乾淨的版本歷史。萬一某一步生成壞了，可以只退掉那一版，不必整包重來。</p></div>
 
 
 <h2 id="s0"><span class="num">0</span>放檔案並確認結構</h2>
@@ -220,7 +221,7 @@ gh repo create Taipei-Tagala-Web.github.io --public --source=. --push</pre>
 <pre>https://taipei-tagala-web.github.io/</pre>
 <p>因為還沒有 <code>/zh-TW/</code> 資料夾，轉址後會看到 404——<b>這是正常的</b>。重點是網址有回應、不是「找不到伺服器」。</p>
 
-<div class="box ok"><p><b>先確認管線通了再開始寫網頁。</b>之後每次 push 都能立刻看到結果，這對 24 小時的專案是很大的心理支撐。</p></div>
+<div class="box ok"><p><b>先確認管線通了再開始寫網頁。</b>之後每次 push 都能立刻看到結果，改壞了也能馬上發現，比全部做完才第一次部署安全得多。</p></div>
 
 <ul class="chk">
 <li><input type="checkbox" id="c21"><label for="c21">repo 名稱確實是 <code>Taipei-Tagala-Web.github.io</code></label></li>
@@ -281,6 +282,14 @@ gh repo create Taipei-Tagala-Web.github.io --public --source=. --push</pre>
 
 <div class="gate"><p><b>拿到之後只給一次大方向回饋。</b>例如「Hero 太高，活動卡片要更緊湊」。改完就拍板，不要陷入微調。</p></div>
 
+<p><b>拍板後存檔：</b></p>
+<pre>cd C:\Tagala-Web
+git add .
+git commit -m "中文首頁定案：版面、設計系統、Hero 與例會橫幅"
+git push</pre>
+
+<div class="box"><p>第一次 <code>git push</code> 若出現 <code>no upstream branch</code>，改用 <code>git push -u origin main</code>，之後就只要打 <code>git push</code>。</p></div>
+
 <h3>3.2 中文版其餘四頁</h3>
 
 <pre class="prompt">中文首頁已定案。請以它為唯一樣板，產生中文版其餘四頁。
@@ -299,9 +308,10 @@ gh repo create Taipei-Tagala-Web.github.io --public --source=. --push</pre>
   - areasOfFocus 放在最後，標題註明為對應參考
 
 /zh-TW/meetings/index.html
-  - 近期例會：日期在今天之後，大卡片
-  - 過往活動：日期在今天之前，時間倒序，小卡片
-  - 例會固定資訊再出現一次（訪客最常找這個）
+  - 近期例會：日期在今天之後
+  - 過往活動：日期在今天之前，時間倒序
+  - 兩個區塊採用同一種卡片版型，不要一大一小
+  - 頁首只放標題，不要再放例會資訊卡（首頁與聯絡我們頁已經有）
 
 /zh-TW/contact/index.html
   - 例會地點與 Google Maps 嵌入
@@ -309,7 +319,16 @@ gh repo create Taipei-Tagala-Web.github.io --public --source=. --push</pre>
   - 入社洽詢說明
   - 相關連結
 
-每頁的 title 與 meta description 從 site.json 取。</pre>
+每頁的 title 與 meta description 從 site.json 取。
+新頁面只能沿用既有 class，如需新增 class 請先告訴我。</pre>
+
+<div class="box"><p><b>它會停下來問你兩件事。</b>一是新增 CSS class 的清單（時間軸、社旗意象、地圖嵌入這些首頁沒有的元件），二是 JSON 裡缺的文案要不要補。<b>都要回答它才會繼續</b>——這是刻意的，避免它自己發明一套命名和文案。</p></div>
+
+<p><b>四頁完成後存檔：</b></p>
+<pre>cd C:\Tagala-Web
+git add .
+git commit -m "完成中文版其餘四頁"
+git push</pre>
 
 <h3>3.3 英文版與日文版</h3>
 
@@ -333,7 +352,15 @@ gh repo create Taipei-Tagala-Web.github.io --public --source=. --push</pre>
 8. 英文版主標題與主導覽用 ALL CAPS；中日文版不用大寫，改用字重
 
 翻譯內容全部從 json 取，不要自行重譯。
-完成後執行 python3 tools/check-i18n.py 確認通過。</pre>
+完成後執行三語系完整性檢查確認通過。</pre>
+
+<div class="box"><p><b>JSON 裡沒有的文案它會補進 JSON，不會寫死在 HTML。</b>圖片 alt、按鈕文字、欄位標籤這些原本三個 json 沒收錄的字串，它會新增到 <code>site.json</code> 並標上 <code>_verify</code>。這些英日文是機器擬稿，<b>上線前要請母語人士看過</b>——收在步驟 8 的待確認清單裡。</p></div>
+
+<p><b>十頁完成後存檔：</b></p>
+<pre>cd C:\Tagala-Web
+git add .
+git commit -m "完成英文版與日文版共十頁"
+git push</pre>
 
 
 <h2 id="s4"><span class="num">4</span>上線前 QA</h2>
@@ -350,10 +377,19 @@ gh repo create Taipei-Tagala-Web.github.io --public --source=. --push</pre>
 7. 每頁補 favicon 與 apple-touch-icon 連結
 8. 檢查是否有寫死的色碼，有的話改用 tokens.css 變數
 
-最後執行 python3 tools/check-i18n.py，確認通過。
+最後執行三語系完整性檢查，確認通過。
 把所有你修正的項目列給我。</pre>
 
-<h3>4.1 你要親自看的三件事</h3>
+<h3>4.1 自己跑一次三語系檢查</h3>
+<p>不要只信 Claude Code 說「通過」，自己跑一次。在 PowerShell 裡：</p>
+<pre>cd C:\Tagala-Web
+$env:PYTHONIOENCODING='utf-8'
+python tools\check-i18n.py</pre>
+<p>看到 <code>✓ 三語系完整性檢查通過</code> 才算過。它會一併檢查每個活動的兩張圖檔是否都在。</p>
+
+<div class="box warn"><p><b>不要用 <code>python3</code>。</b>Windows 的 <code>python3</code> 通常是 Microsoft Store 的轉接程式，會直接跳出商店或無聲結束。<b>第一行的 <code>PYTHONIOENCODING</code> 也不能省</b>——不設的話，指令碼印出中文與 ✓ 符號時會以 <code>UnicodeEncodeError: 'cp950' codec</code> 中斷，看起來像檢查失敗，其實是終端機編碼問題。</p></div>
+
+<h3>4.2 你要親自看的幾件事</h3>
 <p>這些 Claude Code 檢查不出來，只能你自己看：</p>
 <ul class="chk">
 <li><input type="checkbox" id="c41"><label for="c41">瀏覽器視窗拉到 375px 寬，15 個頁面都不破版</label></li>
@@ -368,9 +404,10 @@ gh repo create Taipei-Tagala-Web.github.io --public --source=. --push</pre>
 <h2 id="s5"><span class="num">5</span>發布與確認</h2>
 
 <h3>5.1 推上去</h3>
+<p>步驟 3 的三個階段各自 push 過了，這裡推的是 QA 階段的修正：</p>
 <pre>cd C:\Tagala-Web
 git add .
-git commit -m "完成三語系網站初版"
+git commit -m "上線前 QA 修正"
 git push</pre>
 
 <p>約一分鐘後網站更新。<b>以後每次修改都是這三行，沒有別的。</b></p>
@@ -390,7 +427,7 @@ git push</pre>
 
 <h2 id="s6"><span class="num">6</span>移交給正式站</h2>
 
-<p>這一步不在 24 小時內，等社內看過測試站確認後再做。</p>
+<p>這一步不急著做，等社內看過測試站確認後再進行。</p>
 
 <h3>做法 A：請財務長把你加為協作者（建議）</h3>
 <p>財務長到 <code>taipeitagala.github.io</code> repo → <b>Settings</b> → <b>Collaborators</b> → <b>Add people</b> → 輸入 <code>Taipei-Tagala-Web</code>。你接受邀請後：</p>
@@ -422,6 +459,8 @@ git push official main</pre>
 <tr><td>「無法辨識 git 詞彙」</td><td>Git 沒裝，或裝完沒重開終端機</td><td>先 <code>winget install --id Git.Git -e</code>，然後關掉 PowerShell 重開。<code>gh</code> 和 <code>git</code> 是兩個不同的程式，裝了一個不代表有另一個</td></tr>
 <tr><td>「無法辨識 gh 詞彙」</td><td>GitHub CLI 沒裝，或裝完沒重開終端機</td><td><code>winget install --id GitHub.cli</code>，然後重開 PowerShell</td></tr>
 <tr><td>winget 本身無法辨識</td><td>Windows 版本較舊或缺應用程式安裝程式</td><td>從 Microsoft Store 安裝「應用程式安裝程式」，或直接用官網安裝檔</td></tr>
+<tr><td><code>python3</code> 沒反應或跳出 Microsoft Store</td><td>Windows 的 <code>python3</code> 是商店轉接程式，不是真的 Python</td><td>改用 <code>python</code>（不加 3）。若 <code>python</code> 也沒有，先 <code>winget install --id Python.Python.3.13 -e</code> 再重開 PowerShell</td></tr>
+<tr><td>檢查指令跳 <code>UnicodeEncodeError: 'cp950' codec</code></td><td>終端機用 cp950 編碼，印不出 ✓ 與中文</td><td>先執行 <code>$env:PYTHONIOENCODING='utf-8'</code> 再跑，不是指令碼壞掉</td></tr>
 <tr><td>git 顯示整個檔案都被改過</td><td>換行符差異</td><td>確認做過 <code>core.autocrlf true</code></td></tr>
 <tr><td>中文路徑出現亂碼</td><td>編碼問題</td><td>確認 repo 在 <code>C:\Tagala-Web\</code>，路徑無中文與空格</td></tr>
 </table>
@@ -436,14 +475,23 @@ git push official main</pre>
 <p>這些不影響上線，但上線後要補：</p>
 
 <ul class="chk">
+<li><input type="checkbox" id="c80"><label for="c80"><b>請母語人士看過 <code>site.json</code> 裡標了 <code>_verify</code> 的英日文</b>（圖片 alt、按鈕文字、欄位標籤、入社洽詢說明、各頁 SEO 描述）——這些是生成時補的機器擬稿</label></li>
 <li><input type="checkbox" id="c81"><label for="c81">從 Brand Center 產生社徽<b>反白版本</b>，之後頁尾才能放社徽</label></li>
 <li><input type="checkbox" id="c82"><label for="c82">過往活動 7 筆的日期與標題（目前只有 7/14 和 7/28）</label></li>
 <li><input type="checkbox" id="c83"><label for="c83">確認 <code>service.json</code> 的 <code>areasOfFocus</code> 七大焦點領域對照</label></li>
-<li><input type="checkbox" id="c84"><label for="c84">確認特公盟、移民工文學獎的官方英日譯名</label></li>
-<li><input type="checkbox" id="c85"><label for="c85">確認講者姓名的英文拼法（目前用漢語拼音）</label></li>
-<li><input type="checkbox" id="c86"><label for="c86">確認講者肖像用於官網長期陳列的授權範圍</label></li>
 <li><input type="checkbox" id="c87"><label for="c87">社友人數等數字每年度更新一次</label></li>
 </ul>
+
+<h3>8.1 已確認事項</h3>
+<p>以下原本在待確認清單，現已定案並寫進 <code>README.md</code>，不必再問：</p>
+<table>
+<tr><th>項目</th><th>結論</th></tr>
+<tr><td>特公盟官方英文名</td><td>Taiwan Parks &amp; Playgrounds for Children by Children (TWPfC)</td></tr>
+<tr><td>移民工文學獎官方英文名</td><td>Taiwan Literature Award for Migrants</td></tr>
+<tr><td>這兩者的日文名</td><td>無官方日文名，日文版一律用「中文名（官方英文名）」中英對照，<b>不另譯日文</b></td></tr>
+<tr><td>講者姓名英文拼法</td><td>不用漢語拼音。台灣講者用中文姓名，外籍講者用英文姓名</td></tr>
+<tr><td>講者肖像授權</td><td>可使用，含官網長期陳列</td></tr>
+</table>
 
 <footer>
 <p>台北大加蚋扶輪社官網建置手冊　國際扶輪 3523 地區第七分區　社號 90275</p>

@@ -327,11 +327,6 @@ img { max-width: 100%; height: auto; display: block; }
 .event-links { margin-top: auto; padding-top: var(--sp-2); }
 .event-links a { font-size: var(--fs-sm); }
 
-/* 過往活動小卡：不放摘要，768px 以上改橫式，banner 縮為左側窄條 */
-.event-card-sm .event-body { padding: var(--sp-3) var(--sp-4); gap: var(--sp-2); }
-.event-card-sm h3 { font-size: var(--fs-base); }
-.event-card-sm .event-date { font-size: var(--fs-xs); }
-
 /* ---------- 服務計畫摘要 ---------- */
 
 .service-grid { display: grid; gap: var(--sp-6); }
@@ -549,9 +544,6 @@ html[lang="en"] .main-nav a {
 
   .card-grid { grid-template-columns: repeat(2, 1fr); }
   .facts { grid-template-columns: repeat(2, 1fr); }
-
-  .event-card-sm { flex-direction: row; }
-  .event-card-sm .banner { flex: 0 0 140px; aspect-ratio: auto; }
 
   .concept-list { grid-template-columns: repeat(3, 1fr); }
   .map-embed { aspect-ratio: 16 / 9; }

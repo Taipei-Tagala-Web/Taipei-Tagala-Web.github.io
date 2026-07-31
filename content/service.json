@@ -49,6 +49,19 @@
   },
   "timeline": [
     {
+      "year": "2019.06",
+      "title": {
+        "zh": "創社",
+        "en": "Chartered",
+        "ja": "チャーター"
+      },
+      "body": {
+        "zh": "2018 年底開始籌備，由 31 位創始社友共同成立",
+        "en": "Planning began in late 2018; chartered by 31 founding members",
+        "ja": "2018年末に準備を開始し、31名の創立会員により発足"
+      }
+    },
+    {
       "year": "2021–22",
       "title": {
         "zh": "凝聚服務共識",
@@ -146,12 +159,12 @@
           "與東南亞社群團體、在地社區文化團體合作，廣邀市民參與，串連教育、藝術和數位工具，使扶輪公益展現兼具溫度和前瞻的社會影響力。"
         ],
         "en": [
-          "Deepening existing work and sponsoring the literature award for migrants, as an approachable way into the growing plurality of Taiwanese society and toward cross-cultural respect.",
+          "Deepening existing work and sponsoring the Taiwan Literature Award for Migrants, as an approachable way into the growing plurality of Taiwanese society and toward cross-cultural respect.",
           "Members taking part directly in cultural walks, short talks, experiential events and literary documentation, to learn more of Southeast Asian cultures and migrant workers' stories.",
           "Partnering with Southeast Asian community groups and local cultural organisations, inviting the public in, and joining education, art and digital tools so that Rotary service carries both warmth and foresight."
         ],
         "ja": [
-          "奉仕内容をさらに深め、移住労働者文学賞を支援します。親しみやすい入り口から、豊かさを増す台湾社会の多様性を理解し、異文化への敬意を育てます。",
+          "奉仕内容をさらに深め、移民工文學獎（Taiwan Literature Award for Migrants）を支援します。親しみやすい入り口から、豊かさを増す台湾社会の多様性を理解し、異文化への敬意を育てます。",
           "会員自身が文化のまち歩き、異文化ショートトーク、体験活動、文学の記録などに参加し、東南アジア文化と移住労働者の物語をより深く知ります。",
           "東南アジアのコミュニティ団体や地域の文化団体と連携し、広く市民の参加を募ります。教育・芸術・デジタルの手法をつなぎ、温かさと先見性を兼ね備えた社会的影響力を生み出します。"
         ]
@@ -199,8 +212,8 @@
         },
         "note": {
           "zh": "跨文化理解與對話平台、移民工文學獎",
-          "en": "Cross-cultural dialogue and the literature award for migrants",
-          "ja": "異文化理解の場づくり、移住労働者文学賞"
+          "en": "Cross-cultural dialogue and the Taiwan Literature Award for Migrants",
+          "ja": "異文化理解の場づくり、移民工文學獎（Taiwan Literature Award for Migrants）"
         }
       },
       {

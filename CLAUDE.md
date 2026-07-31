@@ -88,10 +88,28 @@
 /assets/events/       16 個活動 banner
 /content/             site.json、events.json、service.json（唯一內容真相來源）
 /tools/               check-i18n.py
+START-HERE.html       建置操作手冊（Claude + GitHub 流程，給維護者看）
 ```
 
 ## 每次修改後必做
 
-1. 執行 `python3 tools/check-i18n.py`，必須通過
+1. 執行三語系完整性檢查，必須通過。Windows PowerShell：
+
+   ```powershell
+   $env:PYTHONIOENCODING='utf-8'
+   python tools\check-i18n.py
+   ```
+
+   **不要用 `python3`**（Windows 上是 Microsoft Store 轉接程式，會無聲結束）。
+   **`PYTHONIOENCODING` 不可省略**，否則印出 ✓ 與中文時會以 `cp950` 編碼錯誤中斷。
+
 2. 檢查 375px / 768px / 1280px 三個寬度無破版
 3. 檢查三語系是否同步，語言切換器是否指向對應頁
+
+## 版面既有決定（勿自行更動）
+
+- **例會與活動頁**：「近期例會」與「過往活動」兩個區塊**使用同一種卡片版型**
+  （`.event-card` 全套，含摘要），不做大小卡之分。
+- 新頁面優先沿用既有 class；**需要新增 class 時先向使用者確認命名**，不要自行發明。
+- HTML 不得寫死文案。JSON 缺的字串要補進 `content/site.json` 並標 `_verify`，
+  再從 JSON 取用。
