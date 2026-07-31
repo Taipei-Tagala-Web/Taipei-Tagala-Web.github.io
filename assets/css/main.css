@@ -327,6 +327,11 @@ img { max-width: 100%; height: auto; display: block; }
 .event-links { margin-top: auto; padding-top: var(--sp-2); }
 .event-links a { font-size: var(--fs-sm); }
 
+/* 過往活動小卡：不放摘要，768px 以上改橫式，banner 縮為左側窄條 */
+.event-card-sm .event-body { padding: var(--sp-3) var(--sp-4); gap: var(--sp-2); }
+.event-card-sm h3 { font-size: var(--fs-base); }
+.event-card-sm .event-date { font-size: var(--fs-xs); }
+
 /* ---------- 服務計畫摘要 ---------- */
 
 .service-grid { display: grid; gap: var(--sp-6); }
@@ -360,6 +365,113 @@ img { max-width: 100%; height: auto; display: block; }
 .facts { align-items: stretch; }
 .fact { display: flex; flex-direction: column; }
 .fact .detail { margin-top: auto; padding-top: var(--sp-2); }
+
+/* ---------- 服務軌跡時間軸 ---------- */
+
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--sp-5); }
+
+.timeline-item {
+  position: relative;
+  padding-left: var(--sp-6);
+  border-left: 2px solid var(--c-border);
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 7px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--c-accent);
+  border: 2px solid var(--c-bg);
+}
+.timeline-item h3 { font-size: var(--fs-lg); margin-bottom: var(--sp-2); }
+.timeline-item p { font-size: var(--fs-sm); max-width: var(--measure); }
+
+.timeline-year {
+  display: block;
+  font-family: var(--font-num);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  color: var(--c-heading);
+  margin-bottom: var(--sp-1);
+}
+
+/* 本年度：淺底強調，軸線與圓點改金色 */
+.timeline-current {
+  background: var(--c-bg-alt);
+  border-left-color: var(--c-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding-block: var(--sp-4);
+  padding-right: var(--sp-5);
+}
+.timeline-current::before { top: calc(var(--sp-4) + 7px); }
+.timeline-current ul {
+  margin: var(--sp-3) 0 0;
+  padding-left: var(--sp-5);
+  display: grid;
+  gap: var(--sp-2);
+}
+.timeline-current li { font-size: var(--fs-sm); max-width: var(--measure); }
+
+/* ---------- 社旗意象 ---------- */
+
+.concept-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--sp-3);
+  counter-reset: concept;
+}
+.concept-item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-left: 3px solid var(--c-rule-accent);
+  border-radius: var(--radius);
+}
+.concept-item::before {
+  counter-increment: concept;
+  content: counter(concept);
+  flex: 0 0 auto;
+  font-family: var(--font-num);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  color: var(--c-heading);
+}
+
+.flag-figure { margin: 0; }
+.flag-figure img {
+  width: 100%;
+  max-width: 280px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+.flag-figure figcaption {
+  max-width: 280px;
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  margin-top: var(--sp-3);
+  padding-left: var(--sp-3);
+  border-left: 3px solid var(--c-rule-accent);
+}
+
+/* ---------- 地圖嵌入 ---------- */
+
+.map-embed {
+  aspect-ratio: 4 / 3;
+  background: var(--c-bg-alt);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.map-embed iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* ---------- 頁尾 ---------- */
 
@@ -424,6 +536,12 @@ img { max-width: 100%; height: auto; display: block; }
 
   .card-grid { grid-template-columns: repeat(2, 1fr); }
   .facts { grid-template-columns: repeat(2, 1fr); }
+
+  .event-card-sm { flex-direction: row; }
+  .event-card-sm .banner { flex: 0 0 140px; aspect-ratio: auto; }
+
+  .concept-list { grid-template-columns: repeat(3, 1fr); }
+  .map-embed { aspect-ratio: 16 / 9; }
 
   .footer-grid { grid-template-columns: 1.4fr 1fr 1fr; gap: var(--sp-7); }
   .footer-legal { grid-template-columns: 1fr auto; align-items: baseline; }
