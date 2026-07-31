@@ -1,0 +1,259 @@
+{
+  "_note": "唯一真相來源。新增活動只改這個檔案，再請 Claude Code 重生 HTML。每個 title/summary/venue 都必須有 zh/en/ja 三個值。",
+  "_schema": {
+    "type": "regular | service | fellowship | joint",
+    "banner": "對應 /assets/events/evt-{date}.webp 與 -600w.webp",
+    "speakerNote": "講者為受邀外賓，姓名與所屬單位可公開；社友姓名一律不得出現"
+  },
+
+  "events": [
+    {
+      "id": "2026-10-27",
+      "date": "2026-10-27",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-10-27",
+      "fbUrl": "https://www.facebook.com/events/2209689209829978/",
+      "speaker": { "zh": "鄭國威", "en": "Cheng Kuo-wei", "ja": "鄭国威" },
+      "speakerTitle": {
+        "zh": "泛傳媒集團創辦人暨知識長、PanSci 泛科學與思想實驗室主持人",
+        "en": "Founder and Chief Knowledge Officer, PanMedia Group; Host of PanSci",
+        "ja": "汎メディアグループ創業者兼チーフ・ナレッジ・オフィサー、PanSci 主宰"
+      },
+      "title": {
+        "zh": "泛科學變成 YouTuber 的 10 個為什麼",
+        "en": "Ten Reasons PanSci Became a YouTuber",
+        "ja": "PanSci が YouTuber になった 10 の理由"
+      },
+      "summary": {
+        "zh": "PanSci 泛科學如何從網站走向 YouTube，透過影音與短影音形式，讓科學知識走出同溫層，成為更多人願意理解與討論的內容。",
+        "en": "How PanSci moved from a website to YouTube, using video and short-form formats to carry science beyond its own echo chamber and into wider public conversation.",
+        "ja": "PanSci はいかにしてウェブサイトから YouTube へ進出したのか。動画やショート動画を通じて、科学知識を同質的な読者層の外へ届け、より多くの人が理解し語り合える内容へと変えていく取り組みを伺います。"
+      },
+      "points": {
+        "zh": ["科學傳播的新挑戰與機會", "從泛科學到影音平台的轉型之路", "科學內容如何跨越同溫層、擴大影響力"],
+        "en": ["New challenges and openings in science communication", "The move from website to video platform", "Carrying science content beyond the echo chamber"],
+        "ja": ["科学コミュニケーションの新たな課題と機会", "ウェブサイトから動画プラットフォームへの転換", "科学コンテンツが同質的な層を越えて影響力を広げる方法"]
+      }
+    },
+    {
+      "id": "2026-10-13",
+      "date": "2026-10-13",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-10-13",
+      "fbUrl": "https://www.facebook.com/events/1522930695512198/",
+      "speaker": { "zh": "Mukesh Kaushik", "en": "Mukesh Kaushik", "ja": "ムケシュ・カウシック" },
+      "speakerTitle": {
+        "zh": "外交部 Taiwan Fellowship 訪問學人；印度《Dainik Bhaskar》資深國防與戰略事務記者",
+        "en": "Taiwan Fellowship visiting scholar, Ministry of Foreign Affairs; Senior defence and strategic affairs correspondent, Dainik Bhaskar (India)",
+        "ja": "外交部 Taiwan Fellowship 招聘研究者、インド紙『Dainik Bhaskar』国防・戦略問題担当シニア記者"
+      },
+      "title": {
+        "zh": "印度與台灣的民主：我們可以互相學習的地方",
+        "en": "India and Taiwan Democracies: Many Lessons to Learn",
+        "ja": "インドと台湾の民主主義——互いに学び合えること"
+      },
+      "summary": {
+        "zh": "每年舉辦外交主題專題演講是本社的重要傳統。本場由擁有 35 年外交與國防採訪經驗的印度資深記者，從印度視角比較兩國民主發展歷程。",
+        "en": "An annual diplomacy talk is one of this club's standing traditions. This session brings an Indian correspondent with 35 years covering diplomacy and defence to compare the democratic paths of both countries.",
+        "ja": "毎年の外交テーマの卓話は、当クラブの大切な伝統です。今回は外交・国防取材35年のインド人記者を迎え、インドの視点から両国の民主化の歩みを比較していただきます。"
+      },
+      "points": {
+        "zh": ["台印關係及交流發展", "台印民主發展歷程的比較", "兩國如何面對外交、國防與社會韌性的共同挑戰"],
+        "en": ["India–Taiwan relations and exchange", "Comparing the two countries' democratic development", "Shared challenges in diplomacy, defence and social resilience"],
+        "ja": ["台印関係と交流の発展", "両国の民主化の歩みの比較", "外交・国防・社会のレジリエンスにおける共通の課題"]
+      }
+    },
+    {
+      "id": "2026-09-22",
+      "date": "2026-09-22",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-09-22",
+      "fbUrl": "https://www.facebook.com/events/2047583612506945/",
+      "speaker": { "zh": "葉靜倫 Sara", "en": "Sara Yeh", "ja": "葉静倫（サラ）" },
+      "speakerTitle": {
+        "zh": "《Right Plus 多多益善》創辦人暨總編輯",
+        "en": "Founder and Editor-in-Chief, Right Plus",
+        "ja": "『Right Plus 多多益善』創業者兼編集長"
+      },
+      "title": {
+        "zh": "非營利獨立媒體的經營之路——做無聲者的擴大機",
+        "en": "Running a Nonprofit Newsroom: An Amplifier for the Unheard",
+        "ja": "非営利独立メディアの経営——声なき人の拡声器となる"
+      },
+      "summary": {
+        "zh": "《Right Plus 多多益善》是台灣少數專注公益與社福議題的獨立媒體。本場分享一個非營利媒體如何在商業流量之外，持續為公益議題與脆弱處境者發聲。",
+        "en": "Right Plus is one of few independent outlets in Taiwan focused on social welfare and the public interest. This talk looks at how a nonprofit newsroom sustains itself outside the commercial traffic economy while speaking for those in precarious circumstances.",
+        "ja": "『Right Plus 多多益善』は、台湾で数少ない公益・社会福祉分野に特化した独立メディアです。商業的なアクセス数競争の外側で、非営利メディアがいかに公益的な課題や困難な状況にある人々の声を届け続けるのかを伺います。"
+      },
+      "points": {
+        "zh": ["公益議題媒體為何而創？如何堅持媒體獨立？", "非營利媒體如何透過報導、倡議與合作擴大影響力", "媒體如何在公益生態系中串連各界資源"],
+        "en": ["Why start a public-interest outlet, and how to stay independent", "Widening impact through reporting, advocacy and partnership", "Connecting resources across the social sector"],
+        "ja": ["公益メディアを創った理由と、独立性を守る方法", "報道・アドボカシー・連携による影響力の拡大", "公益エコシステムの中で各界の資源をつなぐ役割"]
+      }
+    },
+    {
+      "id": "2026-09-08",
+      "date": "2026-09-08",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-09-08",
+      "fbUrl": "https://www.facebook.com/events/999791649434289/",
+      "speaker": { "zh": "陳吉仲", "en": "Chen Chi-chung", "ja": "陳吉仲" },
+      "speakerTitle": {
+        "zh": "中興大學應用經濟學系終身特聘教授兼副校長、前農業部部長",
+        "en": "Chair Professor of Applied Economics and Vice President, National Chung Hsing University; former Minister of Agriculture",
+        "ja": "国立中興大学応用経済学系終身特別招聘教授兼副学長、前農業部長"
+      },
+      "title": {
+        "zh": "台灣農業部門氣候變遷之影響和調適及淨零——兼論農業永續",
+        "en": "Climate Change, Adaptation and Net Zero in Taiwan's Agricultural Sector",
+        "ja": "台湾農業部門における気候変動の影響・適応とネットゼロ——農業の持続可能性を併せて"
+      },
+      "summary": {
+        "zh": "從學者到部長，講者長期投入農業政策與產業發展。本場分享台灣農業面對氣候變遷、淨零轉型與永續發展的挑戰與契機。",
+        "en": "From academia to the cabinet, the speaker has spent his career on agricultural policy and industry development. This talk covers the challenges and openings Taiwanese agriculture faces in climate adaptation, the net-zero transition and long-term sustainability.",
+        "ja": "研究者から農業部長まで、長年にわたり農業政策と産業振興に携わってきた講師が、気候変動・ネットゼロ転換・持続可能性という課題に台湾農業がどう向き合うかをお話しします。"
+      },
+      "points": {
+        "zh": ["氣候變遷對台灣農林漁牧產業的衝擊", "農業如何提升韌性與調適能力，邁向淨零轉型", "農業政策如何形成？又如何透過溝通與立法落實"],
+        "en": ["Climate impacts across farming, forestry, fisheries and livestock", "Building resilience and adaptive capacity toward net zero", "How agricultural policy is formed and enacted"],
+        "ja": ["農林水産業への気候変動の影響", "レジリエンスと適応能力を高めネットゼロへ", "農業政策の形成と、対話・立法による実現"]
+      }
+    },
+    {
+      "id": "2026-08-25",
+      "date": "2026-08-25",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-08-25",
+      "fbUrl": "https://www.facebook.com/events/1892584894737797/",
+      "speaker": { "zh": "徐彩玲", "en": "Hsu Tsai-ling", "ja": "徐彩玲" },
+      "speakerTitle": {
+        "zh": "辛果味企業社負責人、雲林縣古坑鄉麻園社區發展協會總幹事",
+        "en": "Founder, New Chili Sauce; Secretary-General, Mayuan Community Development Association, Gukeng, Yunlin",
+        "ja": "辛果味企業社代表、雲林県古坑郷麻園社区発展協会事務局長"
+      },
+      "title": {
+        "zh": "裝進鄉愁與創意的水果辣椒醬",
+        "en": "Nostalgia and Invention in a Jar of Fruit Chilli Sauce",
+        "ja": "郷愁と創意を詰めたフルーツチリソース"
+      },
+      "summary": {
+        "zh": "身為新住民二代與古坑農家女兒，講者從小是母親的「文化翻譯機」。她將母親故鄉的泰國風味與古坑在地農產跨界融合，創立「辛果味」品牌，讓家鄉農產有了新的故事與價值。",
+        "en": "The daughter of an immigrant mother and a Gukeng farming family, the speaker grew up as her mother's cultural interpreter. She now blends Thai flavours from her mother's homeland with local Yunlin produce under the New Chili Sauce brand, giving hometown crops a new story and new value.",
+        "ja": "新住民二世として、また古坑の農家の娘として育った講師は、幼い頃から母の「文化の通訳」役を務めてきました。母の故郷タイの味と古坑の農産物を掛け合わせ、「辛果味」ブランドを立ち上げ、故郷の作物に新しい物語と価値を与えています。"
+      },
+      "points": {
+        "zh": ["新住民家庭的成長經驗，如何成為文化創新的養分", "地方幸福感與社區活化，如何從理念走向實踐", "泰國味與古坑農產如何創造屬於台灣的地方品牌"],
+        "en": ["How growing up in an immigrant family becomes material for cultural innovation", "Taking community wellbeing from idea to practice", "Building a local Taiwanese brand from Thai flavours and Yunlin produce"],
+        "ja": ["新住民家庭で育った経験が文化的創造の糧になるまで", "地域の幸福感と地域活性化を理念から実践へ", "タイの味と古坑の農産物から台湾の地域ブランドを生む"]
+      }
+    },
+    {
+      "id": "2026-08-11",
+      "date": "2026-08-11",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-08-11",
+      "fbUrl": "https://www.facebook.com/events/886734640380701/",
+      "speaker": { "zh": "蔡英地", "en": "Tsai Ying-ti", "ja": "蔡英地" },
+      "speakerTitle": {
+        "zh": "向天歌創新農業股份有限公司執行長",
+        "en": "CEO, Formosa Goose",
+        "ja": "向天歌創新農業股份有限公司 最高経営責任者"
+      },
+      "title": {
+        "zh": "台灣農業的一種可能：向天歌模式的實戰與思考",
+        "en": "One Possible Future for Taiwanese Farming: The Formosa Goose Model",
+        "ja": "台湾農業のもう一つの可能性——向天歌モデルの実践と考察"
+      },
+      "summary": {
+        "zh": "40 歲那年，講者脫下西裝、換上雨鞋，從跨國科技業財務主管返鄉投入雲林養鵝產業。面對極端氣候、缺工與高齡化，他導入智慧密閉禽舍與綠能設施，建立從生產、能源到品牌行銷的完整生態系。",
+        "en": "At forty the speaker traded his suit for rubber boots, leaving a finance role at a multinational technology firm to raise geese in Yunlin. Facing extreme weather, labour shortages and an ageing workforce, he introduced climate-controlled housing and renewable energy to build a full chain from production through energy to brand.",
+        "ja": "40歳のとき、講師はスーツを脱いで長靴を履き、多国籍テクノロジー企業の財務責任者から雲林の養鵝業へ転身しました。極端気象・人手不足・高齢化に直面し、スマート密閉鶏舎と再生可能エネルギー設備を導入。生産からエネルギー、ブランドまで一貫した生態系を築いています。"
+      },
+      "points": {
+        "zh": ["極端氣候與人力老化下，台灣農業面臨哪些挑戰", "「蓄電共生」如何成為支持農業永續經營的新模式", "如何從養鵝場打造出完整的農場生態系與品牌價值"],
+        "en": ["Challenges from extreme weather and an ageing workforce", "How energy storage co-located with farming supports sustainable operations", "Building a full farm ecosystem and brand from a goose operation"],
+        "ja": ["極端気象と労働力の高齢化のもとで台湾農業が直面する課題", "「蓄電共生」が農業の持続的経営を支える新しいモデルとなるまで", "養鵝場から農場生態系とブランド価値を築く方法"]
+      }
+    },
+    {
+      "id": "2026-07-28",
+      "date": "2026-07-28",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-07-28",
+      "fbUrl": "https://www.facebook.com/events/1912359532809198/",
+      "speaker": { "zh": "謝易芸", "en": "Hsieh Yi-yun", "ja": "謝易芸" },
+      "speakerTitle": {
+        "zh": "瀚草文創營運副總、台灣野草創作家協會理事",
+        "en": "VP of Operations, GrX Studio; Board Member, Taiwan Wild Grass Writers Association",
+        "ja": "瀚草文創 運営副総経理、台湾野草創作家協会理事"
+      },
+      "title": {
+        "zh": "文化的力量——從移民工文學獎到影視內容",
+        "en": "The Power of Culture: From the Migrants Literature Award to Screen Content",
+        "ja": "文化の力——移住労働者文学賞から映像コンテンツへ"
+      },
+      "summary": {
+        "zh": "本社持續支持《移民工文學獎》，鼓勵使用越南、印尼、泰國、柬埔寨、菲律賓、緬甸文的創作者說出自己的故事。2026 年收到 549 件投稿，創歷年新高。本場分享文化如何成為推動多元共融的力量。",
+        "en": "This club is a continuing supporter of the Taiwan Literature Award for Migrants, which encourages writers working in Vietnamese, Indonesian, Thai, Khmer, Filipino and Burmese to tell their own stories. The 2026 edition drew a record 549 submissions. This talk examines culture as a force for inclusion.",
+        "ja": "当クラブは「移住労働者文学賞」を継続的に支援し、ベトナム語・インドネシア語・タイ語・カンボジア語・フィリピン語・ミャンマー語で書く作家が自らの物語を語ることを応援しています。2026年は過去最多の549作品の応募がありました。文化が多様性と包摂を推し進める力となる道筋を伺います。"
+      },
+      "points": {
+        "zh": ["移民工文學獎如何讓更多生命故事被看見", "文化產業如何實踐 ESG 與社會參與", "影視 IP 如何創造超越螢幕的社會影響力"],
+        "en": ["How the award brings more life stories into view", "ESG and civic participation in the cultural industries", "Social impact of screen IP beyond the screen"],
+        "ja": ["文学賞がより多くの人生の物語を可視化する仕組み", "文化産業における ESG と社会参加の実践", "映像 IP が画面を越えて生む社会的影響力"]
+      }
+    },
+    {
+      "id": "2026-07-14",
+      "date": "2026-07-14",
+      "timeStart": "18:30",
+      "timeTalk": "19:40",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-07-14",
+      "fbUrl": "",
+      "speaker": { "zh": "王秀娟", "en": "Wang Hsiu-chuan", "ja": "王秀娟" },
+      "speakerTitle": {
+        "zh": "還我特色公園行動聯盟（特公盟）理事長",
+        "en": "Chair, Parks and Playgrounds for Children by Children",
+        "ja": "還我特色公園行動連盟（特公盟）理事長"
+      },
+      "title": {
+        "zh": "用一座公園，還給更多孩子童年",
+        "en": "Giving Childhood Back, One Playground at a Time",
+        "ja": "ひとつの公園から、子どもたちに子ども時代を返す"
+      },
+      "summary": {
+        "zh": "新年度第一場例會。從一位母親的關心出發，到影響全台各地公共空間的規劃與改造，講者推動的不只是公園建設，更是關於孩子成長、社區參與與城市未來的公共議題。",
+        "en": "The first regular meeting of the new Rotary year. What began as one mother's concern grew into influence over public space planning across Taiwan — not simply playground construction, but a public conversation about childhood, community participation and the future of cities.",
+        "ja": "新年度最初の例会。一人の母親の関心から始まり、台湾各地の公共空間の計画と改修に影響を与えるまでに広がりました。公園整備にとどまらず、子どもの成長・地域参加・都市の未来をめぐる公共的な問いを扱います。"
+      },
+      "points": {
+        "zh": ["為什麼一座公園能成為社會改變的起點", "台灣孩子的童年正在經歷什麼樣的轉變", "遊戲空間如何連結家庭、社區與城市發展"],
+        "en": ["Why a single playground can start social change", "How childhood in Taiwan is shifting", "Play space as a link between family, community and city"],
+        "ja": ["なぜ一つの公園が社会変革の起点になりうるのか", "台湾の子どもたちの子ども時代に起きている変化", "遊び場が家庭・地域・都市の発展をつなぐ役割"]
+      }
+    }
+  ]
+}

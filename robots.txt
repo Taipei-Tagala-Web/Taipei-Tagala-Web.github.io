@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# 測試站：暫不開放搜尋引擎收錄。
+# 正式站上線時，請把上面的 Disallow: / 刪掉，改成 Allow: /

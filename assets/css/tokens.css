@@ -1,0 +1,164 @@
+/* ============================================================
+   台北大加蚋扶輪社官網 — 設計 Tokens
+   色值來源：國際扶輪《影像標示簡介一覽》547B (2019年12月)
+   採 RGB 欄位換算（社內決定）
+   註：官方文件的 Hex 與 RGB 欄位在藍色系不一致，本專案統一採 RGB
+   ============================================================ */
+
+:root {
+  /* ---- 主色調：扶輪的領導色（優先大量使用）---- */
+  --royal-blue:   #17458f;   /* 皇室藍 PMS 286C */
+  --azure:        #005daa;   /* 蔚藍色 PMS 2175C */
+  --sky-blue:     #01b4e7;   /* 天藍色 PMS 2202C */
+  --gold:         #f7a81b;   /* 金色   PMS 130C */
+
+  /* ---- 次要色彩：鮮豔（僅少量強調或系列區分）---- */
+  --turquoise:    #009999;   /* 藍綠色   PMS 7466C */
+  --cranberry:    #d91b5c;   /* 蔓越莓色 PMS 214C */
+  --orange:       #ff7600;   /* 橘色     PMS 2018C */
+  --violet:       #872175;   /* 紫色     PMS 2070C */
+
+  /* ---- 次要色彩：柔色 ---- */
+  --slate:        #687d90;   /* 岩藍色   PMS 2165C */
+  --mist:         #9ea6b4;   /* 霧色     PMS 2162C */
+  --lavender:     #c6bcd0;   /* 薰衣草色 PMS 665C */
+  --powder-blue:  #c9dee9;   /* 粉藍色   PMS 290C */
+  --moss:         #a7aca2;   /* 青苔色   PMS 7537C */
+  --taupe:        #d9c89e;   /* 灰褐色   PMS 7501C */
+
+  /* ---- 中性色：暖色調 ---- */
+  --storm:        #675d58;   /* 暴風雨色 Warm Gray 10C */
+  --ash:          #958d85;   /* 灰色     Warm Gray 7C */
+  --platinum:     #c5c1bb;   /* 白金色   Warm Gray 3C */
+  --cloud:        #e6e5d8;   /* 柔灰色   Warm Gray 1C */
+
+  /* ---- 中性色：涼色調 ---- */
+  --charcoal:     #58585a;   /* 碳灰色 Cool Gray 11C */
+  --pewter:       #919295;   /* 錫灰色 Cool Gray 8C */
+  --smoke:        #bcbdc0;   /* 煙灰色 Cool Gray 5C */
+  --silver:       #e7e7e8;   /* 銀灰色 Cool Gray 2C */
+  --white:        #ffffff;
+  --black:        #000000;
+
+  /* ---- 語意化指派（頁面只用這一組，不直接用上面的色名）---- */
+  --c-bg:            var(--white);
+  --c-bg-alt:        #f5f7fa;             /* 區塊交替底色，粉藍的極淡版 */
+  --c-surface:       var(--white);
+  --c-border:        var(--silver);
+  --c-text:          #1c2733;             /* 內文：比純黑柔和 */
+  --c-text-muted:    var(--charcoal);
+  --c-heading:       var(--royal-blue);
+  --c-link:          var(--azure);
+  --c-link-hover:    var(--royal-blue);
+  --c-accent:        var(--gold);         /* CTA、重點數字、強調線 */
+  --c-header-bg:     var(--white);
+  --c-footer-bg:     var(--royal-blue);
+  --c-footer-text:   #dce6f2;
+  --c-on-dark:       var(--white);
+  --c-focus:         var(--sky-blue);     /* 鍵盤焦點框 */
+
+  /* ---- 可承載文字的顏色（經 WCAG AA 4.5:1 實測，勿自行擴充）----
+     CI 禁止調整官方色，因此不能把顏色改深來解決對比度，只能改變用法。
+       配白字可用：皇室藍 9.19 / 紫 8.38 / 蔚藍 6.67 / 蔓越莓 4.93
+       配深墨字可用：金 7.62 / 天藍 6.26 / 橘 5.65
+       藍綠 兩者皆不足（3.49 / 4.34）→ 僅作分隔線、底線、圖形，不可承載文字
+       ⚠ 金色絕不可作為白底上的文字色（1.99:1）
+  */
+  --c-text-on-gold:  #17458f;   /* 金底上的字一律用皇室藍 */
+  --c-rule-accent:   var(--turquoise);  /* 藍綠只用在線條與圖形 */
+
+  /* 活動類型標籤：底色 + 對應的文字色，成對使用 */
+  --c-tag-regular:        var(--azure);       /* 例會 */
+  --c-tag-regular-text:   var(--white);
+  --c-tag-service:        var(--violet);      /* 服務 */
+  --c-tag-service-text:   var(--white);
+  --c-tag-fellowship:     var(--gold);        /* 聯誼 */
+  --c-tag-fellowship-text: var(--royal-blue);
+  --c-tag-joint:          var(--royal-blue);  /* 聯合例會 */
+  --c-tag-joint-text:     var(--white);
+
+  /* ---- 字型 ----
+     扶輪授權字型為 Frutiger + Sentinel；免費替代為 Open Sans + Georgia。
+     中文對應思源黑體（Noto Sans TC）／思源宋體（Noto Serif TC）。
+     各語系頁面只載入該語系字型，勿三種同時載入。 */
+  --font-display: "Noto Sans TC", "Open Sans", system-ui, sans-serif;
+  --font-body:    "Noto Sans TC", "Open Sans", system-ui, sans-serif;
+  --font-serif:   "Noto Serif TC", Georgia, serif;
+  --font-num:     "Open Sans", system-ui, sans-serif;  /* 日期、數字 */
+
+  /* ---- 字級（1.25 倍階，行動優先）---- */
+  --fs-xs:   0.75rem;
+  --fs-sm:   0.875rem;
+  --fs-base: 1rem;
+  --fs-lg:   1.125rem;
+  --fs-xl:   1.375rem;
+  --fs-2xl:  1.75rem;
+  --fs-3xl:  2.25rem;
+  --fs-4xl:  3rem;
+
+  --lh-tight: 1.25;
+  --lh-base:  1.75;   /* 中日文內文需要比英文更寬的行高 */
+
+  --fw-light:    300;
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-bold:     700;
+
+  /* 中日文標題不用大寫，改用字距與字重；英文版標題才用 ALL CAPS */
+  --ls-heading-cjk: 0.02em;
+  --ls-heading-lat: 0.04em;
+
+  /* ---- 間距（4px 基準）---- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+  --sp-9: 6rem;
+
+  /* ---- 版面 ---- */
+  --container:  1160px;
+  --measure:    38em;      /* 內文最大行寬 */
+  --radius:     4px;       /* 扶輪視覺偏方正，圓角克制 */
+  --radius-lg:  8px;
+  --banner-ratio: 16 / 9;  /* 全站活動 banner 統一比例 */
+
+  --shadow-sm: 0 1px 2px rgb(23 69 143 / 0.06);
+  --shadow-md: 0 2px 8px rgb(23 69 143 / 0.10);
+
+  /* ---- 社徽淨空區 ----
+     規範：留白空間須與文字標誌「R」等高。實作上以社徽高度的 0.5 倍為安全值。 */
+  --logo-clearspace: 0.5;
+}
+
+/* 日文頁面覆寫：<html lang="ja"> */
+html[lang="ja"] {
+  --font-display: "Noto Sans JP", "Open Sans", system-ui, sans-serif;
+  --font-body:    "Noto Sans JP", "Open Sans", system-ui, sans-serif;
+  --font-serif:   "Noto Serif JP", Georgia, serif;
+}
+
+/* 英文頁面覆寫：<html lang="en"> */
+html[lang="en"] {
+  --font-display: "Open Sans", system-ui, sans-serif;
+  --font-body:    "Open Sans", system-ui, sans-serif;
+  --font-serif:   Georgia, serif;
+  --lh-base:      1.65;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-3xl: 2.75rem;
+    --fs-4xl: 3.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

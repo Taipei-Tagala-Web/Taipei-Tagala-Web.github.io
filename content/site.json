@@ -1,0 +1,294 @@
+{
+  "_note": "全站固定文案。⚠ 標記 VERIFY 的欄位需經社內或母語人士確認後才可上線。",
+  "club": {
+    "name": {
+      "zh": "台北大加蚋扶輪社",
+      "en": "Rotary Club of Taipei Tagala",
+      "ja": "台北大加蚋ロータリークラブ"
+    },
+    "nameRuby": {
+      "ja": {
+        "base": "台北大加蚋",
+        "reading": "タイペイ・タガラ"
+      }
+    },
+    "formalCitation": {
+      "ja": "台北大加蚋ロータリークラブ（台湾・D3523）"
+    },
+    "district": "3523",
+    "clubId": "90275",
+    "chartered": "2019-06",
+    "charteredLabel": {
+      "zh": "2019 年 6 月創社",
+      "en": "Chartered June 2019",
+      "ja": "2019年6月チャーター"
+    },
+    "facebook": "https://www.facebook.com/TaipeiTagala/",
+    "nameOrigin": {
+      "zh": "「加蚋」取自平埔族 Ketagalan 語，原指沼澤，是平埔族在今天台北盆地的傳統領域；「大加蚋」後來成為台北盆地的正式名稱。本社取名大加蚋，除了援引大台北發源地之意，也期許本社有沼澤的生命力與感染力，兼容各行各業的社友一同成長並推展公益，滋養社會共榮的種子。",
+      "en": "Tagala comes from the Ketagalan language, where it meant marshland — the people’s traditional territory across what is now the Taipei Basin, and later the formal name for the basin itself. The club took the name both to invoke the origin of greater Taipei and to express a hope: that it might hold the vitality of a wetland, gathering members from every walk of life to grow together and nourish the seeds of a shared society.",
+      "ja": "「加蚋」は平埔族ケタガラン語に由来し、湿地を意味する言葉でした。現在の台北盆地一帯は彼らの伝統的な生活領域であり、「大加蚋」はのちに台北盆地の正式名称となります。日本統治時代の公文書にも「臺北廳大加蚋堡」として記録されています。この名を選んだのは、大台北の発祥の地を指すためだけではありません。湿地のような生命力と広がりを持ち、あらゆる職業の会員を受け入れてともに成長し、社会がともに栄える種を育てたい——そんな願いを込めています。"
+    },
+    "focus": {
+      "zh": "長期專注於新住民、新二代與移民工關懷的服務性成長團體，推動多元文化共融、文化平權及新住民家庭支援。",
+      "en": "A service and personal-growth club with a sustained focus on new immigrants, their children, and migrant workers — advancing cultural inclusion, cultural equity and support for immigrant families.",
+      "ja": "新住民（結婚移民）、その子どもたち、移住労働者への支援に継続的に取り組む奉仕・自己成長のクラブです。多文化共生、文化的な平等、そして移民家庭への支援を推進しています。"
+    },
+    "tagline": {
+      "zh": "在台北的沼澤原鄉，做多元共融的事",
+      "en": "Rooted in Taipei's old marshland, working for a plural society",
+      "ja": "台北の湿地の原郷から、多文化共生のために"
+    },
+    "stats": {
+      "_note": "工作計畫載明之數據。社費金額、出席目標、成長目標等內部治理項目未收錄。",
+      "founders": 31,
+      "members": 28,
+      "avgAge": 46,
+      "genderRatio": "16:12",
+      "labels": {
+        "founders": {
+          "zh": "創始社友",
+          "en": "Charter members",
+          "ja": "創立会員"
+        },
+        "members": {
+          "zh": "現有社友",
+          "en": "Members today",
+          "ja": "現在の会員数"
+        },
+        "avgAge": {
+          "zh": "平均年齡",
+          "en": "Average age",
+          "ja": "平均年齢"
+        },
+        "genderRatio": {
+          "zh": "女男比例",
+          "en": "Women to men",
+          "ja": "女性・男性比"
+        }
+      },
+      "professions": {
+        "zh": "社友職業領域涵括教育、金融、公益組織、數位、資訊科技、法律、航空、機械設備、公共關係、媒體傳播、地方創生、生活消費、研究機構等。",
+        "en": "Members work in education, finance, nonprofits, digital, IT, law, aviation, machinery, public relations, media, regional revitalisation, consumer goods and research.",
+        "ja": "会員の職業分野は、教育・金融・公益団体・デジタル・情報技術・法律・航空・機械設備・広報・メディア・地域創生・生活消費・研究機関などにわたります。"
+      },
+      "diversityNote": {
+        "zh": "本社積極鼓勵女性參與公共事務，並持續向更多年輕族群推廣扶輪精神，邀請新世代社員加入。",
+        "en": "The club actively encourages women's participation in public life, and continues to bring Rotary to a younger generation.",
+        "ja": "当クラブは女性の公共的な活動への参加を積極的に後押しし、より若い世代にもロータリーの精神を伝え、新しい世代の入会を呼びかけています。"
+      }
+    },
+    "area": "7",
+    "areaLabel": {
+      "zh": "3523 地區第七分區",
+      "en": "Area 7, District 3523",
+      "ja": "第3523地区 第7分区"
+    }
+  },
+  "meeting": {
+    "schedule": {
+      "zh": "每月第二、第四週週二",
+      "en": "Second and fourth Tuesday of each month",
+      "ja": "毎月第2・第4火曜日"
+    },
+    "timeline": [
+      {
+        "time": "18:30",
+        "label": {
+          "zh": "自由交流及用餐",
+          "en": "Dinner and open networking",
+          "ja": "会食・自由交流"
+        }
+      },
+      {
+        "time": "19:20",
+        "label": {
+          "zh": "例會開始",
+          "en": "Meeting and guest talk begins",
+          "ja": "例会・卓話開始"
+        }
+      },
+      {
+        "time": "21:00",
+        "label": {
+          "zh": "散會",
+          "en": "Adjourn",
+          "ja": "閉会"
+        }
+      }
+    ],
+    "venue": {
+      "zh": "台北市松山區八德路四段 123-1 號 B1",
+      "en": "B1, No. 123-1, Sec. 4, Bade Rd., Songshan Dist., Taipei City",
+      "ja": "台北市松山区八德路四段123-1号 B1"
+    },
+    "transit": {
+      "zh": "捷運南京三民站步行約 5 分鐘",
+      "en": "About a 5-minute walk from MRT Nanjing Sanmin Station",
+      "ja": "MRT 南京三民駅から徒歩約5分"
+    },
+    "guestFee": {
+      "zh": "來賓費用 600 元／人（含餐點及演講）",
+      "en": "NT$600 per guest, including dinner and the talk",
+      "ja": "ゲスト参加費 600元（食事・卓話を含む）"
+    },
+    "guestNote": {
+      "zh": "歡迎來賓出席，請透過認識的社友或本社 Facebook 專頁報名。",
+      "en": "Guests are welcome. Please register through a member you know, or via the club's Facebook page.",
+      "ja": "ゲストのご参加を歓迎いたします。お知り合いの会員、または当クラブの Facebook ページよりお申し込みください。メークアップも承ります。"
+    }
+  },
+  "nav": {
+    "home": {
+      "zh": "首頁",
+      "en": "Home",
+      "ja": "ホーム"
+    },
+    "about": {
+      "zh": "關於我們",
+      "en": "About",
+      "ja": "クラブ紹介"
+    },
+    "service": {
+      "zh": "服務計畫",
+      "en": "Service",
+      "ja": "奉仕活動"
+    },
+    "meetings": {
+      "zh": "例會與活動",
+      "en": "Meetings",
+      "ja": "例会・行事"
+    },
+    "contact": {
+      "zh": "聯絡我們",
+      "en": "Contact",
+      "ja": "お問い合わせ"
+    }
+  },
+  "ui": {
+    "langName": {
+      "zh": "中文",
+      "en": "English",
+      "ja": "日本語"
+    },
+    "upcoming": {
+      "zh": "近期例會",
+      "en": "Upcoming",
+      "ja": "今後の例会"
+    },
+    "past": {
+      "zh": "過往活動",
+      "en": "Past events",
+      "ja": "これまでの例会"
+    },
+    "allEvents": {
+      "zh": "查看全部活動",
+      "en": "All events",
+      "ja": "すべての例会を見る"
+    },
+    "meetingInfo": {
+      "zh": "例會資訊",
+      "en": "Meeting info",
+      "ja": "例会情報"
+    },
+    "speaker": {
+      "zh": "主講人",
+      "en": "Speaker",
+      "ja": "卓話者"
+    },
+    "fbEvent": {
+      "zh": "Facebook 活動頁",
+      "en": "Event on Facebook",
+      "ja": "Facebook イベントページ"
+    },
+    "typeRegular": {
+      "zh": "例會",
+      "en": "Regular meeting",
+      "ja": "例会"
+    },
+    "typeService": {
+      "zh": "服務",
+      "en": "Service project",
+      "ja": "奉仕活動"
+    },
+    "typeFellowship": {
+      "zh": "聯誼",
+      "en": "Fellowship",
+      "ja": "親睦"
+    },
+    "typeJoint": {
+      "zh": "聯合例會",
+      "en": "Joint meeting",
+      "ja": "合同例会"
+    },
+    "skipToContent": {
+      "zh": "跳至主要內容",
+      "en": "Skip to content",
+      "ja": "本文へスキップ"
+    },
+    "notFoundTitle": {
+      "zh": "找不到這個頁面",
+      "en": "Page not found",
+      "ja": "ページが見つかりません"
+    },
+    "notFoundBody": {
+      "zh": "這個網址可能已經變更或不存在。",
+      "en": "This address may have changed or may not exist.",
+      "ja": "この URL は変更されたか、存在しない可能性があります。"
+    },
+    "backHome": {
+      "zh": "回到首頁",
+      "en": "Back to home",
+      "ja": "ホームへ戻る"
+    }
+  },
+  "footer": {
+    "rotaryLinks": [
+      {
+        "label": {
+          "zh": "國際扶輪",
+          "en": "Rotary International",
+          "ja": "国際ロータリー"
+        },
+        "url": "https://www.rotary.org/"
+      },
+      {
+        "label": {
+          "zh": "國際扶輪 3523 地區",
+          "en": "Rotary District 3523",
+          "ja": "国際ロータリー第3523地区"
+        },
+        "url": "https://ri3523.org/"
+      }
+    ],
+    "copyright": {
+      "zh": "台北大加蚋扶輪社",
+      "en": "Rotary Club of Taipei Tagala",
+      "ja": "台北大加蚋ロータリークラブ"
+    },
+    "trademark": {
+      "zh": "Rotary、扶輪、扶輪徽章及相關標誌為國際扶輪之註冊商標，經授權使用。",
+      "en": "Rotary, the Rotary Emblem and related marks are registered trademarks of Rotary International, used with permission.",
+      "ja": "Rotary、ロータリー、ロータリー章および関連標章は国際ロータリーの登録商標であり、許諾を得て使用しています。"
+    },
+    "imageNote": {
+      "zh": "活動宣傳圖由本社製作，講者影像經同意使用。",
+      "en": "Event artwork produced by this club; speaker images used with consent.",
+      "ja": "行事告知画像は当クラブが制作し、卓話者の写真は同意を得て使用しています。"
+    }
+  },
+  "seo": {
+    "home": {
+      "title": {
+        "zh": "台北大加蚋扶輪社",
+        "en": "Rotary Club of Taipei Tagala",
+        "ja": "台北大加蚋ロータリークラブ"
+      },
+      "description": {
+        "zh": "國際扶輪 3523 地區。專注新住民、新二代與移民工關懷，推動多元文化共融。每月第二、第四週週二例會。",
+        "en": "Rotary District 3523, Taipei. Focused on new immigrants, their children and migrant workers, advancing cultural inclusion. Meetings on the second and fourth Tuesday of each month.",
+        "ja": "国際ロータリー第3523地区。新住民・その子どもたち・移住労働者への支援を通じ、多文化共生を推進しています。例会は毎月第2・第4火曜日。"
+      }
+    }
+  }
+}
