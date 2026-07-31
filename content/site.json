@@ -35,9 +35,9 @@
       "ja": "新住民（結婚移民）、その子どもたち、移住労働者への支援に継続的に取り組む奉仕・自己成長のクラブです。多文化共生、文化的な平等、そして移民家庭への支援を推進しています。"
     },
     "tagline": {
-      "zh": "在台北的沼澤原鄉，做多元共融的事",
-      "en": "Rooted in Taipei's old marshland, working for a plural society",
-      "ja": "台北の湿地の原郷から、多文化共生のために"
+      "zh": "服務在前、聯誼在後",
+      "en": "Service first, fellowship after",
+      "ja": "奉仕を先に、親睦は後に"
     },
     "stats": {
       "_note": "工作計畫載明之數據。社費金額、出席目標、成長目標等內部治理項目未收錄。",
@@ -103,14 +103,12 @@
       {
         "time": "19:20",
         "label": {
-          "zh": "例會開始",
-          "en": "Meeting and guest talk begins",
-          "ja": "例会・卓話開始"
-        }
-      },
-      {
-        "time": "21:00",
-        "label": {
+          "zh": "開始",
+          "en": "Begins",
+          "ja": "開始"
+        },
+        "endTime": "21:00",
+        "endLabel": {
           "zh": "散會",
           "en": "Adjourn",
           "ja": "閉会"
@@ -122,6 +120,7 @@
       "en": "B1, No. 123-1, Sec. 4, Bade Rd., Songshan Dist., Taipei City",
       "ja": "台北市松山区八德路四段123-1号 B1"
     },
+    "venueMapUrl": "https://maps.app.goo.gl/HvSPhfW7enwdGaUr7",
     "transit": {
       "zh": "捷運南京三民站步行約 5 分鐘",
       "en": "About a 5-minute walk from MRT Nanjing Sanmin Station",

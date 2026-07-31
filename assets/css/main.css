@@ -227,7 +227,7 @@ img { max-width: 100%; height: auto; display: block; }
 .meeting-card dd { margin: 0; font-size: var(--fs-sm); }
 .meeting-card .transit { color: var(--c-text-muted); font-size: var(--fs-xs); }
 
-.run-sheet { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--sp-2); }
+.run-sheet { list-style: none; margin: var(--sp-2) 0 0; padding: 0; display: grid; gap: var(--sp-2); }
 .run-sheet li { display: flex; gap: var(--sp-3); font-size: var(--fs-sm); }
 .run-sheet time {
   font-family: var(--font-num);
@@ -435,7 +435,7 @@ img { max-width: 100%; height: auto; display: block; }
 @media (min-width: 1080px) {
   .card-grid { grid-template-columns: repeat(3, 1fr); }
   .facts { grid-template-columns: repeat(4, 1fr); }
-  .meeting-card dl { grid-template-columns: repeat(4, 1fr); }
+  .meeting-card dl { grid-template-columns: repeat(3, 1fr); }
   .service-grid { grid-template-columns: 1fr; }
   .hero-grid { gap: var(--sp-6); }
 }
