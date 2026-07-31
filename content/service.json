@@ -281,9 +281,9 @@
           "ja": "職業分野"
         },
         "detail": {
-          "zh": "教育、金融、公益組織、數位、資訊科技、法律、航空、機械設備、公共關係、媒體傳播、地方創生、生活消費、研究機構",
-          "en": "Education, finance, nonprofits, digital, IT, law, aviation, machinery, public relations, media, regional revitalisation, consumer goods and research",
-          "ja": "教育、金融、公益団体、デジタル、情報技術、法律、航空、機械設備、広報、メディア、地域創生、生活消費、研究機関"
+          "zh": "涵蓋教育、金融、公益組織、資訊科技、法律、航空、媒體傳播、地方創生等領域",
+          "en": "Education, finance, nonprofits, IT, law, aviation, media, regional revitalisation and more",
+          "ja": "教育、金融、公益団体、情報技術、法律、航空、メディア、地域創生など"
         }
       },
       {
