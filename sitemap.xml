@@ -1,139 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 測試站網址。移交正式站時，把所有 taipei-tagala-web.github.io 換成正式網域。 -->
+<!-- 正式網域 tagala.org.tw。與各頁 hreflang、og:url 必須一致。 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://taipei-tagala-web.github.io/zh-TW/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/"/>
+    <loc>https://tagala.org.tw/zh-TW/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/en/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/"/>
+    <loc>https://tagala.org.tw/en/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/"/>
+    <loc>https://tagala.org.tw/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/zh-TW/about/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/about/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/about/"/>
+    <loc>https://tagala.org.tw/zh-TW/about/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/about/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/en/about/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/about/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/about/"/>
+    <loc>https://tagala.org.tw/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/about/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/ja/about/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/about/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/about/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/about/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/about/"/>
+    <loc>https://tagala.org.tw/ja/about/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/about/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/zh-TW/service/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/service/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/service/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/service/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/service/"/>
+    <loc>https://tagala.org.tw/zh-TW/service/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/service/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/service/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/service/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/en/service/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/service/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/service/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/service/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/service/"/>
+    <loc>https://tagala.org.tw/en/service/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/service/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/service/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/service/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/ja/service/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/service/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/service/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/service/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/service/"/>
+    <loc>https://tagala.org.tw/ja/service/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/service/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/service/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/service/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/zh-TW/meetings/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/meetings/"/>
+    <loc>https://tagala.org.tw/zh-TW/meetings/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/meetings/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/en/meetings/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/meetings/"/>
+    <loc>https://tagala.org.tw/en/meetings/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/meetings/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/ja/meetings/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/meetings/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/meetings/"/>
+    <loc>https://tagala.org.tw/ja/meetings/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/meetings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/meetings/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/zh-TW/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/contact/"/>
+    <loc>https://tagala.org.tw/zh-TW/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/contact/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/en/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/contact/"/>
+    <loc>https://tagala.org.tw/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/contact/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://taipei-tagala-web.github.io/ja/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://taipei-tagala-web.github.io/zh-TW/contact/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://taipei-tagala-web.github.io/en/contact/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://taipei-tagala-web.github.io/ja/contact/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://taipei-tagala-web.github.io/zh-TW/contact/"/>
+    <loc>https://tagala.org.tw/ja/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tagala.org.tw/zh-TW/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tagala.org.tw/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tagala.org.tw/ja/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/contact/"/>
     <lastmod>2026-08-01</lastmod>
     <priority>0.7</priority>
   </url>

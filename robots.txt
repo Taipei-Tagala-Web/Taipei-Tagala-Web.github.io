@@ -1,7 +1,6 @@
 # 測試站（開發用）：不開放搜尋引擎收錄，避免與正式站競爭搜尋排名。
-User-agent: *
-Disallow: /
-
+# User-agent: *
+# Disallow: /
 # ─────────────────────────────────────────────
 # 移交到正式站時，刪掉上面兩行，改用以下設定
 # （網域換成實際的正式網域）：
@@ -13,3 +12,7 @@ Disallow: /
 #
 # 同時要改 sitemap.xml 裡每一筆 <loc> 與 <xhtml:link> 的網域。
 # ─────────────────────────────────────────────
+User-agent: *
+Allow: /
+
+Sitemap: https://tagala.org.tw/sitemap.xml

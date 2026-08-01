@@ -185,28 +185,33 @@ CSS 與 JS 的手風琴機制已經做好（箭頭旋轉 180°、一次只開一
   未以國際扶輪七大焦點領域為主結構——該對照放在 `areasOfFocus`，
   標了 `_verify`，作為補充區塊，社內確認後才上線
 
-## 這是開發站，不是正式站
+## 正式網域：tagala.org.tw
 
-目前這個 repo（`taipei-tagala-web.github.io`）是**開發站**，內容日後整包搬到正式站。
-實測 `tagala.org.tw` 已指向 GitHub Pages，但服務的是**另一個 repo**，目前只有 `Hello! World!` 佔位頁。
+全站的對外絕對網址一律使用 `https://tagala.org.tw`：
 
-因此：
-
-- `robots.txt` 維持 `Disallow: /`，**不開放搜尋引擎收錄**，避免開發站與正式站競爭排名
-- `sitemap.xml` 已產生，15 筆網址（5 頁 × 3 語系），每筆含 4 組 `xhtml:link` 語系互指，
-  但用的是**開發站網址**
-
-### 移交正式站時要改的檔案
-
-| 檔案 | 要改什麼 |
+| 位置 | 形式 |
 |---|---|
-| `robots.txt` | 刪掉 `Disallow: /`，改用檔案內註解好的 `Allow: /` 與 `Sitemap:` 區塊 |
-| `sitemap.xml` | 全部 `<loc>` 與 `<xhtml:link>` 的網域換成正式網域 |
-| 15 個內容頁 | `hreflang` 與 `og:image` 目前是相對路徑，確認正式網域下仍正確；如需絕對網址要一併補 `og:url` |
-| GitHub Pages | 正式 repo 設定自訂網域（需要 `CNAME` 檔），並停用舊的佔位站 |
+| `hreflang`（15 頁 × 4 組） | 絕對網址 |
+| `og:url`、`og:image`（15 頁） | 絕對網址 |
+| `sitemap.xml` | 絕對網址 |
+| `robots.txt` 的 `Sitemap:` | 絕對網址 |
+| 站內導覽、社徽、CSS/JS、圖片 | **維持相對路徑**，不綁網域，換站也不會壞 |
 
-注意 `tagala.org.tw` 會 301 轉到 `www.tagala.org.tw`，正式網域要用哪一個（apex 或 www）
-需先確定，sitemap 與 hreflang 必須跟最終的正式網址一致，否則會自我矛盾。
+改網域時只要改上面前四項，站內連結完全不用動。
+
+### 尚未完成的網域設定
+
+以下是**檔案以外**的事，需要在 GitHub 與 DNS 端操作，改檔案不會自動生效：
+
+1. **這個 repo 沒有 `CNAME` 檔** —— GitHub Pages 要靠它才會用自訂網域服務本 repo
+2. **`tagala.org.tw` 目前指向另一個 repo**（實測只回傳 `Hello! World!` 佔位頁），
+   要先把該站的自訂網域移除，否則同一網域會被兩個 repo 搶用
+3. **`tagala.org.tw` 會 301 轉到 `www.tagala.org.tw`** ——
+   要確認最終正式網址是 apex 還是 www。目前全站寫的是 apex（無 www），
+   若最後決定用 www，這些絕對網址要再改一次，否則 hreflang 會指向會被轉址的網址
+
+在這三件完成前，網站實際仍只在 `taipei-tagala-web.github.io` 上運作，
+而頁面裡的 hreflang / og:url 會指向尚未生效的 `tagala.org.tw`。
 
 ## 待確認
 
