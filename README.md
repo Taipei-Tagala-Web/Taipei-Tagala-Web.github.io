@@ -14,6 +14,19 @@
 涵蓋香港、澳門及海外的正體中文讀者，比綁定台灣地區的 `zh-TW` 匹配範圍更廣。
 另需一組 `x-default` 指向 `/zh-TW/` 的對應頁。
 
+### ⚠ 根目錄的 index.html 是網站入口，不可刪除
+
+根目錄 `index.html` 是**語系偵測轉址頁**，它就是 `https://tagala.org.tw/` 本身：
+依瀏覽器語言把訪客送到 `/zh-TW/`、`/en/` 或 `/ja/`，並以 `<meta refresh>` 作為
+關閉 JS 時的後備。
+
+它**不是**某個子目錄檔案的舊版本。子目錄裡的 `zh-TW/index.html`、`en/index.html`、
+`ja/index.html` 是各語系的首頁，用途完全不同。刪掉根目錄這一份，網站首頁會直接 404。
+
+2026-08-01 清掉了根目錄三個確實無用的殘留檔（`flag-art.webp`、`flag-art-600w.webp`、
+`main.css`）——前兩者與 `assets/brand/` 內的版本位元組相同，`main.css` 則是早期版本，
+全站沒有任何頁面引用根目錄這三份。`index.html` 經查證仍在服役，故保留。
+
 ## 色碼：採 RGB 欄
 
 官方 PDF 的 Hex 與 RGB 欄在藍色系不一致。以本社社徽實際用色比對：
@@ -199,19 +212,49 @@ CSS 與 JS 的手風琴機制已經做好（箭頭旋轉 180°、一次只開一
 
 改網域時只要改上面前四項，站內連結完全不用動。
 
-### 尚未完成的網域設定
+### 網域設定已完成（2026-08-01 確認）
 
-以下是**檔案以外**的事，需要在 GitHub 與 DNS 端操作，改檔案不會自動生效：
+- 正式網址拍板為 apex `tagala.org.tw`（不用 www）
+- `CNAME` 檔已設定為 `tagala.org.tw`
+- Settings → Pages 確認無網域衝突警告
+- `www.tagala.org.tw` 已自動 301 轉到 `tagala.org.tw`（GitHub Pages 依 `CNAME` 檔自動處理，不需另外設定 DNS 轉向）
 
-1. **這個 repo 沒有 `CNAME` 檔** —— GitHub Pages 要靠它才會用自訂網域服務本 repo
-2. **`tagala.org.tw` 目前指向另一個 repo**（實測只回傳 `Hello! World!` 佔位頁），
-   要先把該站的自訂網域移除，否則同一網域會被兩個 repo 搶用
-3. **`tagala.org.tw` 會 301 轉到 `www.tagala.org.tw`** ——
-   要確認最終正式網址是 apex 還是 www。目前全站寫的是 apex（無 www），
-   若最後決定用 www，這些絕對網址要再改一次，否則 hreflang 會指向會被轉址的網址
+網站現在已經在 `https://tagala.org.tw` 正式運作，頁面裡的 hreflang / og:url 皆已生效。
 
-在這三件完成前，網站實際仍只在 `taipei-tagala-web.github.io` 上運作，
-而頁面裡的 hreflang / og:url 會指向尚未生效的 `tagala.org.tw`。
+### 兩個 repo 的分工（2026-08-01 搬遷完成）
+
+| | repo | 網址 | 角色 |
+|---|---|---|---|
+| 正式站 | `taipeitagala/taipeitagala.github.io` | **`tagala.org.tw`** | 對外正式站 |
+| 開發站 | `Taipei-Tagala-Web/Taipei-Tagala-Web.github.io` | `taipei-tagala-web.github.io` | 開發測試（**這個 repo**） |
+
+本機的 `official` remote 已指向正式站，可直接 `git push official main` 同步內容。
+
+### ⚠ CNAME 只能存在於正式站
+
+GitHub Pages **同一個自訂網域只能被一個 repo 綁定**，所以兩邊的 `CNAME` 檔是刻意分歧的：
+
+```
+正式站 : 有 CNAME，內容 tagala.org.tw
+開發站 : 沒有 CNAME（已於 b8c0b2b 移除以釋放網域）
+```
+
+**同步內容到正式站時，絕對不要把「刪除 CNAME」那筆帶過去**，否則正式站會立刻失去自訂網域。
+安全作法是只 cherry-pick 內容變更，或 merge 後手動確認 `CNAME` 仍在。
+
+### 權限限制
+
+開發站帳號（`Taipei-Tagala-Web`）對正式站只有 **push 權限，沒有 admin**。
+因此**無法透過 API 或介面修改正式站的 Pages 設定**（改自訂網域、強制 HTTPS 等）。
+
+實務上換網域的作法是：把含正確 `CNAME` 檔的 commit 推上去，再觸發一次 Pages 重建
+（`gh api -X POST repos/taipeitagala/taipeitagala.github.io/pages/builds`），
+GitHub 會自動依 `CNAME` 檔套用網域。若要改其他 Pages 設定，需要財務長操作。
+
+### 其他網域
+
+`taipeitagala.org.tw`（含 www）實測**無法解析**。正式站 CNAME 一度指向它導致對外不通，
+現已改回 `tagala.org.tw`。若社裡有此網域且想做轉址，屬 DNS 層設定，與本 repo 無關。
 
 ## 待確認
 
