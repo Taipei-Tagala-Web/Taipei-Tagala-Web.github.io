@@ -185,6 +185,29 @@ CSS 與 JS 的手風琴機制已經做好（箭頭旋轉 180°、一次只開一
   未以國際扶輪七大焦點領域為主結構——該對照放在 `areasOfFocus`，
   標了 `_verify`，作為補充區塊，社內確認後才上線
 
+## 這是開發站，不是正式站
+
+目前這個 repo（`taipei-tagala-web.github.io`）是**開發站**，內容日後整包搬到正式站。
+實測 `tagala.org.tw` 已指向 GitHub Pages，但服務的是**另一個 repo**，目前只有 `Hello! World!` 佔位頁。
+
+因此：
+
+- `robots.txt` 維持 `Disallow: /`，**不開放搜尋引擎收錄**，避免開發站與正式站競爭排名
+- `sitemap.xml` 已產生，15 筆網址（5 頁 × 3 語系），每筆含 4 組 `xhtml:link` 語系互指，
+  但用的是**開發站網址**
+
+### 移交正式站時要改的檔案
+
+| 檔案 | 要改什麼 |
+|---|---|
+| `robots.txt` | 刪掉 `Disallow: /`，改用檔案內註解好的 `Allow: /` 與 `Sitemap:` 區塊 |
+| `sitemap.xml` | 全部 `<loc>` 與 `<xhtml:link>` 的網域換成正式網域 |
+| 15 個內容頁 | `hreflang` 與 `og:image` 目前是相對路徑，確認正式網域下仍正確；如需絕對網址要一併補 `og:url` |
+| GitHub Pages | 正式 repo 設定自訂網域（需要 `CNAME` 檔），並停用舊的佔位站 |
+
+注意 `tagala.org.tw` 會 301 轉到 `www.tagala.org.tw`，正式網域要用哪一個（apex 或 www）
+需先確定，sitemap 與 hreflang 必須跟最終的正式網址一致，否則會自我矛盾。
+
 ## 待確認
 
 - 社徽反白版本（Brand Center 產生）

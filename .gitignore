@@ -1,0 +1,12 @@
+# 編輯器自動備份（Notepad++ 等）
+nppBackup/
+*.bak
+*~
+
+# 作業系統產生的檔案
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 本機開發用設定（預覽伺服器），非網站內容
+.claude/
