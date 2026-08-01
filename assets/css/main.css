@@ -220,10 +220,11 @@ img { max-width: 100%; height: auto; display: block; }
 /* 選單展開時鎖住背景捲動 */
 .nav-open { overflow: hidden; }
 
+/* 三個語言標籤之間不放分隔符號，改以間距區隔；桌機與手機共用同一組樣式 */
 .lang-switch {
   display: flex;
   align-items: center;
-  gap: var(--sp-2);
+  gap: var(--sp-3);
   font-size: var(--fs-xs);
   order: 3;
   flex-basis: 100%;
@@ -240,7 +241,6 @@ img { max-width: 100%; height: auto; display: block; }
   background: var(--c-heading);
   font-weight: var(--fw-bold);
 }
-.lang-switch span[aria-hidden] { color: var(--c-border); }
 
 /* ---------- Hero ---------- */
 
@@ -635,20 +635,20 @@ html[lang="en"] .main-nav a {
    768px 以上
    ============================================================ */
 @media (min-width: 768px) {
-  .brand .sig-wide { display: block; }
-  .brand .sig-compact { display: none; }
-  .brand img { width: 232px; }
-
+  /* 768–1079 沿用窄版社徽：五項導覽加語言切換器在此寬度放不下寬版社徽，
+     日文標籤最長（約 370px），必須把社徽的 232px 讓出來才不會換行 */
   .header-inner { flex-wrap: nowrap; min-height: 84px; }
 
   /* 還原為橫向導覽列，漢堡按鈕與滿版選單樣式全部解除 */
   .nav-toggle { display: none; }
   .brand, .lang-switch { order: 0; }
-  .lang-switch { flex-basis: auto; }
+  .lang-switch { flex-basis: auto; margin-left: 0; }
 
+  /* 主選單靠左貼近社徽，語言切換器推到最右，兩者形成明顯區隔 */
   .main-nav {
     position: static;
-    margin-left: auto;
+    margin-left: var(--sp-4);
+    margin-right: auto;
     z-index: auto;
     background: none;
     padding: 0;
@@ -657,7 +657,8 @@ html[lang="en"] .main-nav a {
     visibility: visible;
     transform: none;
   }
-  .main-nav ul { flex-direction: row; flex-wrap: wrap; gap: var(--sp-4); }
+  .main-nav ul { flex-direction: row; flex-wrap: nowrap; gap: var(--sp-2); }
+  .main-nav a { white-space: nowrap; }
   .main-nav a {
     display: block;
     min-height: 0;
@@ -697,6 +698,13 @@ html[lang="en"] .main-nav a {
    1080px 以上
    ============================================================ */
 @media (min-width: 1080px) {
+  /* 版面夠寬了，換回寬版社徽並放鬆導覽間距 */
+  .brand .sig-wide { display: block; }
+  .brand .sig-compact { display: none; }
+  .brand img { width: 232px; }
+  .main-nav { margin-left: var(--sp-5); }
+  .main-nav ul { gap: var(--sp-4); }
+
   .card-grid { grid-template-columns: repeat(3, 1fr); }
   .facts { grid-template-columns: repeat(4, 1fr); }
   .meeting-card dl { grid-template-columns: repeat(3, 1fr); }
