@@ -351,6 +351,11 @@
       "en": "Go to our Facebook page",
       "ja": "Facebook ページへ"
     },
+    "mapCta": {
+      "zh": "在 Google 地圖開啟",
+      "en": "Open in Google Maps",
+      "ja": "Google マップで開く"
+    },
     "meetingsCta": {
       "zh": "查看近期例會",
       "en": "See upcoming meetings",

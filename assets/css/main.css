@@ -331,7 +331,8 @@ img { max-width: 100%; height: auto; display: block; }
   margin-bottom: var(--sp-1);
 }
 .meeting-card dd { margin: 0; font-size: var(--fs-sm); }
-.meeting-card .transit { color: var(--c-text-muted); font-size: var(--fs-xs); }
+/* 交通說明。例會資訊卡內、聯絡我們頁的地點區塊都會用到，故不限定在卡片下 */
+.transit { color: var(--c-text-muted); font-size: var(--fs-xs); }
 
 .run-sheet { list-style: none; margin: var(--sp-2) 0 0; padding: 0; display: grid; gap: var(--sp-2); }
 .run-sheet li { display: flex; gap: var(--sp-3); font-size: var(--fs-sm); }
@@ -563,17 +564,6 @@ img { max-width: 100%; height: auto; display: block; }
   border-left: 3px solid var(--c-rule-accent);
 }
 
-/* ---------- 地圖嵌入 ---------- */
-
-.map-embed {
-  aspect-ratio: 4 / 3;
-  background: var(--c-bg-alt);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-}
-.map-embed iframe { width: 100%; height: 100%; border: 0; display: block; }
 
 /* ---------- 頁尾 ---------- */
 
@@ -702,7 +692,6 @@ html[lang="en"] .main-nav a {
   .facts { grid-template-columns: repeat(2, 1fr); }
 
   .concept-list { grid-template-columns: repeat(3, 1fr); }
-  .map-embed { aspect-ratio: 16 / 9; }
 
   .footer-grid { grid-template-columns: 1.4fr 1fr 1fr; gap: var(--sp-7); }
   .footer-legal { grid-template-columns: 1fr auto; align-items: baseline; }
