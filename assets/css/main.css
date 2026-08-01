@@ -465,7 +465,8 @@ img { max-width: 100%; height: auto; display: block; }
 .fact .detail { font-size: var(--fs-xs); color: var(--c-text-muted); line-height: 1.6; }
 .facts { align-items: stretch; }
 .fact { display: flex; flex-direction: column; }
-.fact .detail { margin-top: auto; padding-top: var(--sp-2); }
+/* 說明文字緊接標籤向上對齊，不推到卡片底部 */
+.fact .detail { padding-top: var(--sp-2); }
 
 /* ---------- 服務軌跡時間軸 ---------- */
 
@@ -585,6 +586,19 @@ img { max-width: 100%; height: auto; display: block; }
 .site-footer h2, .site-footer h3 { color: var(--c-on-dark); }
 
 .footer-grid { display: grid; gap: var(--sp-6); }
+
+/* 頁尾第一欄：QR code 在左，社名資訊在右
+   QR 圖檔為不透明白底，在深藍頁尾上對比足夠、可正常掃描 */
+.footer-brand {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-4);
+}
+.footer-qr {
+  flex: 0 0 auto;
+  width: 104px;
+  border-radius: var(--radius);
+}
 
 .footer-brand .name {
   font-family: var(--font-display);

@@ -181,6 +181,11 @@
       "en": "Banner of the Rotary Club of Taipei Tagala",
       "ja": "台北大加蚋ロータリークラブのクラブ旗"
     },
+    "qrAlt": {
+      "zh": "台北大加蚋扶輪社官網 QR code，掃描後前往 tagala.org.tw",
+      "en": "QR code for the Rotary Club of Taipei Tagala website, tagala.org.tw",
+      "ja": "台北大加蚋ロータリークラブ公式サイト（tagala.org.tw）の QR コード"
+    },
     "mapTitle": {
       "zh": "例會地點地圖：台北市松山區八德路四段 123-1 號 B1",
       "en": "Map of the meeting venue: B1, No. 123-1, Sec. 4, Bade Rd., Songshan Dist., Taipei City",
