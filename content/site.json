@@ -275,6 +275,31 @@
       "en": "Skip to content",
       "ja": "本文へスキップ"
     },
+    "mainNav": {
+      "zh": "主要導覽",
+      "en": "Main navigation",
+      "ja": "メインナビゲーション"
+    },
+    "langNav": {
+      "zh": "語言選擇",
+      "en": "Language",
+      "ja": "言語選択"
+    },
+    "openMenu": {
+      "zh": "開啟選單",
+      "en": "Open menu",
+      "ja": "メニューを開く"
+    },
+    "closeMenu": {
+      "zh": "關閉選單",
+      "en": "Close menu",
+      "ja": "メニューを閉じる"
+    },
+    "submenuToggle": {
+      "zh": "展開次選單",
+      "en": "Expand submenu",
+      "ja": "サブメニューを開く"
+    },
     "notFoundTitle": {
       "zh": "找不到這個頁面",
       "en": "Page not found",

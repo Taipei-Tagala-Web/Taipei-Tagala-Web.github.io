@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Open+Sans:wght@400;700&display=swap">
 <link rel="stylesheet" href="/assets/css/tokens.css">
 <link rel="stylesheet" href="/assets/css/main.css">
+<noscript><style>@media (max-width:767.98px){.main-nav{position:static;opacity:1;visibility:visible;transform:none;background:none;padding:0;overflow:visible}.main-nav a{min-height:0;padding:var(--sp-2) 0;color:var(--c-heading);font-size:var(--fs-sm);border-bottom:0}.nav-toggle{display:none}}</style></noscript>
 </head>
 <body>
 
@@ -42,7 +43,15 @@
            sizes="168px" width="480" height="202" alt="台北大加蚋扶輪社">
     </a>
 
-    <nav class="main-nav" aria-label="主要導覽">
+    <button class="nav-toggle" type="button"
+            aria-controls="main-nav" aria-expanded="false"
+            aria-label="開啟選單"
+            data-label-open="開啟選單"
+            data-label-close="關閉選單">
+      <span class="nav-toggle-bars"></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="主要導覽">
       <ul>
         <li><a href="/zh-TW/about/">關於我們</a></li>
         <li><a href="/zh-TW/service/">服務計畫</a></li>
@@ -185,6 +194,8 @@
     </div>
   </div>
 </footer>
+
+<script src="/assets/js/nav.js" defer></script>
 
 </body>
 </html>

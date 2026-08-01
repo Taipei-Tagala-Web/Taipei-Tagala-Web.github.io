@@ -83,6 +83,7 @@
 /                     index.html（轉址）、404.html、sitemap.xml、robots.txt、.nojekyll
 /zh-TW/ /en/ /ja/     各五頁
 /assets/css/          tokens.css（勿改）、main.css（你建立）
+/assets/js/           nav.js（手機版導覽開合，唯一的 JS 檔）
 /assets/logo/         社徽與 favicon
 /assets/brand/        club-flag.webp 社旗
 /assets/events/       16 個活動 banner
@@ -110,6 +111,11 @@ START-HERE.html       建置操作手冊（Claude + GitHub 流程，給維護者
 
 - **例會與活動頁**：「近期例會」與「過往活動」兩個區塊**使用同一種卡片版型**
   （`.event-card` 全套，含摘要），不做大小卡之分。
+- **手機版導覽**：768px 以下 `.main-nav` 變成滿版選單（皇室藍底白字），
+  由 `.nav-toggle` 漢堡鈕開合，`assets/js/nav.js` 負責。
+  滿版選單**自頁首下緣展開，不覆蓋頁首**——因為社徽是透明去背版，
+  蓋在深藍底上會失效（見上方社徽規則）。頁首因此維持白底。
+  按鈕文字取自 `site.json` 的 `ui.openMenu` / `ui.closeMenu`，不寫死在 JS。
 - 新頁面優先沿用既有 class；**需要新增 class 時先向使用者確認命名**，不要自行發明。
 - HTML 不得寫死文案。JSON 缺的字串要補進 `content/site.json` 並標 `_verify`，
   再從 JSON 取用。

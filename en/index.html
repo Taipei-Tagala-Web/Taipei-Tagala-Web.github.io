@@ -26,6 +26,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap">
 <link rel="stylesheet" href="/assets/css/tokens.css">
 <link rel="stylesheet" href="/assets/css/main.css">
+<noscript><style>@media (max-width:767.98px){.main-nav{position:static;opacity:1;visibility:visible;transform:none;background:none;padding:0;overflow:visible}.main-nav a{min-height:0;padding:var(--sp-2) 0;color:var(--c-heading);font-size:var(--fs-sm);border-bottom:0}.nav-toggle{display:none}}</style></noscript>
 </head>
 <body>
 
@@ -42,7 +43,15 @@
            sizes="168px" width="480" height="202" alt="Rotary Club of Taipei Tagala">
     </a>
 
-    <nav class="main-nav" aria-label="Home">
+    <button class="nav-toggle" type="button"
+            aria-controls="main-nav" aria-expanded="false"
+            aria-label="Open menu"
+            data-label-open="Open menu"
+            data-label-close="Close menu">
+      <span class="nav-toggle-bars"></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
       <ul>
         <li><a href="/en/about/">About</a></li>
         <li><a href="/en/service/">Service</a></li>
@@ -51,7 +60,7 @@
       </ul>
     </nav>
 
-    <nav class="lang-switch" aria-label="English">
+    <nav class="lang-switch" aria-label="Language">
       <a href="/zh-TW/" hreflang="zh-Hant">中文</a>
       <span aria-hidden="true">·</span>
       <a href="/en/" hreflang="en" aria-current="true">English</a>
@@ -303,6 +312,8 @@
     </div>
   </div>
 </footer>
+
+<script src="/assets/js/nav.js" defer></script>
 
 </body>
 </html>

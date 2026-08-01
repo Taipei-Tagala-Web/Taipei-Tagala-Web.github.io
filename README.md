@@ -110,6 +110,40 @@ CI 禁止調整官方色，不能靠改深顏色解決對比度，只能改變�
 - 日文版沿用日文漢字寫法（如 `鄭国威`），外籍講者用片假名
 - 英文頁只載 Open Sans，中文姓名靠系統 CJK 字型遞補顯示，實測正常不出現 □
 
+## 手機版導覽
+
+768px 以下，`.main-nav` 由橫向導覽列變成滿版選單；768px 以上全部還原，
+漢堡鈕隱藏。**導覽連結全站只有一份 markup**，沒有為手機另做一套。
+
+- 開合由 `assets/js/nav.js`（原生 JS，無框架）控制，狀態掛在 `<body class="nav-open">`
+- 滿版選單**從頁首下緣展開，不覆蓋頁首**。原因是社徽為透明去背版，
+  疊在皇室藍上會失效，所以頁首必須維持白底
+- 語言切換器常駐頁首，不收進選單
+- 按鈕的 aria-label 取自 `site.json` 的 `ui.openMenu` / `ui.closeMenu`，
+  透過 `data-label-open` / `data-label-close` 傳給 JS，不在 JS 裡寫死文案
+- 過渡一律 `0.3s ease-in-out`；使用者若開啟「減少動態效果」，
+  `tokens.css` 的 `prefers-reduced-motion` 會自動關閉動畫
+- 無 JS 時由 `<noscript>` 樣式讓選單退回一般直列清單，連結不會失效
+
+### 未來要加次級選單時
+
+CSS 與 JS 的手風琴機制已經做好（箭頭旋轉 180°、一次只開一個），
+目前**沒有任何頁面實際使用**，因為子頁尚未建立。要新增時，在 `<li>` 這樣寫：
+
+```html
+<li class="has-submenu">
+  <a href="/zh-TW/meetings/">例會與活動</a>
+  <button class="submenu-btn" type="button" aria-expanded="false" aria-label="展開次選單"></button>
+  <ul class="submenu">
+    <li><a href="/zh-TW/meetings/2020/">2020</a></li>
+  </ul>
+</li>
+```
+
+`aria-label` 取 `site.json` 的 `ui.submenuToggle`。三語系都要加。
+**桌機版的次級選單樣式尚未設計**（目前 768px 以上直接隱藏 `.submenu`），
+等真的有子頁時要一併決定桌機要用下拉還是別的形式。
+
 ## 內容編輯原則
 
 - **講者姓名可出現**（受邀外賓，宣傳圖已公開發布於 Facebook）
