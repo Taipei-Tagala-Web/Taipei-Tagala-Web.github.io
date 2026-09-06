@@ -268,6 +268,68 @@ GitHub 會自動依 `CNAME` 檔套用網域。若要改其他 Pages 設定，需
 `taipeitagala.org.tw`（含 www）實測**無法解析**。正式站 CNAME 一度指向它導致對外不通，
 現已改回 `tagala.org.tw`。若社裡有此網域且想做轉址，屬 DNS 層設定，與本 repo 無關。
 
+## 維運手冊
+
+### 兩站拓撲與分歧檔案
+
+| | 開發站 | 正式站 |
+|---|---|---|
+| repo | `Taipei-Tagala-Web/Taipei-Tagala-Web.github.io` | `taipeitagala/taipeitagala.github.io` |
+| 網址 | `taipei-tagala-web.github.io` | **`tagala.org.tw`** |
+| git remote | `origin` | `official` |
+| `CNAME` | **無** | **`tagala.org.tw`** |
+| `robots.txt` | **`Disallow: /`**（擋收錄） | **`Allow: /`**（開放收錄） |
+| 權限 | 擁有者 | 僅 push，**無 admin** |
+
+兩站內容應保持一致，**只有上面兩個設定檔刻意分歧**，同步時不可互相覆蓋。
+
+### 推送到開發站
+
+```bash
+git push origin main
+```
+
+### 推送到正式站（必須 cherry-pick）
+
+直接 `git push official main` 會把「開發站沒有 CNAME」「robots.txt 擋收錄」這兩個狀態
+帶到正式站，導致自訂網域失效、正式站從搜尋結果消失。正確作法：
+
+```bash
+git fetch official
+git switch -c _to_official official/main
+git cherry-pick <內容 commit>          # 可多筆；跳過只動 CNAME/robots.txt 的 commit
+
+# ── 推送前的安全檢查，必做 ──
+git diff --name-only official/main HEAD   # 清單中不可出現 CNAME 或 robots.txt
+cat CNAME                                  # 應為 tagala.org.tw
+grep -E '^(Allow|Disallow):' robots.txt    # 應為 Allow: /
+
+git push official _to_official:main
+git switch main && git branch -D _to_official
+```
+
+若 cherry-pick 的 commit 同時動到內容與分歧檔案，改用：
+先 cherry-pick，再 `git checkout official/main -- CNAME robots.txt` 還原這兩檔。
+
+### 環境陷阱（都實測踩過，會浪費時間）
+
+| 症狀 | 原因與解法 |
+|---|---|
+| `python3` 無反應／跳出 Microsoft Store | 該指令是 Store 轉接程式。**用 `python`**，並帶 `PYTHONIOENCODING=utf-8` |
+| 檢查腳本跳 `UnicodeEncodeError: cp950` | 終端機編碼問題，非腳本壞掉。先設 `PYTHONIOENCODING=utf-8` |
+| 推送後網頁仍是舊版 | GitHub Pages CDN 快取 **10 分鐘**（`Cache-Control: max-age=600`）。Ctrl+F5，或等幾分鐘 |
+| 想確認是否真的部署成功 | 看網頁不可靠，查建置紀錄：<br>`gh api repos/{owner}/{repo}/pages/builds --jq '.[0]'`<br>比對 `commit` 與 `status` 是否為 `built` |
+| 改正式站 Pages 設定回 404 | 帳號對正式站**無 admin**。換網域只能靠「推含 `CNAME` 的 commit ＋ 觸發重建」：<br>`gh api -X POST repos/taipeitagala/taipeitagala.github.io/pages/builds` |
+
+### ⚠ 產生器腳本已遺失
+
+en/ja 共十頁原本是由一支 Python 腳本從 `content/*.json` 產生的，
+但那支腳本**放在暫存目錄，已被系統清除**。現有的 en/ja 頁面是它的產物，
+但**無法再重跑**。
+
+因此目前所有頁面（含中文）都只能手動維護。這就是下節「重建產生器」的真正意義——
+不是最佳化，而是**修復已經失去的能力**。
+
 ## 活動時效與重建產生器
 
 ### 問題

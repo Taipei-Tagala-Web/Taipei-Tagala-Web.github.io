@@ -1,5 +1,23 @@
 # 台北大加蚋扶輪社官網
 
+## 開工前必讀（30 秒）
+
+1. **這是雙 repo。** 開發站＝本 repo；正式站＝`taipeitagala/taipeitagala.github.io`（`tagala.org.tw`）。
+   推正式站**絕不可用 `git push official main`**——本地沒有 `CNAME`，直推會刪掉正式站的自訂網域。
+   必須 cherry-pick，逐步指令見 README「維運手冊 → 推送到正式站」。
+   兩個**刻意分歧、不可互相覆蓋**的檔案：`CNAME`、`robots.txt`。
+
+2. **動網站前，先用今天日期檢查活動分類是否過期**（見下方「活動時效」節）。
+   目前 `events.json` 最近一場是 **2026-09-08**，過了就要重新分組。
+
+3. **每次開工時主動提醒使用者**：活動過期目前只能**手動改 6 個 HTML 檔**並保持三語系一致，
+   這是最容易出錯的環節。建議重建 `tools/build-pages.py`（使用者已知悉，
+   決定暫不執行，但每次仍要提醒）。
+
+4. 三語系 15 頁必須同步；改一頁就要改三份。
+
+專案現況、待辦優先序見 **`STATUS.md`**。
+
 ## 專案性質
 
 純靜態網站，GitHub Pages 託管。無後端、無資料庫、無 build step、無套件管理。
@@ -90,6 +108,8 @@
 /content/             site.json、events.json、service.json（唯一內容真相來源）
 /tools/               check-i18n.py
 START-HERE.html       建置操作手冊（Claude + GitHub 流程，給維護者看）
+STATUS.md             專案現況快照：兩站版本、活動分組、待辦優先序（每次收工更新）
+README.md             技術決定與維運手冊（推送流程、環境陷阱、分歧檔案）
 ```
 
 ## 每次修改後必做
