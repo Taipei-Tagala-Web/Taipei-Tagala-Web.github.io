@@ -8,6 +8,99 @@
 
   "events": [
     {
+      "id": "2026-12-22",
+      "date": "2026-12-22",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-12-22",
+      "fbUrl": "https://www.facebook.com/events/28313434361600825/",
+      "speaker": { "zh": "蔡宛真", "en": "蔡宛真", "ja": "蔡宛真" },
+      "speakerTitle": {
+        "zh": "資深芳療師、臺大公衛學院健康政策與管理研究所 EMHA 碩士",
+        "en": "Aromatherapist; EMHA, Institute of Health Policy and Management, National Taiwan University College of Public Health",
+        "ja": "資深芳療師（アロマセラピスト）、台湾大学公衛学院健康政策与管理研究所 EMHA 修士"
+      },
+      "title": {
+        "zh": "香氣與睡眠——有趣到睡不著的助眠妙芳",
+        "en": "Aromatherapy and Sleep: So Fascinating You Can't Fall Asleep",
+        "ja": "香りと睡眠——眠れなくなるほど面白い、眠りを助ける香りの話"
+      },
+      "summary": {
+        "zh": "睡不好，只能數羊嗎？資深芳療師蔡宛真從睡眠科學、嗅覺鍛鍊到生活中的儀式，帶我們認識「香氣」與睡眠的關係。她將芳香療法帶進公共衛生與社區研究，再將研究轉譯成有趣的科普，成為日常可以實踐的生活方式。12 月 22 日正逢冬至，當天還會一起動手做一個助眠小香包帶回家！",
+        "en": "Can't sleep — is counting sheep all you've got? Aromatherapist and public-health researcher 蔡宛真 takes us from sleep science through olfactory training to daily ritual, exploring the real relationship between scent and sleep. 22 December falls on the winter solstice — attendees will also make a sleep-aid sachet to take home.",
+        "ja": "眠れないとき、羊を数えるしかないのでしょうか？芳香療法を公衆衛生と地域研究の場に持ち込んできたアロマセラピスト・蔡宛真が、睡眠科学・嗅覚トレーニング・生活の儀式を通じて「香り」と睡眠の関係を紐解きます。12月22日は冬至当日——参加者は助眠の小香包を手作りしてお持ち帰りいただけます。"
+      },
+      "points": {
+        "zh": ["睡眠科學如何看待香氣與睡眠？", "嗅覺也需要「鍛鍊」嗎？如何打開自己的感知力？", "如何透過香氣與生活儀式，找到適合自己的睡前節奏？"],
+        "en": ["What sleep science says about the relationship between scent and sleep", "Does the sense of smell need training? Opening up your capacity for perception", "Building a bedtime rhythm that works for you through scent and ritual"],
+        "ja": ["睡眠科学から見た、香りと睡眠の関係", "嗅覚は「鍛える」もの？自分の感知力を開くとは", "香りと生活の儀式を通じ、自分だけの就寝前リズムを見つける"]
+      }
+    },
+    {
+      "id": "2026-12-08",
+      "date": "2026-12-08",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-12-08",
+      "fbUrl": "https://www.facebook.com/events/1801806544290836/",
+      "speaker": { "zh": "潘威達", "en": "潘威達", "ja": "潘威達" },
+      "speakerTitle": {
+        "zh": "覓食鐵邦美食集團執行長",
+        "en": "CEO, Eater Iron Bang F&B Group",
+        "ja": "覓食鉄邦美食集団 最高経営責任者"
+      },
+      "title": {
+        "zh": "相信善良，用生命影響生命——從移工到鐵騎部隊的故事",
+        "en": "Believe in Goodness: Stories from Migrant Workers to the Iron Brigade",
+        "ja": "善を信じ、命で命に影響する——移住労働者から鉄騎部隊へ"
+      },
+      "summary": {
+        "zh": "一家臺灣在地的餐飲集團，如何從移工人才出發，逐步建立自己的「鐵騎部隊」？覓食鐵邦美食集團執行長潘威達分享餐飲業的人才實踐，以及「相信善良，用生命影響生命」的經營理念。",
+        "en": "How does a homegrown Taiwanese food-and-beverage group turn migrant worker talent into its own Iron Brigade? CEO 潘威達 shares the human-talent philosophy behind eleven restaurant brands — and the guiding belief: believe in goodness, change lives with your life.",
+        "ja": "台湾生まれのF&Bグループが、移住労働者の人材から出発してどのように独自の「鉄騎部隊」を築いてきたのか。代表の潘威達が、11のレストランブランドを支える人材実践と「善を信じ、命で命に影響する」経営理念を語ります。"
+      },
+      "points": {
+        "zh": ["大缺工時代的餐飲人才策略", "如何透過產學合作長期育才、留才？", "拓展海外市場，要去哪裡？"],
+        "en": ["Talent strategy for the F&B industry in an era of severe labour shortage", "Long-term talent development and retention through industry-academia partnership", "Deciding where to go as the group expands overseas"],
+        "ja": ["深刻な人手不足の時代における飲食業の人材戦略", "産学連携による長期育成と定着の実践", "海外市場拡大の行き先と方向性"]
+      }
+    },
+    {
+      "id": "2026-11-24",
+      "date": "2026-11-24",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-11-24",
+      "fbUrl": "https://www.facebook.com/events/1655350679358267/",
+      "speaker": { "zh": "莉莉 Ririn Arumsari", "en": "莉莉 Ririn Arumsari", "ja": "莉莉（リリン・アルムサリ）" },
+      "speakerTitle": {
+        "zh": "印尼爪哇籍照護工、小說《借來的阿公》作者",
+        "en": "Home-care worker from Java, Indonesia; author of Borrowed Grandpa",
+        "ja": "インドネシア・ジャワ出身の介護者、小説『借りてきたおじいちゃん』著者"
+      },
+      "title": {
+        "zh": "從《借來的阿公》看見跨國長照的溫度",
+        "en": "Warmth Across Borders: Caregiving Through the Eyes of Borrowed Grandpa",
+        "ja": "『借りてきたおじいちゃん』から見えた、国境を越えるケアの温もり"
+      },
+      "summary": {
+        "zh": "從印尼爪哇來到臺灣，原本只是因為《流星花園》而對臺灣懷抱一個純粹的夢。將近十年的專業照護工作中，莉莉用流利的中文和台語支持臺灣家庭，也用手機小螢幕寫下異鄉生活，出版第一本小說《借來的阿公》，道出老後的孤獨，以及照顧者與被照顧者之間逐漸建立的理解與感情。",
+        "en": "Coming from Java, Indonesia, with a dream kindled by a Taiwanese television drama, Lily spent nearly a decade supporting Taiwanese families as a professional carer — speaking fluent Mandarin and Taiwanese — while writing down her migrant life on a tiny phone screen. Her debut novel, Borrowed Grandpa, captures the loneliness of old age and the understanding that slowly grows between carer and cared-for.",
+        "ja": "台湾ドラマへの純粋な夢を抱いてジャワ島からやってきた莉莉は、10年近く台湾の家庭を支える専門介護者として流暢な中国語と台湾語で働きながら、手のひらサイズのスクリーンに異郷の日々を綴り続けました。デビュー小説『借りてきたおじいちゃん』は、老いの孤独と、介護者と被介護者のあいだに静かに育まれる理解と絆を描いています。"
+      },
+      "points": {
+        "zh": ["從印尼爪哇到臺灣，十年移工生活如何成為寫作養分？", "豪宅裡的孤老與中風日常，照顧者的語言溝通與歌聲陪伴。", "從「僱傭關係」到「借來的阿公」，沒有血緣關係的人如何成為生命中的家人？", "在長照現場，照顧者的孤單、壓力與專業需求。"],
+        "en": ["How a decade of migrant life in Taiwan became material for writing", "Language, song and the quiet work of caregiving beside an isolated elder", "From an employment contract to borrowed family: bonds that form without bloodlines", "Loneliness, pressure and the professional needs of caregivers"],
+        "ja": ["10年の移住労働生活がいかにして書くことの養分になったか", "豪邸に住む孤独な老人と脳卒中の日常——言語・歌声・ケアの営み", "「雇用関係」から「借りてきたおじいちゃん」へ——血縁のない人が家族になるとき", "介護現場での孤独・プレッシャー・専門的な承認"]
+      }
+    },
+    {
       "id": "2026-10-27",
       "date": "2026-10-27",
       "timeStart": "18:30",
