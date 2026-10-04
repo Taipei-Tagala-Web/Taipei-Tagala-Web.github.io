@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>找不到頁面 · Page not found · ページが見つかりません</title>
+<meta name="robots" content="noindex">
+
+<link rel="icon" href="/assets/logo/favicon.ico" sizes="any">
+<link rel="icon" href="/assets/logo/favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/logo/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Open+Sans:wght@400;700&display=swap">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<style>
+  .error-page {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    padding: var(--sp-9) 0 var(--sp-8);
+  }
+  .error-inner {
+    text-align: center;
+    max-width: 600px;
+    margin-inline: auto;
+    padding-inline: var(--sp-4);
+  }
+  .error-code {
+    font-size: clamp(6rem, 20vw, 10rem);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--c-heading);
+    letter-spacing: -.02em;
+    margin: 0 0 var(--sp-6);
+    font-family: 'Open Sans', sans-serif;
+  }
+  .error-divider {
+    width: 48px;
+    height: 4px;
+    background: var(--c-accent);
+    border: none;
+    margin: 0 auto var(--sp-8);
+  }
+  .error-lang {
+    margin-bottom: var(--sp-6);
+  }
+  .error-lang + .error-lang {
+    border-top: 1px solid var(--c-border);
+    padding-top: var(--sp-6);
+  }
+  .error-lang h1 {
+    font-size: var(--fs-xl);
+    margin-bottom: var(--sp-2);
+  }
+  .error-lang p {
+    color: var(--c-text-muted);
+    margin-bottom: var(--sp-4);
+  }
+  .error-lang a.btn {
+    display: inline-block;
+    padding: var(--sp-2) var(--sp-5);
+    background: var(--c-heading);
+    color: var(--c-on-dark);
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    transition: background .15s;
+  }
+  .error-lang a.btn:hover,
+  .error-lang a.btn:focus {
+    background: var(--azure);
+  }
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">跳至主要內容 / Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/zh-TW/" aria-label="台北大加蚋扶輪社">
+      <img class="sig-wide" src="/assets/logo/signature-bilingual.webp"
+           srcset="/assets/logo/signature-bilingual-320w.webp 320w, /assets/logo/signature-bilingual.webp 640w"
+           sizes="232px" width="640" height="203" alt="台北大加蚋扶輪社">
+      <img class="sig-compact" src="/assets/logo/signature-compact.webp"
+           srcset="/assets/logo/signature-compact-240w.webp 240w, /assets/logo/signature-compact.webp 480w"
+           sizes="168px" width="480" height="202" alt="台北大加蚋扶輪社">
+    </a>
+
+    <nav class="lang-switch" aria-label="語言選擇 / Language">
+      <a href="/zh-TW/" hreflang="zh-Hant">中文</a>
+      <a href="/en/" hreflang="en">English</a>
+      <a href="/ja/" hreflang="ja">日本語</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="error-page">
+    <div class="container error-inner">
+
+      <p class="error-code" aria-hidden="true">404</p>
+      <hr class="error-divider">
+
+      <div class="error-lang" lang="zh-Hant-TW">
+        <h1>找不到這個頁面</h1>
+        <p>您請求的網址不存在，或已被移動到其他位置。</p>
+        <a class="btn" href="/zh-TW/">回到首頁</a>
+      </div>
+
+      <div class="error-lang" lang="en">
+        <h1>Page not found</h1>
+        <p>The page you requested does not exist or may have moved.</p>
+        <a class="btn" href="/en/">Go to homepage</a>
+      </div>
+
+      <div class="error-lang" lang="ja">
+        <h1>ページが見つかりません</h1>
+        <p>ご指定の URL は存在しないか、移動した可能性があります。</p>
+        <a class="btn" href="/ja/">ホームへ戻る</a>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-legal">
+      <p>台北大加蚋扶輪社　Rotary Club of Taipei Tagala　台北大加蚋ロータリークラブ</p>
+      <p>© 2026 台北大加蚋扶輪社　3523 地區第七分區　社號 90275</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
