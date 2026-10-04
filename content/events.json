@@ -37,7 +37,11 @@
         "en": ["What sleep science says about the relationship between scent and sleep", "Does the sense of smell need training? Opening up your capacity for perception", "Building a bedtime rhythm that works for you through scent and ritual"],
         "ja": ["睡眠科学から見た、香りと睡眠の関係", "嗅覚は「鍛える」もの？自分の感知力を開くとは", "香りと生活の儀式を通じ、自分だけの就寝前リズムを見つける"]
       },
-      "body": {"zh": ["睡不好，只能數羊嗎？氣味與我們的睡眠之間，又有什麼關係？", "大加蚋例會邀請資深芳療師蔡宛真，從睡眠科學、嗅覺鍛鍊到生活中的儀式，帶我們認識「香氣」與睡眠的關係。", "蔡宛真是臺大公衛學院健康政策與管理研究所 EMHA 碩士，她將芳香療法帶進公共衛生與社區研究，再將研究轉譯成有趣的科普，成為日常可以實踐的生活方式。", "12月22日正逢冬至，當天還會一起動手做一個助眠小香包帶回家！"], "en": [], "ja": []}
+      "body": {
+        "zh": ["睡不好，只能數羊嗎？氣味與我們的睡眠之間，又有什麼關係？", "大加蚋例會邀請資深芳療師蔡宛真，從睡眠科學、嗅覺鍛鍊到生活中的儀式，帶我們認識「香氣」與睡眠的關係。", "蔡宛真是臺大公衛學院健康政策與管理研究所 EMHA 碩士，她將芳香療法帶進公共衛生與社區研究，再將研究轉譯成有趣的科普，成為日常可以實踐的生活方式。", "12月22日正逢冬至，當天還會一起動手做一個助眠小香包帶回家！"],
+        "en": ["Can't sleep — is counting sheep really all you've got? What is the relationship between scent and how well we sleep?", "Taipei Tagala Rotary Club invites aromatherapist 蔡宛真 to guide us from sleep science through olfactory training to daily ritual, exploring the real relationship between fragrance and sleep.", "蔡宛真 holds an EMHA from the Institute of Health Policy and Management at NTU's College of Public Health. She has brought aromatherapy into public-health and community research, then translated that research into accessible science writing anyone can put into daily practice.", "22 December falls on the winter solstice — attendees will also make a sleep-aid sachet to take home!"],
+        "ja": ["眠れないとき、羊を数えるしかないのでしょうか？香りと睡眠の間には、どんな関係があるのでしょう？", "台北大加蚋ロータリークラブは、アロマセラピスト・蔡宛真を例会にお招きし、睡眠科学・嗅覚トレーニング・日常の儀式を通じて、「香り」と睡眠の関係を探ります。", "蔡宛真は台湾大学公衛学院健康政策与管理研究所 EMHA 修士。芳香療法を公衆衛生・地域研究の場に持ち込み、研究を誰もが実践できる科学読み物へと転換してきました。", "12月22日は冬至当日——参加者は助眠の小香包を手作りしてお持ち帰りいただけます！"]
+      }
     },
     {
       "id": "2026-12-08",
@@ -69,7 +73,11 @@
         "en": ["Talent strategy for the F&B industry in an era of severe labour shortage", "Long-term talent development and retention through industry-academia partnership", "Deciding where to go as the group expands overseas"],
         "ja": ["深刻な人手不足の時代における飲食業の人材戦略", "産学連携による長期育成と定着の実践", "海外市場拡大の行き先と方向性"]
       },
-      "body": {"zh": ["一家臺灣在地的餐飲集團，如何從移工人才出發，逐步建立自己的「鐵騎部隊」？覓食鐵邦美食集團執行長潘威達將分享他在餐飲業的人才實踐，以及「相信善良，用生命影響生命」的經營理念。", "覓食鐵邦成立於2010年，目前旗下包括香連鐵板料理、扶旺號、喫尤平價鐵板燒、威宇牛排、周照子、甘妹弄堂、炎弟等11個餐飲品牌，2025年營收超過4.5億元。潘威達是台師大餐旅管理博士，長年在台師大、高餐大授課；2026年6月更推出「相信善良 BE KIND」餐旅產學合作平台。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["一家臺灣在地的餐飲集團，如何從移工人才出發，逐步建立自己的「鐵騎部隊」？覓食鐵邦美食集團執行長潘威達將分享他在餐飲業的人才實踐，以及「相信善良，用生命影響生命」的經營理念。", "覓食鐵邦成立於2010年，目前旗下包括香連鐵板料理、扶旺號、喫尤平價鐵板燒、威宇牛排、周照子、甘妹弄堂、炎弟等11個餐飲品牌，2025年營收超過4.5億元。潘威達是台師大餐旅管理博士，長年在台師大、高餐大授課；2026年6月更推出「相信善良 BE KIND」餐旅產學合作平台。"],
+        "en": ["How does a homegrown Taiwanese food-and-beverage group turn migrant worker talent into its own Iron Brigade? CEO 潘威達 of Eater Iron Bang F&B Group shares his talent philosophy in the restaurant industry and the guiding belief: believe in goodness, change lives with your life.", "Founded in 2010, Eater Iron Bang now operates eleven restaurant brands — including Xiāng Lián Teppanyaki, Fù Wàng Hào, Jī Yóu Budget Teppanyaki, Wēi Yǔ Steakhouse, Zhōu Zhào Zi, Gān Mèi Lòng Táng and Yán Dì — with revenues exceeding NT$450 million in 2025. 潘威達 holds a doctorate in hospitality management from National Taiwan Normal University and has long taught there and at National Kaohsiung University of Hospitality and Tourism. In June 2026 he launched the Believe in Goodness BE KIND industry-academia collaboration platform."],
+        "ja": ["台湾生まれのF&Bグループが、移住労働者の人材から出発してどのように独自の「鉄騎部隊」を築いてきたのか。覓食鉄邦美食集団CEO・潘威達が、飲食業における人材実践と「善を信じ、命で命に影響する」経営理念を語ります。", "2010年創業の覓食鉄邦は現在、香連鉄板料理・扶旺号・喫尤平価鉄板焼・威宇牛排・周照子・甘妹弄堂・炎弟など11のレストランブランドを擁し、2025年の売上は4億5,000万台湾ドルを超えました。潘威達は台湾師範大学で飲食ホスピタリティ管理の博士号を取得し、台師大・高餐大で長年教壇に立ってきました。2026年6月にはBE KIND産学連携プラットフォームも立ち上げています。"]
+      }
     },
     {
       "id": "2026-11-24",
@@ -101,7 +109,11 @@
         "en": ["How a decade of migrant life in Taiwan became material for writing", "Language, song and the quiet work of caregiving beside an isolated elder", "From an employment contract to borrowed family: bonds that form without bloodlines", "Loneliness, pressure and the professional needs of caregivers"],
         "ja": ["10年の移住労働生活がいかにして書くことの養分になったか", "豪邸に住む孤独な老人と脳卒中の日常——言語・歌声・ケアの営み", "「雇用関係」から「借りてきたおじいちゃん」へ——血縁のない人が家族になるとき", "介護現場での孤独・プレッシャー・専門的な承認"]
       },
-      "body": {"zh": ["從印尼爪哇來到臺灣，原本只是因為《流星花園》而對臺灣懷抱一個純粹的夢。將近十年的專業照護工作中，莉莉用流利的中文和台語支持臺灣家庭，也用手機小螢幕寫下異鄉生活，出版第一本小說《借來的阿公》，道出老後的孤獨，以及照顧者與被照顧者之間逐漸建立的理解與感情。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["從印尼爪哇來到臺灣，原本只是因為《流星花園》而對臺灣懷抱一個純粹的夢。將近十年的專業照護工作中，莉莉用流利的中文和台語支持臺灣家庭，也用手機小螢幕寫下異鄉生活，出版第一本小說《借來的阿公》，道出老後的孤獨，以及照顧者與被照顧者之間逐漸建立的理解與感情。"],
+        "en": ["Coming from Java, Indonesia, with a dream kindled by the Taiwanese drama Meteor Garden, Lily spent nearly a decade supporting Taiwanese families as a professional carer — speaking fluent Mandarin and Taiwanese Hokkien — while writing down her migrant life on a tiny phone screen. Her debut novel, Borrowed Grandpa, captures the loneliness of old age and the understanding and affection that slowly grow between carer and cared-for."],
+        "ja": ["台湾ドラマ『花より男子』への純粋な夢を抱いてジャワ島からやってきた莉莉は、10年近く流暢な中国語と台湾語で台湾の家庭を支える専門介護者として働きながら、小さなスマートフォンの画面に異郷の日々を綴り続けました。デビュー小説『借りてきたおじいちゃん』は、老いの孤独と、介護者と被介護者のあいだに静かに育まれる理解と絆を描いています。"]
+      }
     },
     {
       "id": "2026-10-27",
@@ -133,7 +145,11 @@
         "en": ["New challenges and openings in science communication", "The move from website to video platform", "Carrying science content beyond the echo chamber"],
         "ja": ["科学コミュニケーションの新たな課題と機会", "ウェブサイトから動画プラットフォームへの転換", "科学コンテンツが同質的な層を越えて影響力を広げる方法"]
       },
-      "body": {"zh": ["本次例會邀請知名科普 YouTuber 鄭國威，與大家分享 PanSci 泛科學如何從網站一路走向 YouTube，透過影音、短影音與多元媒體形式，讓科學知識走出同溫層，成為更多人願意理解、分享與討論的內容。", "身為泛傳媒集團創辦人暨知識長、PanSci 泛科學與思想實驗室主持人，鄭國威長期投入科學傳播、新媒體經營與知識內容產業，長期探索知識內容如何因應媒體型態的演變，讓專業知識與公共議題走進更多人的日常。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["本次例會邀請知名科普 YouTuber 鄭國威，與大家分享 PanSci 泛科學如何從網站一路走向 YouTube，透過影音、短影音與多元媒體形式，讓科學知識走出同溫層，成為更多人願意理解、分享與討論的內容。", "身為泛傳媒集團創辦人暨知識長、PanSci 泛科學與思想實驗室主持人，鄭國威長期投入科學傳播、新媒體經營與知識內容產業，長期探索知識內容如何因應媒體型態的演變，讓專業知識與公共議題走進更多人的日常。"],
+        "en": ["This meeting welcomes 鄭國威, one of Taiwan's best-known science communicators on YouTube, to share how PanSci moved from a website all the way to YouTube — using video, short-form video and diverse media formats to carry scientific knowledge beyond its own echo chamber and into content more people want to understand, share and discuss.", "As founder and Chief Knowledge Officer of PanMedia Group and host of PanSci and Thought Experiment Lab, 鄭國威 has devoted his career to science communication, new media operations and the knowledge content industry, continuously exploring how expertise and public issues can adapt to a changing media landscape and reach more people's everyday lives."],
+        "ja": ["今回の例会は、台湾を代表する科学系 YouTuber・鄭国威をお招きし、PanSci がウェブサイトから YouTube へと歩みを進めた過程を伺います。動画・ショート動画・多様なメディア形式を通じ、科学知識を同質的な読者層の外へ届け、より多くの人が理解・共有・語り合える内容へと変えていく取り組みを紹介します。", "汎メディアグループ創業者兼チーフ・ナレッジ・オフィサーとして、また PanSci・思想実験室の主宰として、鄭国威は科学コミュニケーション・新メディア経営・知識コンテンツ産業に長年携わり、メディアの形態が変化するなかで専門知識と公共的な課題をより多くの人の日常へ届ける方法を探り続けています。"]
+      }
     },
     {
       "id": "2026-11-10",
@@ -165,7 +181,11 @@
         "en": ["Creating Time: where time goes is where opportunity lives", "AI Persona: seeing the unexpected through an AI digital twin", "Leaving time for people: AI saves time, humans create value"],
         "ja": ["Creating Time：時間の使い方が機会を決める", "AI Persona：AI の分身が見せてくれる予想外の発見", "人に時間を残す：AI が時間を節約し、人が価値を創る"]
       },
-      "body": {"zh": ["如果有一個 AI 分身，可以替你思考、測試、模擬不同人的反應，你會把省下來的時間拿來做什麼？", "本次例會邀請電通集團策略創新長邵懿文 Freda Shao，從「Creating Time」出發，談 AI 不只是提高效率的工具，也可能改變我們理解消費者、設計產品與規劃服務的方式。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["如果有一個 AI 分身，可以替你思考、測試、模擬不同人的反應，你會把省下來的時間拿來做什麼？", "本次例會邀請電通集團策略創新長邵懿文 Freda Shao，從「Creating Time」出發，談 AI 不只是提高效率的工具，也可能改變我們理解消費者、設計產品與規劃服務的方式。"],
+        "en": ["If an AI digital twin could think, test and simulate reactions on your behalf, what would you do with the time you got back?", "This meeting welcomes Freda Shao, Chief Strategy & Innovation Officer at Dentsu Group. Starting from the idea of Creating Time, Freda explores how AI is more than an efficiency tool — it may fundamentally change the way we understand consumers, design products and plan services."],
+        "ja": ["AI の分身が代わりに考え、テストし、さまざまな人の反応をシミュレーションしてくれたら、生み出された時間で何をするでしょう？", "今回の例会では、電通グループのチーフ・ストラテジー＆イノベーション・オフィサー、邵懿文 Freda Shao をお迎えします。「Creating Time（時間を創る）」という切り口から、AI が単なる効率化ツールにとどまらず、消費者理解・製品設計・サービス計画のあり方を変えていく可能性を探ります。"]
+      }
     },
     {
       "id": "2026-10-31",
@@ -201,7 +221,11 @@
         "en": ["What does a Taiwanese woman who moved to Ho Chi Minh City alone see in Vietnam?", "Unexpected connections between Taiwan and Vietnam — food, language, everyday life", "How war and displacement became the founding story of a Vietnamese restaurant"],
         "ja": ["ホーチミン市に単身赴任した台湾の女性が見たベトナムとは？", "台湾とベトナムをつなぐ、意外な食・言語・生活の接点", "戦争と移住が一軒のベトナム料理店の原点となるまで"]
       },
-      "body": {"zh": ["大加蚋扶輪社長期關注並支持移民工、新移民與新二代議題。這一次，我們要辦一場有故事、有歷史，也有越南好味道的「知識午宴」。", "特別邀請一位神秘說書人。她22歲獨自前往胡志明市工作，在越南生活近6年，學會流利越南語；返臺考上公務員後，又曾派駐越南。這次不講枯燥政令，要從親身經歷出發，帶我們認識越南的文化與生活。", "午餐選在銘記越南美食餐廳，這裡也有一段跨越臺灣與越南的家族故事。創辦人吳乾銘的父親是外交官，1975年越南淪陷時幾經波折返臺；吳乾銘於1999年創立銘記，紀念父親，也傳承河內母親的好手藝。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["大加蚋扶輪社長期關注並支持移民工、新移民與新二代議題。這一次，我們要辦一場有故事、有歷史，也有越南好味道的「知識午宴」。", "特別邀請一位神秘說書人。她22歲獨自前往胡志明市工作，在越南生活近6年，學會流利越南語；返臺考上公務員後，又曾派駐越南。這次不講枯燥政令，要從親身經歷出發，帶我們認識越南的文化與生活。", "午餐選在銘記越南美食餐廳，這裡也有一段跨越臺灣與越南的家族故事。創辦人吳乾銘的父親是外交官，1975年越南淪陷時幾經波折返臺；吳乾銘於1999年創立銘記，紀念父親，也傳承河內母親的好手藝。"],
+        "en": ["Taipei Tagala Rotary Club has long been committed to migrant workers, new immigrants and second-generation communities. This time, we are hosting a knowledge luncheon full of stories, history — and the flavours of Vietnam.", "Our special guest is a mystery storyteller. She moved to Ho Chi Minh City alone at 22, lived in Vietnam for nearly six years and became fluent in Vietnamese; after returning to Taiwan and joining the civil service, she was later posted to Vietnam again. Rather than reciting dry policy, she will draw on lived experience to bring Vietnamese culture and daily life to the table.", "Lunch is at Ming Ji Vietnamese Restaurant — a place with its own story stretching across Taiwan and Vietnam. The founder's father was a diplomat who barely made it back to Taiwan when Saigon fell in 1975; the restaurant, established in 1999, honours his father and carries on the cooking his Hanoi mother passed down."],
+        "ja": ["台北大加蚋ロータリークラブは長年、移住労働者・新住民・新二世の課題に関心を寄せ支援してきました。今回は、物語・歴史・ベトナムの美味を一堂に集めた「知識ランチ」を開催します。", "特別ゲストは謎の語り手。22歳でホーチミン市に単身赴任し、約6年間ベトナムで暮らして流暢なベトナム語を習得。帰台後に公務員試験に合格し、再びベトナムへ派遣された経験も持ちます。今回は堅苦しい政策の話ではなく、自らの体験からベトナムの文化と生活を伝えます。", "ランチ会場は銘記越南美食。ここにも台湾とベトナムをつなぐ家族の物語があります。創業者の父は外交官で、1975年のサイゴン陥落時に辛くも台湾へ帰国。1999年に開店した銘記は父への追悼であり、河内出身の母から受け継いだ料理の継承でもあります。"]
+      }
     },
     {
       "id": "2026-10-13",
@@ -233,7 +257,11 @@
         "en": ["Taiwan–Europe relations today: how middle powers can deepen cooperation amid intensifying geopolitical competition", "The real limits of like-mindedness: when shared values meet economic interests, domestic shifts and China policy", "Integrated diplomacy: lessons from Czech and Lithuanian cases for a more resilient Taiwan–Europe partnership"],
         "ja": ["台欧関係の現状：地政学的競争が激化するなか、中等強国はいかに協力を深めるか", "価値観の共有の現実的限界：共通の理念が経済利益・国内政治変化・対中政策と向き合うとき", "統合的外交の可能性：チェコ・リトアニアの事例から学ぶ、より強靭な台欧パートナーシップ"]
       },
-      "body": {"zh": ["臺灣與歐洲經常以「理念相近夥伴」形容彼此。民主、自由、人權等共同價值，確實讓雙方有了合作的基礎；但當價值遇上經濟利益、國內政治變化與對中關係，「理念相近」能不能進一步成為穩定而有韌性的夥伴關係？", "本次例會邀請歐洲價值安全政策中心（European Values Center for Security Policy）在台辦事處主任 Marcin Jerzewski 葉皓勤，從2026年的國際局勢出發，帶我們重新檢視臺灣與歐洲的關係。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["臺灣與歐洲經常以「理念相近夥伴」形容彼此。民主、自由、人權等共同價值，確實讓雙方有了合作的基礎；但當價值遇上經濟利益、國內政治變化與對中關係，「理念相近」能不能進一步成為穩定而有韌性的夥伴關係？", "本次例會邀請歐洲價值安全政策中心（European Values Center for Security Policy）在台辦事處主任 Marcin Jerzewski 葉皓勤，從2026年的國際局勢出發，帶我們重新檢視臺灣與歐洲的關係。"],
+        "en": ["Taiwan and Europe often describe each other as like-minded partners. Shared values — democracy, freedom and human rights — do provide a foundation for cooperation. But when those values meet economic interests, shifting domestic politics and the China factor, can like-mindedness grow into a stable and resilient partnership?", "This meeting welcomes Marcin Jerzewski, Head of the Taiwan Office at the European Values Center for Security Policy, who will take the international landscape of 2026 as his starting point to re-examine the state of Taiwan-Europe relations."],
+        "ja": ["台湾と欧州は「価値観の近いパートナー」として互いを表現することが多い。民主主義・自由・人権といった共通の価値は協力の土台を与えてくれます。しかし価値観が経済利益・国内政治の変化・対中関係と相対したとき、「like-mindedness」は安定した粘り強いパートナーシップへと深化できるのでしょうか？", "今回の例会は、欧州価値・安全保障政策センター（European Values Center for Security Policy）台湾事務所長のマルチン・ジェジェフスキ（葉皓勤）をお招きし、2026年の国際情勢を起点に台湾と欧州の関係を改めて問い直します。"]
+      }
     },
     {
       "id": "2026-09-22",
@@ -265,7 +293,11 @@
         "en": ["Why start a public-interest outlet, and how to stay independent", "Widening impact through reporting, advocacy and partnership", "Connecting resources across the social sector"],
         "ja": ["公益メディアを創った理由と、独立性を守る方法", "報道・アドボカシー・連携による影響力の拡大", "公益エコシステムの中で各界の資源をつなぐ役割"]
       },
-      "body": {"zh": ["本次例會邀請到《Right Plus 多多益善》創辦人暨總編輯葉靜倫（Sara），分享一個非營利獨立媒體如何在商業流量之外，持續為公益議題、社會創新與脆弱處境者發聲。", "《Right Plus 多多益善》是臺灣少數專注公益與社福議題的獨立媒體，長期關注非營利組織、社會企業與各種推動公共利益的行動者，透過深度報導、調查專題與跨域合作，讓更多容易被忽略的故事被社會看見，也持續串連各界力量，推動更具包容性的社會。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["本次例會邀請到《Right Plus 多多益善》創辦人暨總編輯葉靜倫（Sara），分享一個非營利獨立媒體如何在商業流量之外，持續為公益議題、社會創新與脆弱處境者發聲。", "《Right Plus 多多益善》是臺灣少數專注公益與社福議題的獨立媒體，長期關注非營利組織、社會企業與各種推動公共利益的行動者，透過深度報導、調查專題與跨域合作，讓更多容易被忽略的故事被社會看見，也持續串連各界力量，推動更具包容性的社會。"],
+        "en": ["This meeting welcomes 葉靜倫 Sara, founder and editor-in-chief of Right Plus, to share how a nonprofit independent newsroom sustains itself outside the commercial traffic economy while continuing to amplify public-interest issues, social innovation and the voices of those in precarious circumstances.", "Right Plus is one of the few independent outlets in Taiwan dedicated to public welfare and social issues. It has long kept its focus on nonprofits, social enterprises and the many actors working to advance the public interest — using in-depth reporting, investigative features and cross-sector collaboration to surface stories that would otherwise go unnoticed, and to connect forces across society in pursuit of a more inclusive future."],
+        "ja": ["今回の例会は、『Right Plus 多多益善』創業者兼編集長の葉靜倫（Sara）をお招きし、非営利の独立メディアが商業的なアクセス数競争の外側でいかに公益的な課題・社会的イノベーション・困難な状況にある人々の声を届け続けるかを伺います。", "『Right Plus 多多益善』は、台湾で数少ない公益・社会福祉に特化した独立メディアです。非営利組織・社会的企業・公益を推進するさまざまなアクターを長期にわたり取材し、深度ある報道・調査特集・横断的な連携を通じて、見落とされがちな物語を社会に届け、より包摂的な社会に向けて各界の力をつなぎ続けています。"]
+      }
     },
     {
       "id": "2026-09-08",
@@ -297,7 +329,11 @@
         "en": ["Climate impacts across farming, forestry, fisheries and livestock", "Building resilience and adaptive capacity toward net zero", "How agricultural policy is formed and enacted"],
         "ja": ["農林水産業への気候変動の影響", "レジリエンスと適応能力を高めネットゼロへ", "農業政策の形成と、対話・立法による実現"]
       },
-      "body": {"zh": ["本次例會，我們邀請到中興大學應用經濟學系終身特聘教授兼副校長、前農業部部長陳吉仲，與大家分享台灣農業面對氣候變遷、淨零轉型與永續發展的挑戰與契機。", "從學者到部長，陳吉仲長期投入農業政策與產業發展。在任期間推動多項重要農業政策，面對糧食安全、產業轉型、國際貿易與氣候變遷等議題，也累積豐富的政策溝通與立法實務經驗。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["本次例會，我們邀請到中興大學應用經濟學系終身特聘教授兼副校長、前農業部部長陳吉仲，與大家分享台灣農業面對氣候變遷、淨零轉型與永續發展的挑戰與契機。", "從學者到部長，陳吉仲長期投入農業政策與產業發展。在任期間推動多項重要農業政策，面對糧食安全、產業轉型、國際貿易與氣候變遷等議題，也累積豐富的政策溝通與立法實務經驗。"],
+        "en": ["This meeting welcomes 陳吉仲, Chair Professor of Applied Economics and Vice President of National Chung Hsing University and former Minister of Agriculture, to share the challenges and opportunities facing Taiwan's agricultural sector in climate change, the net-zero transition and sustainable development.", "From academic to cabinet minister, 陳吉仲 has spent his career on agricultural policy and industry development. During his tenure he drove a series of major policy initiatives, accumulating extensive experience in policy communication and legislative practice across food security, industrial transformation, international trade and climate change."],
+        "ja": ["今回の例会は、国立中興大学応用経済学系終身特別招聘教授兼副学長・前農業部長の陳吉仲をお招きし、台湾農業が直面する気候変動・ネットゼロ転換・持続可能な発展の課題と好機を伺います。", "研究者から農業部長まで、陳吉仲は長年にわたり農業政策と産業振興に携わってきました。部長在任中は数多くの重要な農業政策を推進し、食料安全保障・産業転換・国際貿易・気候変動といった課題に向き合いながら、政策コミュニケーションと立法の実務経験を豊かに積み重ねてきました。"]
+      }
     },
     {
       "id": "2026-08-25",
@@ -329,7 +365,11 @@
         "en": ["How growing up in an immigrant family becomes material for cultural innovation", "Taking community wellbeing from idea to practice", "Building a local Taiwanese brand from Thai flavours and Yunlin produce"],
         "ja": ["新住民家庭で育った経験が文化的創造の糧になるまで", "地域の幸福感と地域活性化を理念から実践へ", "タイの味と古坑の農産物から台湾の地域ブランドを生む"]
       },
-      "body": {"zh": ["本次例會，我們邀請到辛果味企業社負責人、雲林縣古坑鄉麻園社區發展協會總幹事徐彩玲，與大家分享她如何從家鄉出發，把文化、農業與創業結合成一條充滿生命力的地方創生之路。", "身為新住民二代與古坑農家女兒，徐彩玲從小就是母親的「文化翻譯機」，也一路陪伴父親走過友善耕作的轉型歷程。擁有環境管理背景的她，長期關注地方幸福感、偏鄉長照與產業升級，最終選擇回到家鄉，投入社區活化與地方創生工作。", "近年來，她將來自母親故鄉的泰國風味，與古坑在地農產跨界融合，創立「辛果味」品牌，研發出結合柑橘與辣椒的特色醬料，讓家鄉農產品有了新的故事與價值。", "從農村到品牌，從文化到創業，徐彩玲的故事讓我們看見，留在家鄉不只是守護土地，更有機會為地方創造新的未來。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["本次例會，我們邀請到辛果味企業社負責人、雲林縣古坑鄉麻園社區發展協會總幹事徐彩玲，與大家分享她如何從家鄉出發，把文化、農業與創業結合成一條充滿生命力的地方創生之路。", "身為新住民二代與古坑農家女兒，徐彩玲從小就是母親的「文化翻譯機」，也一路陪伴父親走過友善耕作的轉型歷程。擁有環境管理背景的她，長期關注地方幸福感、偏鄉長照與產業升級，最終選擇回到家鄉，投入社區活化與地方創生工作。", "近年來，她將來自母親故鄉的泰國風味，與古坑在地農產跨界融合，創立「辛果味」品牌，研發出結合柑橘與辣椒的特色醬料，讓家鄉農產品有了新的故事與價值。", "從農村到品牌，從文化到創業，徐彩玲的故事讓我們看見，留在家鄉不只是守護土地，更有機會為地方創造新的未來。"],
+        "en": ["This meeting welcomes 徐彩玲, founder of New Chili Sauce and secretary-general of the Mayuan Community Development Association in Gukeng, Yunlin, to share how she set out from her hometown to weave culture, agriculture and entrepreneurship into a vibrant path of rural revitalisation.", "As the daughter of an immigrant mother and a Gukeng farming family, 徐彩玲 grew up as her mother's cultural interpreter and walked alongside her father through the transition to eco-friendly farming. With a background in environmental management, she has long focused on local wellbeing, rural long-term care and industrial upgrading, and ultimately chose to return home to work on community revitalisation and place-making.", "In recent years she has blended Thai flavours from her mother's homeland with local Yunlin produce to create the New Chili Sauce brand — developing signature sauces that combine citrus and chilli and giving the region's crops a new story and new value.", "From village to brand, from culture to entrepreneurship, 徐彩玲's story shows that staying home is not only about protecting the land — it is also an opportunity to build a new future for the place you love."],
+        "ja": ["今回の例会は、辛果味企業社代表、雲林県古坑郷麻園社区発展協会事務局長の徐彩玲をお招きし、故郷を出発点に文化・農業・起業を一つに結び合わせ、生命力あふれる地域創生の道を歩む実践を伺います。", "新住民二世として、また古坑の農家の娘として育った徐彩玲は、幼い頃から母の「文化の通訳」役を務め、父が環境にやさしい農業への転換を歩む傍らに寄り添ってきました。環境管理を専門とする彼女は、地域の幸福感・農村における長期ケア・産業高度化に長年関心を向け、最終的に故郷に戻り地域活性化と地方創生に取り組む選択をしました。", "近年、母の故郷タイの味と古坑の農産物を掛け合わせた「辛果味」ブランドを立ち上げ、柑橘と唐辛子を組み合わせた特色あるソースを開発。故郷の農産物に新しい物語と価値を与えています。", "農村からブランドへ、文化から起業へ。徐彩玲の物語は、故郷に残ることが土地を守るだけでなく、地域に新しい未来を創り出すチャンスでもあることを示してくれます。"]
+      }
     },
     {
       "id": "2026-08-11",
@@ -361,7 +401,11 @@
         "en": ["Challenges from extreme weather and an ageing workforce", "How energy storage co-located with farming supports sustainable operations", "Building a full farm ecosystem and brand from a goose operation"],
         "ja": ["極端気象と労働力の高齢化のもとで台湾農業が直面する課題", "「蓄電共生」が農業の持続的経営を支える新しいモデルとなるまで", "養鵝場から農場生態系とブランド価値を築く方法"]
       },
-      "body": {"zh": ["本次例會，我們邀請到向天歌創新農業股份有限公司執行長蔡英地，與大家分享一位跨國科技業財務主管返鄉投入農業後，如何在雲林打造全新農業模式的實戰經驗。", "40歲那年，蔡英地脫下西裝、換上雨鞋，回到家鄉雲林投入養鵝產業。面對極端氣候、缺工與高齡化等挑戰，他帶領團隊導入智慧密閉禽舍、綠能設施與數據管理，逐步建立從生產、能源到品牌行銷的完整生態系，走出一條兼顧經濟效益與永續發展的新路徑。", "從養鵝場到品牌「鵝舖子」，從傳統畜牧到蓄電共生，向天歌的故事不只是農業創新，更是一場關於地方產業升級與青年返鄉的實驗。", "當越來越多年輕人離開農村，蔡英地選擇回到土地，重新思考農業的可能性。他的實踐，也讓我們看見台灣農業未來的另一種樣貌。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["本次例會，我們邀請到向天歌創新農業股份有限公司執行長蔡英地，與大家分享一位跨國科技業財務主管返鄉投入農業後，如何在雲林打造全新農業模式的實戰經驗。", "40歲那年，蔡英地脫下西裝、換上雨鞋，回到家鄉雲林投入養鵝產業。面對極端氣候、缺工與高齡化等挑戰，他帶領團隊導入智慧密閉禽舍、綠能設施與數據管理，逐步建立從生產、能源到品牌行銷的完整生態系，走出一條兼顧經濟效益與永續發展的新路徑。", "從養鵝場到品牌「鵝舖子」，從傳統畜牧到蓄電共生，向天歌的故事不只是農業創新，更是一場關於地方產業升級與青年返鄉的實驗。", "當越來越多年輕人離開農村，蔡英地選擇回到土地，重新思考農業的可能性。他的實踐，也讓我們看見台灣農業未來的另一種樣貌。"],
+        "en": ["This meeting welcomes 蔡英地, CEO of Formosa Goose Innovative Agriculture, to share the hands-on experience of a multinational finance executive who returned home to reshape farming in Yunlin.", "At forty 蔡英地 traded his suit for rubber boots, leaving a finance role at a multinational technology firm to raise geese in his hometown of Yunlin. Facing extreme weather, labour shortages and an ageing workforce, he led his team to introduce climate-controlled poultry housing, renewable-energy facilities and data management, gradually building a full ecosystem from production and energy to brand marketing — carving out a path that balances commercial viability with sustainable development.", "From a goose farm to the Goose Shop brand, from traditional livestock farming to co-located energy storage, the Formosa Goose story is not just about agricultural innovation — it is an experiment in local industry upgrading and bringing young people back to the land.", "As more and more young people leave the countryside, 蔡英地 chose to return to the soil and rethink what farming can be. His practice also opens a window onto another possible future for Taiwanese agriculture."],
+        "ja": ["今回の例会は、向天歌創新農業股份有限公司（Formosa Goose）CEOの蔡英地をお招きし、多国籍企業の財務幹部から農業へ転身し、雲林で新しい農業モデルを構築した実戦経験を伺います。", "40歳のとき、蔡英地はスーツを脱いで長靴を履き、故郷の雲林に戻って養鵝業に飛び込みました。極端気象・人手不足・高齢化という課題に直面し、チームを率いてスマート密閉禽舎・再生可能エネルギー設備・データ管理を導入。生産からエネルギー、ブランド販売までの一貫した生態系を築き上げ、経済効率と持続可能な発展を両立する新たな道を切り開きました。", "養鵝場から「鵝舖子（Goose Shop）」ブランドへ、伝統的な畜産から蓄電共生へ。向天歌の物語は農業イノベーションにとどまらず、地方産業の高度化と若者の帰農をめぐる実験でもあります。", "農村を離れる若者が増え続ける中、蔡英地は土地に戻り農業の可能性を問い直す選択をしました。彼の実践は、台湾農業の未来がどのようなものになりうるかを示す一つの窓でもあります。"]
+      }
     },
     {
       "id": "2026-07-28",
@@ -393,7 +437,11 @@
         "en": ["How the award brings more life stories into view", "ESG and civic participation in the cultural industries", "Social impact of screen IP beyond the screen"],
         "ja": ["文学賞がより多くの人生の物語を可視化する仕組み", "文化産業における ESG と社会参加の実践", "映像 IP が画面を越えて生む社会的影響力"]
       },
-      "body": {"zh": ["本次例會，我們邀請到瀚草文創營運副總、台灣野草創作家協會理事謝易芸，與大家分享文化如何成為推動多元共融與社會影響力的重要力量。", "擁有超過二十年的出版與媒體經驗，謝易芸長期投入內容產業、社會倡議與文化實踐。從《移民工文學獎》的推動，到瀚草文創在影視內容、人才培育與文化 ESG 的耕耘，她始終相信，好的內容不只是娛樂，更能成為理解彼此、連結社會的重要媒介。", "大加蚋扶輪社持續支持《移民工文學獎》，鼓勵使用越南、印尼、泰國、柬埔寨、菲律賓、緬甸文的創作者說出自己的故事，讓更多生命經驗被看見。2026年《移民工文學獎》收到高達549件投稿作品，創下歷年新高，得獎名單預計於8月揭曉！", "從《誰是被害者》、《模仿犯》、《火神的眼淚》、《茶金》到《化外之醫》，瀚草文創持續透過內容回應社會議題，也讓台灣故事被更多人看見。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["本次例會，我們邀請到瀚草文創營運副總、台灣野草創作家協會理事謝易芸，與大家分享文化如何成為推動多元共融與社會影響力的重要力量。", "擁有超過二十年的出版與媒體經驗，謝易芸長期投入內容產業、社會倡議與文化實踐。從《移民工文學獎》的推動，到瀚草文創在影視內容、人才培育與文化 ESG 的耕耘，她始終相信，好的內容不只是娛樂，更能成為理解彼此、連結社會的重要媒介。", "大加蚋扶輪社持續支持《移民工文學獎》，鼓勵使用越南、印尼、泰國、柬埔寨、菲律賓、緬甸文的創作者說出自己的故事，讓更多生命經驗被看見。2026年《移民工文學獎》收到高達549件投稿作品，創下歷年新高，得獎名單預計於8月揭曉！", "從《誰是被害者》、《模仿犯》、《火神的眼淚》、《茶金》到《化外之醫》，瀚草文創持續透過內容回應社會議題，也讓台灣故事被更多人看見。"],
+        "en": ["This meeting welcomes 謝易芸, VP of Operations at GrX Studio and board member of the Taiwan Wild Grass Writers Association, to share how culture can become a powerful force for diversity, inclusion and social impact.", "With more than twenty years of experience in publishing and media, 謝易芸 has devoted herself to the content industry, social advocacy and cultural practice. From championing the Taiwan Literature Award for Migrants to GrX Studio's work in screen content, talent development and cultural ESG, she has always believed that good content is not only entertainment — it is a vital medium for mutual understanding and social connection.", "Taipei Tagala Rotary Club is a continuing supporter of the Taiwan Literature Award for Migrants, which encourages writers working in Vietnamese, Indonesian, Thai, Khmer, Filipino and Burmese to tell their own stories, bringing more life experiences into view. The 2026 edition received a record 549 submissions, with the award ceremony expected in August!", "From The Victims' Game and Copycat Killer to Firefighter, Gold Leaf and The Outliers, GrX Studio continues to produce content that responds to social issues and carries Taiwan's stories to wider audiences."],
+        "ja": ["今回の例会は、瀚草文創（GrX Studio）運営副総経理・台湾野草創作家協会理事の謝易芸をお招きし、文化が多様性・包摂・社会的影響力を推し進める力となる道筋を伺います。", "出版とメディアで20年以上のキャリアを持つ謝易芸は、コンテンツ産業・社会的アドボカシー・文化実践に長年携わってきました。『移民工文學獎（Taiwan Literature Award for Migrants）』の推進から、瀚草文創による映像コンテンツ・人材育成・文化 ESG の取り組みまで、彼女は「良いコンテンツはエンターテインメントにとどまらず、相互理解と社会的つながりを生む重要な媒体だ」と信じ続けています。", "台北大加蚋ロータリークラブは「移民工文學獎」を継続的に支援し、ベトナム語・インドネシア語・タイ語・カンボジア語・フィリピン語・ミャンマー語で書く作家が自らの物語を語ることを応援しています。2026年は過去最多の549作品の応募があり、受賞者発表は8月を予定しています！", "『誰是被害者（The Victims' Game）』『模仿犯（Copycat Killer）』『火神の涙（Firefighter）』『茶金（Gold Leaf）』『化外之醫（The Outliers）』と、瀚草文創はコンテンツを通じて社会的課題に向き合い続け、台湾の物語を世界へ届けています。"]
+      }
     },
     {
       "id": "2026-07-14",
@@ -425,7 +473,11 @@
         "en": ["Why a single playground can start social change", "How childhood in Taiwan is shifting", "Play space as a link between family, community and city"],
         "ja": ["なぜ一つの公園が社会変革の起点になりうるのか", "台湾の子どもたちの子ども時代に起きている変化", "遊び場が家庭・地域・都市の発展をつなぐ役割"]
       },
-      "body": {"zh": ["新年度的第一場例會，我們邀請到特公盟（還我特色公園行動聯盟）理事長王秀娟，與大家分享她十多年來推動特色公園與兒童遊戲權的實踐經驗。", "從一位母親的關心出發，到影響全台各地公共空間的規劃與改造，王秀娟帶領團隊推動的不只是公園建設，更是關於孩子成長、社區參與與城市未來的公共議題。"], "en": [], "ja": []}
+      "body": {
+        "zh": ["新年度的第一場例會，我們邀請到特公盟（還我特色公園行動聯盟）理事長王秀娟，與大家分享她十多年來推動特色公園與兒童遊戲權的實踐經驗。", "從一位母親的關心出發，到影響全台各地公共空間的規劃與改造，王秀娟帶領團隊推動的不只是公園建設，更是關於孩子成長、社區參與與城市未來的公共議題。"],
+        "en": ["The first regular meeting of the new Rotary year welcomes 王秀娟, chair of Taiwan Parks & Playgrounds for Children by Children (TWPfC), to share more than a decade of hands-on experience championing distinctive playgrounds and the right of children to play.", "What began as one mother's concern grew into influence over public space planning and redesign across Taiwan. What 王秀娟 and her team have been pushing is not simply park construction — it is a public conversation about how children grow, how communities participate and what cities should look like in the future."],
+        "ja": ["新年度最初の例会では、還我特色公園行動聯盟（Taiwan Parks & Playgrounds for Children by Children／TWPfC）理事長・王秀娟をお招きし、10年以上にわたって特色ある公園と子どもの遊ぶ権利を推進してきた実践経験を伺います。", "一人の母親の関心から始まり、台湾各地の公共空間の計画と改修に影響を与えるまでに広がりました。王秀娟がチームとともに推し進めてきたのは、公園整備にとどまりません——子どもの成長・地域参加・都市の未来をめぐる公共的な問いかけです。"]
+      }
     }
   ]
 }
