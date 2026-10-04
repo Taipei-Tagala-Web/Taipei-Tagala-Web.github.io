@@ -31,7 +31,7 @@ SLUGS = {
     '2026-10-13': '20261013-like-mindedness-middle-power-moment-marcin-jerzewski',
     '2026-10-27': '20261027-ten-reasons-pansci-became-a-youtuber',
     '2026-10-31': '20261031-when-rotary-meets-saigon',
-    '2026-11-10': '20261110-if-i-had-an-ai-double-creating-time',
+    '2026-11-10': '20261110-if-i-had-an-ai-digital-twin',
     '2026-11-24': '20261124-warmth-across-borders-borrowed-grandpa',
     '2026-12-08': '20261208-believe-in-goodness-iron-brigade',
     '2026-12-22': '20261222-aromatherapy-sleep',
@@ -382,6 +382,13 @@ def generate_page(ev, lang):
     if fb_url:
         fb_link_html = f'\n        <p class="event-fb-link"><a href="{fb_url}" target="_blank" rel="noopener">{FB_EVENT_TEXT[lang]}</a></p>'
 
+    # ── body paragraphs (full text); fall back to summary if absent
+    body_paras = ev.get('body', {}).get(lang, [])
+    if body_paras:
+        body_html = '\n'.join(f'        <p>{h(p)}</p>' for p in body_paras)
+    else:
+        body_html = f'        <p>{h(summary_raw)}</p>'
+
     # ── sidebar
     time_str  = sidebar_time(ev, lang)
     venue_str = sidebar_venue(ev, lang)
@@ -500,7 +507,7 @@ def generate_page(ev, lang):
           {h(spk_title_raw)}
         </p>
 
-        <p>{h(summary_raw)}</p>
+{body_html}
 {pts_html}
 {fb_link_html}
 

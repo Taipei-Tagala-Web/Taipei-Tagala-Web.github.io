@@ -26,7 +26,7 @@ SLUGS = {
     '2026-10-13': '20261013-like-mindedness-middle-power-moment-marcin-jerzewski',
     '2026-10-27': '20261027-ten-reasons-pansci-became-a-youtuber',
     '2026-10-31': '20261031-when-rotary-meets-saigon',
-    '2026-11-10': '20261110-if-i-had-an-ai-double-creating-time',
+    '2026-11-10': '20261110-if-i-had-an-ai-digital-twin',
     '2026-11-24': '20261124-warmth-across-borders-borrowed-grandpa',
     '2026-12-08': '20261208-believe-in-goodness-iron-brigade',
     '2026-12-22': '20261222-aromatherapy-sleep',

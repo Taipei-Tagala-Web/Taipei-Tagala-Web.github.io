@@ -36,7 +36,8 @@
         "zh": ["睡眠科學如何看待香氣與睡眠？", "嗅覺也需要「鍛鍊」嗎？如何打開自己的感知力？", "如何透過香氣與生活儀式，找到適合自己的睡前節奏？"],
         "en": ["What sleep science says about the relationship between scent and sleep", "Does the sense of smell need training? Opening up your capacity for perception", "Building a bedtime rhythm that works for you through scent and ritual"],
         "ja": ["睡眠科学から見た、香りと睡眠の関係", "嗅覚は「鍛える」もの？自分の感知力を開くとは", "香りと生活の儀式を通じ、自分だけの就寝前リズムを見つける"]
-      }
+      },
+      "body": {"zh": ["睡不好，只能數羊嗎？氣味與我們的睡眠之間，又有什麼關係？", "大加蚋例會邀請資深芳療師蔡宛真，從睡眠科學、嗅覺鍛鍊到生活中的儀式，帶我們認識「香氣」與睡眠的關係。", "蔡宛真是臺大公衛學院健康政策與管理研究所 EMHA 碩士，她將芳香療法帶進公共衛生與社區研究，再將研究轉譯成有趣的科普，成為日常可以實踐的生活方式。", "12月22日正逢冬至，當天還會一起動手做一個助眠小香包帶回家！"], "en": [], "ja": []}
     },
     {
       "id": "2026-12-08",
@@ -67,7 +68,8 @@
         "zh": ["大缺工時代的餐飲人才策略", "如何透過產學合作長期育才、留才？", "拓展海外市場，要去哪裡？"],
         "en": ["Talent strategy for the F&B industry in an era of severe labour shortage", "Long-term talent development and retention through industry-academia partnership", "Deciding where to go as the group expands overseas"],
         "ja": ["深刻な人手不足の時代における飲食業の人材戦略", "産学連携による長期育成と定着の実践", "海外市場拡大の行き先と方向性"]
-      }
+      },
+      "body": {"zh": ["一家臺灣在地的餐飲集團，如何從移工人才出發，逐步建立自己的「鐵騎部隊」？覓食鐵邦美食集團執行長潘威達將分享他在餐飲業的人才實踐，以及「相信善良，用生命影響生命」的經營理念。", "覓食鐵邦成立於2010年，目前旗下包括香連鐵板料理、扶旺號、喫尤平價鐵板燒、威宇牛排、周照子、甘妹弄堂、炎弟等11個餐飲品牌，2025年營收超過4.5億元。潘威達是台師大餐旅管理博士，長年在台師大、高餐大授課；2026年6月更推出「相信善良 BE KIND」餐旅產學合作平台。"], "en": [], "ja": []}
     },
     {
       "id": "2026-11-24",
@@ -98,7 +100,8 @@
         "zh": ["從印尼爪哇到臺灣，十年移工生活如何成為寫作養分？", "豪宅裡的孤老與中風日常，照顧者的語言溝通與歌聲陪伴。", "從「僱傭關係」到「借來的阿公」，沒有血緣關係的人如何成為生命中的家人？", "在長照現場，照顧者的孤單、壓力與專業需求。"],
         "en": ["How a decade of migrant life in Taiwan became material for writing", "Language, song and the quiet work of caregiving beside an isolated elder", "From an employment contract to borrowed family: bonds that form without bloodlines", "Loneliness, pressure and the professional needs of caregivers"],
         "ja": ["10年の移住労働生活がいかにして書くことの養分になったか", "豪邸に住む孤独な老人と脳卒中の日常——言語・歌声・ケアの営み", "「雇用関係」から「借りてきたおじいちゃん」へ——血縁のない人が家族になるとき", "介護現場での孤独・プレッシャー・専門的な承認"]
-      }
+      },
+      "body": {"zh": ["從印尼爪哇來到臺灣，原本只是因為《流星花園》而對臺灣懷抱一個純粹的夢。將近十年的專業照護工作中，莉莉用流利的中文和台語支持臺灣家庭，也用手機小螢幕寫下異鄉生活，出版第一本小說《借來的阿公》，道出老後的孤獨，以及照顧者與被照顧者之間逐漸建立的理解與感情。"], "en": [], "ja": []}
     },
     {
       "id": "2026-10-27",
@@ -129,7 +132,8 @@
         "zh": ["科學傳播的新挑戰與機會", "從泛科學到影音平台的轉型之路", "科學內容如何跨越同溫層、擴大影響力"],
         "en": ["New challenges and openings in science communication", "The move from website to video platform", "Carrying science content beyond the echo chamber"],
         "ja": ["科学コミュニケーションの新たな課題と機会", "ウェブサイトから動画プラットフォームへの転換", "科学コンテンツが同質的な層を越えて影響力を広げる方法"]
-      }
+      },
+      "body": {"zh": ["本次例會邀請知名科普 YouTuber 鄭國威，與大家分享 PanSci 泛科學如何從網站一路走向 YouTube，透過影音、短影音與多元媒體形式，讓科學知識走出同溫層，成為更多人願意理解、分享與討論的內容。", "身為泛傳媒集團創辦人暨知識長、PanSci 泛科學與思想實驗室主持人，鄭國威長期投入科學傳播、新媒體經營與知識內容產業，長期探索知識內容如何因應媒體型態的演變，讓專業知識與公共議題走進更多人的日常。"], "en": [], "ja": []}
     },
     {
       "id": "2026-11-10",
@@ -148,19 +152,20 @@
       },
       "title": {
         "zh": "如果我有一個分身，能為我創造多少時間？",
-        "en": "If I Had an AI Double, How Much Time Could It Create for Me?",
+        "en": "If I Had an AI Digital Twin, How Much Time Could It Create for Me?",
         "ja": "もし自分の分身がいたら、どれだけの時間を生み出せるか？"
       },
       "summary": {
         "zh": "如果有一個 AI 分身，可以替你思考、測試、模擬不同人的反應，你會把省下來的時間拿來做什麼？從「Creating Time」出發，邵懿文 Freda 談 AI 不只是提高效率的工具，更可能改變我們理解消費者、設計產品與規劃服務的方式。",
-        "en": "If an AI double could think, test and simulate reactions for you, what would you do with the time you got back? Starting from the idea of Creating Time, Freda Shao explores how AI is more than an efficiency tool — it may change the way we understand consumers, design products and plan services.",
+        "en": "If an AI digital twin could think, test and simulate reactions for you, what would you do with the time you got back? Starting from the idea of Creating Time, Freda Shao explores how AI is more than an efficiency tool — it may change the way we understand consumers, design products and plan services.",
         "ja": "AI の分身が代わりに考え、テストし、さまざまな人の反応をシミュレーションしてくれたら、生み出された時間で何をするか？「Creating Time（時間を創る）」という切り口から、邵懿文 Freda が AI の可能性を語ります。効率化ツールにとどまらず、消費者理解・製品設計・サービス計画のあり方を変えていく AI の姿とは。"
       },
       "points": {
         "zh": ["Creating Time：時間花在哪裡，機會就在哪裡", "AI Persona：用 AI 分身，看見沒想到的事", "把時間留給人：AI 省下時間，人創造價值"],
-        "en": ["Creating Time: where time goes is where opportunity lives", "AI Persona: seeing the unexpected through an AI double", "Leaving time for people: AI saves time, humans create value"],
+        "en": ["Creating Time: where time goes is where opportunity lives", "AI Persona: seeing the unexpected through an AI digital twin", "Leaving time for people: AI saves time, humans create value"],
         "ja": ["Creating Time：時間の使い方が機会を決める", "AI Persona：AI の分身が見せてくれる予想外の発見", "人に時間を残す：AI が時間を節約し、人が価値を創る"]
-      }
+      },
+      "body": {"zh": ["如果有一個 AI 分身，可以替你思考、測試、模擬不同人的反應，你會把省下來的時間拿來做什麼？", "本次例會邀請電通集團策略創新長邵懿文 Freda Shao，從「Creating Time」出發，談 AI 不只是提高效率的工具，也可能改變我們理解消費者、設計產品與規劃服務的方式。"], "en": [], "ja": []}
     },
     {
       "id": "2026-10-31",
@@ -195,7 +200,8 @@
         "zh": ["一個臺灣女生獨闖胡志明市，看見什麼樣的越南？", "從飲食、語言到生活，臺灣與越南有哪些意想不到的連結？", "戰亂與遷徙，如何成為一家越南餐廳的起點？"],
         "en": ["What does a Taiwanese woman who moved to Ho Chi Minh City alone see in Vietnam?", "Unexpected connections between Taiwan and Vietnam — food, language, everyday life", "How war and displacement became the founding story of a Vietnamese restaurant"],
         "ja": ["ホーチミン市に単身赴任した台湾の女性が見たベトナムとは？", "台湾とベトナムをつなぐ、意外な食・言語・生活の接点", "戦争と移住が一軒のベトナム料理店の原点となるまで"]
-      }
+      },
+      "body": {"zh": ["大加蚋扶輪社長期關注並支持移民工、新移民與新二代議題。這一次，我們要辦一場有故事、有歷史，也有越南好味道的「知識午宴」。", "特別邀請一位神秘說書人。她22歲獨自前往胡志明市工作，在越南生活近6年，學會流利越南語；返臺考上公務員後，又曾派駐越南。這次不講枯燥政令，要從親身經歷出發，帶我們認識越南的文化與生活。", "午餐選在銘記越南美食餐廳，這裡也有一段跨越臺灣與越南的家族故事。創辦人吳乾銘的父親是外交官，1975年越南淪陷時幾經波折返臺；吳乾銘於1999年創立銘記，紀念父親，也傳承河內母親的好手藝。"], "en": [], "ja": []}
     },
     {
       "id": "2026-10-13",
@@ -226,7 +232,8 @@
         "zh": ["台歐關係的現況：地緣競爭加劇下，中等強國如何深化合作？", "理念相近的現實挑戰：當共同價值遇上經濟利益、國內政治變化與對中關係", "整合性外交的可能性：從捷克、立陶宛案例看台灣與歐洲建立更具韌性的夥伴關係"],
         "en": ["Taiwan–Europe relations today: how middle powers can deepen cooperation amid intensifying geopolitical competition", "The real limits of like-mindedness: when shared values meet economic interests, domestic shifts and China policy", "Integrated diplomacy: lessons from Czech and Lithuanian cases for a more resilient Taiwan–Europe partnership"],
         "ja": ["台欧関係の現状：地政学的競争が激化するなか、中等強国はいかに協力を深めるか", "価値観の共有の現実的限界：共通の理念が経済利益・国内政治変化・対中政策と向き合うとき", "統合的外交の可能性：チェコ・リトアニアの事例から学ぶ、より強靭な台欧パートナーシップ"]
-      }
+      },
+      "body": {"zh": ["臺灣與歐洲經常以「理念相近夥伴」形容彼此。民主、自由、人權等共同價值，確實讓雙方有了合作的基礎；但當價值遇上經濟利益、國內政治變化與對中關係，「理念相近」能不能進一步成為穩定而有韌性的夥伴關係？", "本次例會邀請歐洲價值安全政策中心（European Values Center for Security Policy）在台辦事處主任 Marcin Jerzewski 葉皓勤，從2026年的國際局勢出發，帶我們重新檢視臺灣與歐洲的關係。"], "en": [], "ja": []}
     },
     {
       "id": "2026-09-22",
@@ -257,7 +264,8 @@
         "zh": ["公益議題媒體為何而創？如何堅持媒體獨立？", "非營利媒體如何透過報導、倡議與合作擴大影響力", "媒體如何在公益生態系中串連各界資源"],
         "en": ["Why start a public-interest outlet, and how to stay independent", "Widening impact through reporting, advocacy and partnership", "Connecting resources across the social sector"],
         "ja": ["公益メディアを創った理由と、独立性を守る方法", "報道・アドボカシー・連携による影響力の拡大", "公益エコシステムの中で各界の資源をつなぐ役割"]
-      }
+      },
+      "body": {"zh": ["本次例會邀請到《Right Plus 多多益善》創辦人暨總編輯葉靜倫（Sara），分享一個非營利獨立媒體如何在商業流量之外，持續為公益議題、社會創新與脆弱處境者發聲。", "《Right Plus 多多益善》是臺灣少數專注公益與社福議題的獨立媒體，長期關注非營利組織、社會企業與各種推動公共利益的行動者，透過深度報導、調查專題與跨域合作，讓更多容易被忽略的故事被社會看見，也持續串連各界力量，推動更具包容性的社會。"], "en": [], "ja": []}
     },
     {
       "id": "2026-09-08",
@@ -288,7 +296,8 @@
         "zh": ["氣候變遷對台灣農林漁牧產業的衝擊", "農業如何提升韌性與調適能力，邁向淨零轉型", "農業政策如何形成？又如何透過溝通與立法落實"],
         "en": ["Climate impacts across farming, forestry, fisheries and livestock", "Building resilience and adaptive capacity toward net zero", "How agricultural policy is formed and enacted"],
         "ja": ["農林水産業への気候変動の影響", "レジリエンスと適応能力を高めネットゼロへ", "農業政策の形成と、対話・立法による実現"]
-      }
+      },
+      "body": {"zh": ["本次例會，我們邀請到中興大學應用經濟學系終身特聘教授兼副校長、前農業部部長陳吉仲，與大家分享台灣農業面對氣候變遷、淨零轉型與永續發展的挑戰與契機。", "從學者到部長，陳吉仲長期投入農業政策與產業發展。在任期間推動多項重要農業政策，面對糧食安全、產業轉型、國際貿易與氣候變遷等議題，也累積豐富的政策溝通與立法實務經驗。"], "en": [], "ja": []}
     },
     {
       "id": "2026-08-25",
@@ -319,7 +328,8 @@
         "zh": ["新住民家庭的成長經驗，如何成為文化創新的養分", "地方幸福感與社區活化，如何從理念走向實踐", "泰國味與古坑農產如何創造屬於台灣的地方品牌"],
         "en": ["How growing up in an immigrant family becomes material for cultural innovation", "Taking community wellbeing from idea to practice", "Building a local Taiwanese brand from Thai flavours and Yunlin produce"],
         "ja": ["新住民家庭で育った経験が文化的創造の糧になるまで", "地域の幸福感と地域活性化を理念から実践へ", "タイの味と古坑の農産物から台湾の地域ブランドを生む"]
-      }
+      },
+      "body": {"zh": ["本次例會，我們邀請到辛果味企業社負責人、雲林縣古坑鄉麻園社區發展協會總幹事徐彩玲，與大家分享她如何從家鄉出發，把文化、農業與創業結合成一條充滿生命力的地方創生之路。", "身為新住民二代與古坑農家女兒，徐彩玲從小就是母親的「文化翻譯機」，也一路陪伴父親走過友善耕作的轉型歷程。擁有環境管理背景的她，長期關注地方幸福感、偏鄉長照與產業升級，最終選擇回到家鄉，投入社區活化與地方創生工作。", "近年來，她將來自母親故鄉的泰國風味，與古坑在地農產跨界融合，創立「辛果味」品牌，研發出結合柑橘與辣椒的特色醬料，讓家鄉農產品有了新的故事與價值。", "從農村到品牌，從文化到創業，徐彩玲的故事讓我們看見，留在家鄉不只是守護土地，更有機會為地方創造新的未來。"], "en": [], "ja": []}
     },
     {
       "id": "2026-08-11",
@@ -350,7 +360,8 @@
         "zh": ["極端氣候與人力老化下，台灣農業面臨哪些挑戰", "「蓄電共生」如何成為支持農業永續經營的新模式", "如何從養鵝場打造出完整的農場生態系與品牌價值"],
         "en": ["Challenges from extreme weather and an ageing workforce", "How energy storage co-located with farming supports sustainable operations", "Building a full farm ecosystem and brand from a goose operation"],
         "ja": ["極端気象と労働力の高齢化のもとで台湾農業が直面する課題", "「蓄電共生」が農業の持続的経営を支える新しいモデルとなるまで", "養鵝場から農場生態系とブランド価値を築く方法"]
-      }
+      },
+      "body": {"zh": ["本次例會，我們邀請到向天歌創新農業股份有限公司執行長蔡英地，與大家分享一位跨國科技業財務主管返鄉投入農業後，如何在雲林打造全新農業模式的實戰經驗。", "40歲那年，蔡英地脫下西裝、換上雨鞋，回到家鄉雲林投入養鵝產業。面對極端氣候、缺工與高齡化等挑戰，他帶領團隊導入智慧密閉禽舍、綠能設施與數據管理，逐步建立從生產、能源到品牌行銷的完整生態系，走出一條兼顧經濟效益與永續發展的新路徑。", "從養鵝場到品牌「鵝舖子」，從傳統畜牧到蓄電共生，向天歌的故事不只是農業創新，更是一場關於地方產業升級與青年返鄉的實驗。", "當越來越多年輕人離開農村，蔡英地選擇回到土地，重新思考農業的可能性。他的實踐，也讓我們看見台灣農業未來的另一種樣貌。"], "en": [], "ja": []}
     },
     {
       "id": "2026-07-28",
@@ -381,7 +392,8 @@
         "zh": ["移民工文學獎如何讓更多生命故事被看見", "文化產業如何實踐 ESG 與社會參與", "影視 IP 如何創造超越螢幕的社會影響力"],
         "en": ["How the award brings more life stories into view", "ESG and civic participation in the cultural industries", "Social impact of screen IP beyond the screen"],
         "ja": ["文学賞がより多くの人生の物語を可視化する仕組み", "文化産業における ESG と社会参加の実践", "映像 IP が画面を越えて生む社会的影響力"]
-      }
+      },
+      "body": {"zh": ["本次例會，我們邀請到瀚草文創營運副總、台灣野草創作家協會理事謝易芸，與大家分享文化如何成為推動多元共融與社會影響力的重要力量。", "擁有超過二十年的出版與媒體經驗，謝易芸長期投入內容產業、社會倡議與文化實踐。從《移民工文學獎》的推動，到瀚草文創在影視內容、人才培育與文化 ESG 的耕耘，她始終相信，好的內容不只是娛樂，更能成為理解彼此、連結社會的重要媒介。", "大加蚋扶輪社持續支持《移民工文學獎》，鼓勵使用越南、印尼、泰國、柬埔寨、菲律賓、緬甸文的創作者說出自己的故事，讓更多生命經驗被看見。2026年《移民工文學獎》收到高達549件投稿作品，創下歷年新高，得獎名單預計於8月揭曉！", "從《誰是被害者》、《模仿犯》、《火神的眼淚》、《茶金》到《化外之醫》，瀚草文創持續透過內容回應社會議題，也讓台灣故事被更多人看見。"], "en": [], "ja": []}
     },
     {
       "id": "2026-07-14",
@@ -412,7 +424,8 @@
         "zh": ["為什麼一座公園能成為社會改變的起點", "台灣孩子的童年正在經歷什麼樣的轉變", "遊戲空間如何連結家庭、社區與城市發展"],
         "en": ["Why a single playground can start social change", "How childhood in Taiwan is shifting", "Play space as a link between family, community and city"],
         "ja": ["なぜ一つの公園が社会変革の起点になりうるのか", "台湾の子どもたちの子ども時代に起きている変化", "遊び場が家庭・地域・都市の発展をつなぐ役割"]
-      }
+      },
+      "body": {"zh": ["新年度的第一場例會，我們邀請到特公盟（還我特色公園行動聯盟）理事長王秀娟，與大家分享她十多年來推動特色公園與兒童遊戲權的實踐經驗。", "從一位母親的關心出發，到影響全台各地公共空間的規劃與改造，王秀娟帶領團隊推動的不只是公園建設，更是關於孩子成長、社區參與與城市未來的公共議題。"], "en": [], "ja": []}
     }
   ]
 }
