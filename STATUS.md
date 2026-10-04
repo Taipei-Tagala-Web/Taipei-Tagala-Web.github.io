@@ -8,8 +8,8 @@
 
 | | commit | 網址 |
 |---|---|---|
-| 開發站 | `373690a` | `taipei-tagala-web.github.io`（擋搜尋引擎） |
-| 正式站 | `66d060e` | `tagala.org.tw`（正式對外，待 cherry-pick） |
+| 開發站 | `efce622` | `taipei-tagala-web.github.io`（擋搜尋引擎） |
+| 正式站 | `64bdf34` | `tagala.org.tw`（正式對外） |
 
 兩站內容一致，**只有 `CNAME` 與 `robots.txt` 刻意分歧**。
 推正式站必須 cherry-pick，見 `README.md`「維運手冊 → 推送到正式站」。
