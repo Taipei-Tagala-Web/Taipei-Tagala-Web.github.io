@@ -66,6 +66,7 @@
   */
   --c-text-on-gold:  #17458f;   /* 金底上的字一律用皇室藍 */
   --c-rule-accent:   var(--turquoise);  /* 藍綠只用在線條與圖形 */
+  --c-facebook:      #1877f2;           /* Facebook 品牌藍，僅用於 Facebook 連結按鈕 */
 
   /* 活動類型標籤：底色 + 對應的文字色，成對使用 */
   --c-tag-regular:        var(--azure);       /* 例會 */
