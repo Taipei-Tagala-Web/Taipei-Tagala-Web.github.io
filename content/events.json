@@ -132,6 +132,72 @@
       }
     },
     {
+      "id": "2026-11-10",
+      "date": "2026-11-10",
+      "timeStart": "18:30",
+      "timeTalk": "19:20",
+      "timeEnd": "21:00",
+      "type": "regular",
+      "banner": "evt-2026-11-10",
+      "fbUrl": "https://www.facebook.com/events/1342503165618131",
+      "speaker": { "zh": "邵懿文 Freda Shao", "en": "Freda Shao", "ja": "邵懿文（フレダ・シャオ）" },
+      "speakerTitle": {
+        "zh": "電通集團策略創新長",
+        "en": "Chief Strategy & Innovation Officer, Dentsu Group",
+        "ja": "電通グループ チーフ・ストラテジー＆イノベーション・オフィサー"
+      },
+      "title": {
+        "zh": "如果我有一個分身，能為我創造多少時間？",
+        "en": "If I Had an AI Double, How Much Time Could It Create for Me?",
+        "ja": "もし自分の分身がいたら、どれだけの時間を生み出せるか？"
+      },
+      "summary": {
+        "zh": "如果有一個 AI 分身，可以替你思考、測試、模擬不同人的反應，你會把省下來的時間拿來做什麼？從「Creating Time」出發，邵懿文 Freda 談 AI 不只是提高效率的工具，更可能改變我們理解消費者、設計產品與規劃服務的方式。",
+        "en": "If an AI double could think, test and simulate reactions for you, what would you do with the time you got back? Starting from the idea of Creating Time, Freda Shao explores how AI is more than an efficiency tool — it may change the way we understand consumers, design products and plan services.",
+        "ja": "AI の分身が代わりに考え、テストし、さまざまな人の反応をシミュレーションしてくれたら、生み出された時間で何をするか？「Creating Time（時間を創る）」という切り口から、邵懿文 Freda が AI の可能性を語ります。効率化ツールにとどまらず、消費者理解・製品設計・サービス計画のあり方を変えていく AI の姿とは。"
+      },
+      "points": {
+        "zh": ["Creating Time：時間花在哪裡，機會就在哪裡", "AI Persona：用 AI 分身，看見沒想到的事", "把時間留給人：AI 省下時間，人創造價值"],
+        "en": ["Creating Time: where time goes is where opportunity lives", "AI Persona: seeing the unexpected through an AI double", "Leaving time for people: AI saves time, humans create value"],
+        "ja": ["Creating Time：時間の使い方が機会を決める", "AI Persona：AI の分身が見せてくれる予想外の発見", "人に時間を残す：AI が時間を節約し、人が価値を創る"]
+      }
+    },
+    {
+      "id": "2026-10-31",
+      "date": "2026-10-31",
+      "timeStart": "11:00",
+      "timeEnd": "14:00",
+      "type": "service",
+      "banner": "evt-2026-10-31",
+      "fbUrl": "https://www.facebook.com/events/1106677131812235",
+      "venue": {
+        "zh": "銘記越南美食｜新北市汐止區康寧街 536-1 號",
+        "en": "Ming Ji Vietnamese Restaurant, No. 536-1, Kangning St., Xizhi, New Taipei",
+        "ja": "銘記越南美食｜新北市汐止区康寧街 536-1 号"
+      },
+      "speaker": { "zh": "神秘公務員", "en": "Mystery Civil Servant", "ja": "謎の公務員" },
+      "speakerTitle": {
+        "zh": "22 歲隻身赴胡志明市，旅居越南近 6 年、學會流利越南語的文化探險家；返臺後派駐越南",
+        "en": "Cultural explorer who moved to Ho Chi Minh City alone at 22, lived in Vietnam for nearly six years speaking fluent Vietnamese, and later served there again as a civil servant",
+        "ja": "22 歳でホーチミン市に単身赴任し、約 6 年ベトナムに暮らして流暢なベトナム語を習得した文化探険家。帰台後も公務員として再びベトナムへ"
+      },
+      "title": {
+        "zh": "當扶輪遇見西貢：一段烽火交織的美味傳奇與越南探險！",
+        "en": "When Rotary Meets Saigon: A Story of War, Flavour and Vietnamese Adventure",
+        "ja": "ロータリーが西貢（サイゴン）と出会うとき——戦火と美味が交差する物語とベトナム探険"
+      },
+      "summary": {
+        "zh": "大加蚋扶輪社長期關注並支持移民工、新移民與新二代議題。這次舉辦一場有故事、有歷史、也有越南好味道的「知識午宴」。餐廳銘記越南美食創辦人吳乾銘的父親是外交官，1975 年越南淪陷時幾經波折返臺；吳乾銘於 1999 年創立銘記，紀念父親，也傳承河內母親的好手藝。",
+        "en": "Taipei Tagala Rotary Club has long supported migrants, new immigrants and second-generation communities. This knowledge luncheon combines stories, history and the flavours of Vietnam. The restaurant, Ming Ji Vietnamese, was founded in 1999 by Wu Qian-ming, whose diplomat father barely made it back to Taiwan when Saigon fell in 1975; the restaurant honours his father and carries forward his Hanoi mother's cooking.",
+        "ja": "台北大加蚋ロータリークラブは長年にわたり、移住労働者・新住民・新二世の課題に関心を寄せ支援してきました。今回は、物語・歴史・ベトナムの美味を一堂に集めた「知識ランチ」を開催します。会場の銘記越南美食は、1975年のサイゴン陥落時に辛くも台湾へ帰国した外交官の父を追悼し、河内出身の母の味を伝えるべく、1999年に創立されました。"
+      },
+      "points": {
+        "zh": ["一個臺灣女生獨闖胡志明市，看見什麼樣的越南？", "從飲食、語言到生活，臺灣與越南有哪些意想不到的連結？", "戰亂與遷徙，如何成為一家越南餐廳的起點？"],
+        "en": ["What does a Taiwanese woman who moved to Ho Chi Minh City alone see in Vietnam?", "Unexpected connections between Taiwan and Vietnam — food, language, everyday life", "How war and displacement became the founding story of a Vietnamese restaurant"],
+        "ja": ["ホーチミン市に単身赴任した台湾の女性が見たベトナムとは？", "台湾とベトナムをつなぐ、意外な食・言語・生活の接点", "戦争と移住が一軒のベトナム料理店の原点となるまで"]
+      }
+    },
+    {
       "id": "2026-10-13",
       "date": "2026-10-13",
       "timeStart": "18:30",
@@ -139,27 +205,27 @@
       "timeEnd": "21:00",
       "type": "regular",
       "banner": "evt-2026-10-13",
-      "fbUrl": "https://www.facebook.com/events/1522930695512198/",
-      "speaker": { "zh": "Mukesh Kaushik", "en": "Mukesh Kaushik", "ja": "ムケシュ・カウシック" },
+      "fbUrl": "https://www.facebook.com/events/1118434187298156",
+      "speaker": { "zh": "Marcin Jerzewski 葉皓勤", "en": "Marcin Jerzewski", "ja": "マルチン・ジェジェフスキ（葉皓勤）" },
       "speakerTitle": {
-        "zh": "外交部 Taiwan Fellowship 訪問學人；印度《Dainik Bhaskar》資深國防與戰略事務記者",
-        "en": "Taiwan Fellowship visiting scholar, Ministry of Foreign Affairs; Senior defence and strategic affairs correspondent, Dainik Bhaskar (India)",
-        "ja": "外交部 Taiwan Fellowship 招聘研究者、インド紙『Dainik Bhaskar』国防・戦略問題担当シニア記者"
+        "zh": "歐洲價值安全政策中心（European Values Center for Security Policy）在台辦事處主任",
+        "en": "Head of Taiwan Office, European Values Center for Security Policy",
+        "ja": "欧州価値・安全保障政策センター（European Values Center for Security Policy）台湾事務所長"
       },
       "title": {
-        "zh": "印度與台灣的民主：我們可以互相學習的地方",
-        "en": "India and Taiwan Democracies: Many Lessons to Learn",
-        "ja": "インドと台湾の民主主義——互いに学び合えること"
+        "zh": "在中等強國的時代，理念相近能走多遠？",
+        "en": "Like-Mindedness in the Middle Power Moment? Taking Stock of Taiwan-Europe Relations in 2026",
+        "ja": "中等強国の時代、価値観の共有はどこまで通用するか——2026年の台欧関係を問い直す"
       },
       "summary": {
-        "zh": "每年舉辦外交主題專題演講是本社的重要傳統。本場由擁有 35 年外交與國防採訪經驗的印度資深記者，從印度視角比較兩國民主發展歷程。",
-        "en": "An annual diplomacy talk is one of this club's standing traditions. This session brings an Indian correspondent with 35 years covering diplomacy and defence to compare the democratic paths of both countries.",
-        "ja": "毎年の外交テーマの卓話は、当クラブの大切な伝統です。今回は外交・国防取材35年のインド人記者を迎え、インドの視点から両国の民主化の歩みを比較していただきます。"
+        "zh": "臺灣與歐洲經常以「理念相近夥伴」形容彼此。民主、自由、人權等共同價值，確實讓雙方有了合作的基礎；但當價值遇上經濟利益、國內政治變化與對中關係，「理念相近」能不能進一步成為穩定而有韌性的夥伴關係？",
+        "en": "Taiwan and Europe often describe themselves as like-minded partners. Shared values — democracy, freedom, human rights — provide a foundation for cooperation. But when those values meet economic interests, shifting domestic politics and the China factor, can like-mindedness grow into a stable, resilient partnership?",
+        "ja": "台湾と欧州は「価値観の近いパートナー」として互いを表現することが多い。民主主義・自由・人権といった共通の価値は協力の土台を与えてくれる。しかし価値観が経済利益・国内政治の変化・対中関係と相対したとき、「like-mindedness」は安定した粘り強いパートナーシップへと深化できるのか。"
       },
       "points": {
-        "zh": ["台印關係及交流發展", "台印民主發展歷程的比較", "兩國如何面對外交、國防與社會韌性的共同挑戰"],
-        "en": ["India–Taiwan relations and exchange", "Comparing the two countries' democratic development", "Shared challenges in diplomacy, defence and social resilience"],
-        "ja": ["台印関係と交流の発展", "両国の民主化の歩みの比較", "外交・国防・社会のレジリエンスにおける共通の課題"]
+        "zh": ["台歐關係的現況：地緣競爭加劇下，中等強國如何深化合作？", "理念相近的現實挑戰：當共同價值遇上經濟利益、國內政治變化與對中關係", "整合性外交的可能性：從捷克、立陶宛案例看台灣與歐洲建立更具韌性的夥伴關係"],
+        "en": ["Taiwan–Europe relations today: how middle powers can deepen cooperation amid intensifying geopolitical competition", "The real limits of like-mindedness: when shared values meet economic interests, domestic shifts and China policy", "Integrated diplomacy: lessons from Czech and Lithuanian cases for a more resilient Taiwan–Europe partnership"],
+        "ja": ["台欧関係の現状：地政学的競争が激化するなか、中等強国はいかに協力を深めるか", "価値観の共有の現実的限界：共通の理念が経済利益・国内政治変化・対中政策と向き合うとき", "統合的外交の可能性：チェコ・リトアニアの事例から学ぶ、より強靭な台欧パートナーシップ"]
       }
     },
     {
