@@ -35,14 +35,17 @@ SLUGS = {
     '2026-11-24': '20261124-warmth-across-borders-borrowed-grandpa',
     '2026-12-08': '20261208-believe-in-goodness-iron-brigade',
     '2026-12-22': '20261222-aromatherapy-sleep',
+    '2027-01-12': '20270112-brainwashed-by-light-non-image-forming-vision',
 }
 
-# 例會編號（service/fellowship/joint 類型無編號）
+# 例會編號（service/fellowship 類型無編號，regular/mobile/joint 均顯示）
 MEETING_NUMBERS = {
-    '2026-07-14': 221, '2026-07-28': 222, '2026-08-11': 223,
-    '2026-08-25': 224, '2026-09-08': 225, '2026-09-22': 226,
-    '2026-10-13': 227, '2026-10-27': 228, '2026-11-10': 229,
-    '2026-11-24': 230, '2026-12-08': 231, '2026-12-22': 232,
+    '2026-07-14': 219, '2026-07-28': 220, '2026-08-11': 221,
+    '2026-08-25': 223, '2026-09-08': 224, '2026-09-22': 227,
+    '2026-10-13': 228, '2026-10-27': 229, '2026-10-31': 230,
+    '2026-11-10': 231, '2026-11-24': 232, '2026-12-08': 233,
+    '2026-12-20': 234,  # 保留：泰宣教會移動例會（資料待補）
+    '2026-12-22': 235, '2027-01-12': 236,
 }
 
 WEEKDAYS = {
@@ -93,11 +96,11 @@ BC_ARIA     = {'zh': '路徑導覽', 'en': 'Breadcrumb', 'ja': 'パンくずリ�
 BC_HOME     = {'zh': '首頁', 'en': 'Home', 'ja': 'ホーム'}
 BC_MEETINGS = {'zh': '例會與活動', 'en': 'Meetings', 'ja': '例会・行事'}
 
-TYPE_CSS   = {'regular': 'tag-regular', 'service': 'tag-service', 'fellowship': 'tag-fellowship', 'joint': 'tag-joint'}
+TYPE_CSS   = {'regular': 'tag-regular', 'mobile': 'tag-mobile', 'service': 'tag-service', 'fellowship': 'tag-fellowship', 'joint': 'tag-joint'}
 TYPE_LABEL = {
-    'zh': {'regular': '例會', 'service': '服務計畫', 'fellowship': '聯誼活動', 'joint': '聯合例會'},
-    'en': {'regular': 'Regular meeting', 'service': 'Service project', 'fellowship': 'Fellowship', 'joint': 'Joint meeting'},
-    'ja': {'regular': '例会', 'service': '奉仕プロジェクト', 'fellowship': '親睦活動', 'joint': '合同例会'},
+    'zh': {'regular': '例會', 'mobile': '移動例會', 'service': '服務計畫', 'fellowship': '聯誼活動', 'joint': '聯合例會'},
+    'en': {'regular': 'Regular meeting', 'mobile': 'Off-site meeting', 'service': 'Service project', 'fellowship': 'Fellowship', 'joint': 'Joint meeting'},
+    'ja': {'regular': '例会', 'mobile': '移動例会', 'service': '奉仕プロジェクト', 'fellowship': '親睦活動', 'joint': '合同例会'},
 }
 MEET_NUM_LABEL = {
     'zh': lambda n: f'第{n}次例會',
@@ -106,9 +109,9 @@ MEET_NUM_LABEL = {
 }
 
 POINTS_H2 = {
-    'zh': {'regular': '本次例會將探討', 'service': '活動亮點', 'fellowship': '活動亮點', 'joint': '本次聯合例會將探討'},
-    'en': {'regular': "Topics we'll explore", 'service': 'Highlights', 'fellowship': 'Highlights', 'joint': "Topics we'll explore"},
-    'ja': {'regular': 'この例会で探るテーマ', 'service': '見どころ', 'fellowship': '見どころ', 'joint': 'この例会で探るテーマ'},
+    'zh': {'regular': '本次例會將探討', 'mobile': '本次例會將探討', 'service': '活動亮點', 'fellowship': '活動亮點', 'joint': '本次聯合例會將探討'},
+    'en': {'regular': "Topics we'll explore", 'mobile': "Topics we'll explore", 'service': 'Highlights', 'fellowship': 'Highlights', 'joint': "Topics we'll explore"},
+    'ja': {'regular': 'この例会で探るテーマ', 'mobile': 'この例会で探るテーマ', 'service': '見どころ', 'fellowship': '見どころ', 'joint': 'この例会で探るテーマ'},
 }
 
 SIDEBAR_TITLE = {'zh': '活動資訊', 'en': 'Event info', 'ja': '開催情報'}
@@ -313,7 +316,8 @@ def generate_page(ev, lang):
     ev_id   = ev['id']
     slug    = SLUGS[ev_id]
     ld      = LANG_DIR[lang]           # 'zh-TW', 'en', 'ja'
-    url     = f'/{ld}/meetings/2026/{slug}/'
+    year    = ev_id[:4]
+    url     = f'/{ld}/meetings/{year}/{slug}/'
     canon   = f'https://tagala.org.tw{url}'
     ev_type = ev.get('type', 'regular')
 
@@ -344,10 +348,10 @@ def generate_page(ev, lang):
 
     # ── hreflang links
     hlref = '\n'.join(
-        f'<link rel="alternate" hreflang="{HREFLANG[l]}" href="https://tagala.org.tw/{LANG_DIR[l]}/meetings/2026/{slug}/">'
+        f'<link rel="alternate" hreflang="{HREFLANG[l]}" href="https://tagala.org.tw/{LANG_DIR[l]}/meetings/{year}/{slug}/">'
         for l in ['zh', 'en', 'ja']
     )
-    hlref += f'\n<link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/meetings/2026/{slug}/">'
+    hlref += f'\n<link rel="alternate" hreflang="x-default" href="https://tagala.org.tw/zh-TW/meetings/{year}/{slug}/">'
 
     # ── nav
     nav_items_html = ''
@@ -359,7 +363,7 @@ def generate_page(ev, lang):
     others = [(l2, CURR_LANG[l2], LANG_DIR[l2]) for l2 in ['zh', 'en', 'ja'] if l2 != lang]
     lang_switch = f'      <a href="{url}" hreflang="{HREFLANG[lang]}" aria-current="true">{CURR_LANG[lang]}</a>\n'
     for l2, lbl2, ld2 in others:
-        lang_switch += f'      <a href="/{ld2}/meetings/2026/{slug}/" hreflang="{HREFLANG[l2]}">{lbl2}</a>\n'
+        lang_switch += f'      <a href="/{ld2}/meetings/{year}/{slug}/" hreflang="{HREFLANG[l2]}">{lbl2}</a>\n'
 
     # ── event meta line in article
     date_disp = fmt_date(ev_id, lang)
@@ -558,17 +562,18 @@ def run(force=False):
 
         for lang in ['zh', 'en', 'ja']:
             ld  = LANG_DIR[lang]
-            out = BASE / ld / 'meetings' / '2026' / slug / 'index.html'
+            year = ev_id[:4]
+            out = BASE / ld / 'meetings' / year / slug / 'index.html'
 
             if out.exists() and not force:
-                print(f'  skip  {ld}/meetings/2026/{slug}/ (already exists)')
+                print(f'  skip  {ld}/meetings/{year}/{slug}/ (already exists)')
                 skipped += 1
                 continue
 
             out.parent.mkdir(parents=True, exist_ok=True)
             html = generate_page(ev, lang)
             out.write_text(html, encoding='utf-8')
-            print(f'  write {ld}/meetings/2026/{slug}/')
+            print(f'  write {ld}/meetings/{year}/{slug}/')
             written += 1
 
     print(f'\n完成：寫入 {written} 頁，跳過 {skipped} 頁。')

@@ -429,6 +429,7 @@ img { max-width: 100%; height: auto; display: block; }
   white-space: nowrap;
 }
 .tag-regular    { background: var(--c-tag-regular);    color: var(--c-tag-regular-text); }
+.tag-mobile     { background: var(--c-tag-mobile);     color: var(--c-tag-mobile-text); }
 .tag-service    { background: var(--c-tag-service);    color: var(--c-tag-service-text); }
 .tag-fellowship { background: var(--c-tag-fellowship); color: var(--c-tag-fellowship-text); }
 .tag-joint      { background: var(--c-tag-joint);      color: var(--c-tag-joint-text); }

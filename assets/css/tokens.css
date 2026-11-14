@@ -77,6 +77,8 @@
   --c-tag-fellowship-text: var(--royal-blue);
   --c-tag-joint:          var(--royal-blue);  /* 聯合例會 */
   --c-tag-joint-text:     var(--white);
+  --c-tag-mobile:         var(--cranberry);   /* 移動例會 */
+  --c-tag-mobile-text:    var(--white);
 
   /* ---- 字型 ----
      扶輪授權字型為 Frutiger + Sentinel；免費替代為 Open Sans + Georgia。
