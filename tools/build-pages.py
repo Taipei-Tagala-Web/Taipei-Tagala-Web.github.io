@@ -388,6 +388,8 @@ def generate_page(ev, lang):
 
     # ── body paragraphs (full text); fall back to summary if absent
     body_paras = ev.get('body', {}).get(lang, [])
+    if isinstance(body_paras, str):
+        body_paras = [p for p in body_paras.split('\n\n') if p.strip()]
     if body_paras:
         body_html = '\n'.join(f'        <p>{h(p)}</p>' for p in body_paras)
     else:
