@@ -34,6 +34,7 @@ SLUGS = {
     '2026-11-10': '20261110-if-i-had-an-ai-digital-twin',
     '2026-11-24': '20261124-warmth-across-borders-borrowed-grandpa',
     '2026-12-08': '20261208-believe-in-goodness-iron-brigade',
+    '2026-12-20': '20261220-thai-church-christmas-soi-doi',
     '2026-12-22': '20261222-aromatherapy-sleep',
     '2027-01-12': '20270112-brainwashed-by-light-non-image-forming-vision',
 }
@@ -323,8 +324,8 @@ def generate_page(ev, lang):
 
     title_raw     = ev['title'][lang]
     summary_raw   = ev['summary'][lang]
-    speaker_raw   = ev['speaker'][lang]
-    spk_title_raw = ev['speakerTitle'][lang]
+    speaker_raw   = (ev.get('speaker') or {}).get(lang, '')
+    spk_title_raw = (ev.get('speakerTitle') or {}).get(lang, '')
     banner        = ev.get('banner', f"evt-{ev_id}")
     fb_url        = ev.get('fbUrl', '')
 
@@ -508,10 +509,7 @@ def generate_page(ev, lang):
 
         <h1>{h(title_raw)}</h1>
 
-        <p class="event-speaker">
-          <b>{h(speaker_raw)}</b>
-          {h(spk_title_raw)}
-        </p>
+{f'        <p class="event-speaker"><b>{h(speaker_raw)}</b> {h(spk_title_raw)}</p>' if speaker_raw else ''}
 
 {body_html}
 {pts_html}

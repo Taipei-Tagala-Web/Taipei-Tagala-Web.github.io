@@ -80,6 +80,39 @@
       }
     },
     {
+      "id": "2026-12-20",
+      "date": "2026-12-20",
+      "timeStart": "10:00",
+      "timeEnd": "12:00",
+      "type": "mobile",
+      "banner": "evt-2026-12-20",
+      "venue": {
+        "zh": "泰宣教會｜新北市三重區中興北街62-1號2樓（捷運先嗇宮站1號出口步行約10分鐘）",
+        "en": "Thai Evangelical Church, 2F, No. 62-1, Zhongxing N. St., Sanchong Dist., New Taipei (approx. 10-min walk from MRT Xiansegong Sta., Exit 1)",
+        "ja": "泰宣教会｜新北市三重区中興北街62-1号2階（MRT 先嗇宮駅1番出口から徒歩約10分）"
+      },
+      "title": {
+        "zh": "泰宣教會摘星星",
+        "en": "Thai Church Christmas: Soi Doi",
+        "ja": "泰宣教会の「ソイドイ（星を摘む）」聖誕節行事"
+      },
+      "summary": {
+        "zh": "一年一度的泰國教會耶誕節活動「摘星星」（Soi Doi）！大加蚋扶輪社前往位於三重的泰宣教會，與在臺灣工作的泰國朋友一起歡度耶誕節，並體驗泰式餐盒午餐。",
+        "en": "Join Taipei Tagala Rotary Club at the Thai Evangelical Church in Sanchong for the annual Christmas celebration known as \"Soi Doi\" (Picking Stars in Thai), sharing festive joy with Thai workers in Taiwan over a Thai-style lunch.",
+        "ja": "三重区の泰宣教会を訪問し、台湾で働くタイの方々と一緒に「ソイドイ（星を摘む）」と名付けられた泰式クリスマス行事を楽しみます。タイ料理のランチボックスも振る舞われます。"
+      },
+      "points": {
+        "zh": ["「Soi Doi」（泰文「摘星星」）的由來與泰國耶誕節習俗", "與泰國朋友交流，了解他們在臺生活的酸甜苦辣", "享用道地泰式餐盒午餐；可自備小禮物或準備500元禮物參加交換"],
+        "en": ["The meaning of Soi Doi and Thai Christmas traditions", "Meeting Thai workers living in Taiwan and hearing their stories", "Thai-style lunch box; feel free to bring a small gift or prepare a NT$500 gift for the exchange"],
+        "ja": ["「ソイドイ（星を摘む）」の由来とタイのクリスマスの習慣", "台湾で暮らすタイの方々との交流", "タイ料理ランチボックス；小さなプレゼントの持参や500元のプレゼント交換も歓迎"]
+      },
+      "body": {
+        "zh": ["一年一度的泰國教會耶誕活動來啦！今年再次拜訪溫暖可愛的泰宣教會，與在臺灣工作的泰國朋友一起歡度耶誕節，體驗「Soi Doi」（泰文「摘星星」）的節慶活動。", "活動當天提供每人一份泰式餐盒午餐。歡迎自備小禮物與大家分享（例如絨毛娃娃），或準備500元的禮物參加交換禮物。請於09:40在捷運先嗇宮站1號出口集合，一同步行前往教會。"],
+        "en": ["The annual Thai Evangelical Church Christmas celebration is here! Taipei Tagala Rotary Club returns to the warm and welcoming Thai Church to celebrate the season with Thai workers in Taiwan, joining in the festive \"Soi Doi\" (Picking Stars) ceremony.", "A Thai-style lunch box will be provided for each participant. Feel free to bring a small gift to share (such as a stuffed animal) or prepare a NT$500 gift for the exchange. Please gather at MRT Xiansegong Station Exit 1 at 09:40 to walk over together."],
+        "ja": ["一年に一度の泰宣教会のクリスマスイベントが始まります！台北大加蚋ロータリークラブは再び三重区の泰宣教会を訪れ、台湾で働くタイの方々と一緒にクリスマスを祝い、「ソイドイ（星を摘む）」の節日行事を体験します。", "当日はタイ料理のランチボックスが一人一つ提供されます。ぬいぐるみなど小さなプレゼントを持参して皆と分かち合ったり、500元のプレゼントを用意して交換会に参加したりすることもできます。09:40にMRT先嗇宮駅1番出口に集合し、一緒に教会まで歩いていきます。"]
+      }
+    },
+    {
       "id": "2026-12-08",
       "date": "2026-12-08",
       "timeStart": "18:30",
